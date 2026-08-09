@@ -698,5 +698,61 @@
     "ativo": true,
     "destaque": false,
     "ordem": 50
+  },
+  {
+    "id": 51,
+    "categoria": "Produtos de Limpeza",
+    "nome": "Vinagre de Álcool Concentrado",
+    "descricao": "O Vinagre de Álcool 6% (5 litros) é a solução ecológica e de múltiplos usos para sua casa. Não contém produtos químicos. É perfeito para conservas e higienização de alimentos.",
+    "imagem": "imagens/Vinagre de Álcool Concentrado.png",
+    "loja": "Amazon",
+    "preco": "34,70",
+    "link": "https://link.amazon/B0djhv9so",
+    "corBotao": "#808080",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 51
+  },
+  {
+    "id": 52,
+    "categoria": "Produtos de Limpeza",
+    "nome": "Desinfetante Líquido Para Uso Geral",
+    "descricao": "Desinfetante Líquido - Lavanda 5 Litros Roxo",
+    "imagem": "imagens/Desinfetante Líquido Para Uso Geral.png",
+    "loja": "Amazon",
+    "preco": "18,73",
+    "link": "https://link.amazon/B07Kw4RDu",
+    "corBotao": "#808080",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 52
+  },
+  {
+    "id": 53,
+    "categoria": "Produtos de Limpeza",
+    "nome": "Percarbonato de Sódio 1kg",
+    "descricao": "Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Sem Cloro, Biodegradável e Seguro para Roupas Brancas, Coloridas e Limpeza Doméstica Calisul",
+    "imagem": "imagens/Percarbonato de Sódio 1kg.png",
+    "loja": "Amazon",
+    "preco": "25,99",
+    "link": "https://link.amazon/B0dV1hypu",
+    "corBotao": "#808080",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 53
+  },
+  {
+    "id": 54,
+    "categoria": "Produtos de Limpeza",
+    "nome": "Surf Detergente em Pó Flor de Lis - 5,6 kg",
+    "descricao": "Surf Detergente em Pó Flor de Lis, Tecnologia 5 em 1, 5,6 kg, 84 Lavagens, Remove Manchas e Alto Poder de Limpeza",
+    "imagem": "imagens/Surf Detergente em Pó Flor de Lis - 5,6 kg.png",
+    "loja": "Amazon",
+    "preco": "58,99",
+    "link": "https://link.amazon/B0ff6jCpU",
+    "corBotao": "#808080",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 54
   }
 ]
