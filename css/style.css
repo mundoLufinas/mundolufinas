@@ -177,20 +177,9 @@
 }
 
 /*** Topbar Start ***/
-.fixed-top {
-    transition: 0.5s;
-    background: var( --bg-rosa-top);
-    border: 0;
-    
-}
 
-.topbar {
-    padding: 10px;
-    border-radius: 0px 0px;
-    width: 100%;
-    
 
-}
+
 
 .topbar .top-info {
     font-size: 15px;
@@ -221,19 +210,16 @@
 .topbar .top-link a small:hover i {
     color: var(--bs-primary) !important;
 }
-/*** Topbar End ***/
 
-/*** Navbar Start ***/
-.navbar .navbar-nav .nav-link {
-    padding: 10px 15px;
-    font-size: 16px;
-    transition: .5s;
-}
 
-.navbar {
-    height: 100px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-}
+
+
+
+
+
+
+
+
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active,
@@ -839,6 +825,69 @@
         width:52px;
         height:52px;
     }    
+
+
+}
+
+
+
+/* ==========================================
+CABEÇALHO MUNDO LUFINAS
+========================================== */
+
+.fixed-top {
+transition: 0.3s;
+background: #d396c9;
+border: 0;
+}
+
+/* Cabeçalho principal */
+.navbar-lufinas {
+height: 68px;
+min-height: 68px;
+padding: 0;
+background: #d396c9;
+border: 0;
+}
+
+/* Logo / nome da marca */
+.navbar-brand-lufinas {
+color: #ffffff;
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+font-size: 1.55rem;
+font-weight: 700;
+letter-spacing: 0.3px;
+line-height: 1;
+transition: 0.3s;
+}
+
+.navbar-brand-lufinas:hover {
+color: #ffffff;
+opacity: 0.9;
+}
+
+/* Espaço necessário porque o cabeçalho é fixo */
+.espaco-cabecalho {
+height: 68px;
+}
+
+/* Celular */
+@media (max-width: 767px) {
+
+
+.navbar-lufinas {
+    height: 60px;
+    min-height: 60px;
+}
+
+.navbar-brand-lufinas {
+    font-size: 1.3rem;
+}
+
+.espaco-cabecalho {
+    height: 60px;
+}
 
 
 }
