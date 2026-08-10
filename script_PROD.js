@@ -1,6 +1,6 @@
 let produtosFiltrados = [];
 let paginaAtual = 1;
-const produtosPorPagina = 8;
+const produtosPorPagina = 16;
 
 // =============================
 // CARREGAR PRODUTOS
@@ -109,22 +109,37 @@ function criarPaginacao(){
 
     if(totalPaginas <= 1) return;
 
+    // Detecta se é celular
+    const ehCelular = window.innerWidth < 768;
+
     // Botão anterior
     if(paginaAtual > 1){
-
         paginacao.innerHTML += `
-            <a href="#"
-               class="rounded"
+            <a href="#" class="rounded"
                onclick="irParaPagina(${paginaAtual - 1}); return false;">
                 &laquo;
             </a>
         `;
-
     }
 
-    // Números das páginas
-    for(let i = 1; i <= totalPaginas; i++){
+    let inicio = 1;
+    let fim = totalPaginas;
 
+    // No celular mostra apenas páginas próximas
+    if(ehCelular){
+        inicio = Math.max(1, paginaAtual - 1);
+        fim = Math.min(totalPaginas, paginaAtual + 1);
+
+        if(paginaAtual === 1){
+            fim = Math.min(3, totalPaginas);
+        }
+
+        if(paginaAtual === totalPaginas){
+            inicio = Math.max(1, totalPaginas - 2);
+        }
+    }
+
+    for(let i = inicio; i <= fim; i++){
         paginacao.innerHTML += `
             <a href="#"
                class="rounded ${i === paginaAtual ? "active" : ""}"
@@ -132,20 +147,16 @@ function criarPaginacao(){
                 ${i}
             </a>
         `;
-
     }
 
     // Botão próxima
     if(paginaAtual < totalPaginas){
-
         paginacao.innerHTML += `
-            <a href="#"
-               class="rounded"
+            <a href="#" class="rounded"
                onclick="irParaPagina(${paginaAtual + 1}); return false;">
                 &raquo;
             </a>
         `;
-
     }
 
 }
