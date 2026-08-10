@@ -1,6 +1,174 @@
 [
   {
     "id": 1,
+    "categoria": "Eletrodomésticos",
+    "nome": "Geladeira Hisense Inox 417L Inverter Frost Free",
+    "descricao": "Geladeira Hisense Inverse Inox 417L Inverter Frost Free RB422P3ESA1 110V",
+    "imagem": "imagens/Geladeira Hisense Inox 417L Inverter Frost Free.png",
+    "loja": "Mercado Livre",
+    "preco": "3626,94",
+    "link": "https://meli.la/2FjT4fB",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 1
+  },
+  {
+    "id": 2,
+    "categoria": "Eletrodomésticos",
+    "nome": "Fogão 4 Bocas Electrolux 2 fornos",
+    "descricao": "Fogão 4 Bocas Electrolux Preto Experience Mesa De Vidro, 2 Fornos Preto",
+    "imagem": "imagens/Fogão 4 Bocas Electrolux 2 fornos.png",
+    "loja": "Mercado Livre",
+    "preco": "2199,00",
+    "link": "https://meli.la/1LBxJDr",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 2
+  },
+  {
+    "id": 3,
+    "categoria": "Eletrodomésticos",
+    "nome": "Fogão Cooktop Safanelli 4 Bocas",
+    "descricao": "Fogão Cooktop Safanelli 4 Bocas Preto de Vidro Temperado Bivolt",
+    "imagem": "imagens/Fogão Cooktop Safanelli 4 Bocas.png",
+    "loja": "Mercado Livre",
+    "preco": "389,90",
+    "link": "https://meli.la/1cYdTfv",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 3
+  },
+  {
+    "id": 4,
+    "categoria": "Eletrodomésticos",
+    "nome": "Multiprocessador De Alimentos All In",
+    "descricao": "Multiprocessador De Alimentos All In One Bmp900p Britânia Cor Preto",
+    "imagem": "imagens/Multiprocessador De Alimentos All In.png",
+    "loja": "Mercado Livre",
+    "preco": "298,90",
+    "link": "https://meli.la/1mGo915",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 4
+  },
+  {
+    "id": 5,
+    "categoria": "Eletrodomésticos",
+    "nome": "Multiprocessador Alimento Eletrico 2l Inox",
+    "descricao": "Multiprocessador Alimento Moedor Triturador Eletrico 2l Inox",
+    "imagem": "imagens/Multiprocessador Alimento Eletrico 2l Inox.png",
+    "loja": "Mercado Livre",
+    "preco": "72,90",
+    "link": "https://meli.la/32Z1h5P",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 5
+  },
+  {
+    "id": 6,
+    "categoria": "Eletrodomésticos",
+    "nome": "Mixer De Mão Portátil 200w",
+    "descricao": "Mixer De Mão Portátil Branco 200w Com Copo 700ml MIX1002 Elgin",
+    "imagem": "imagens/Mixer De Mão Portátil 200w.png",
+    "loja": "Mercado Livre",
+    "preco": "49,00",
+    "link": "https://meli.la/2ePN4e2",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 6
+  },
+  {
+    "id": 7,
+    "categoria": "Eletrodomésticos",
+    "nome": "Liquidificador Philco 1200W 3L",
+    "descricao": "Liquidificador Philco 1200W 3L 12 Velocidades Preto PH900",
+    "imagem": "imagens/Liquidificador Philco 1200W 3L.png",
+    "loja": "Mercado Livre",
+    "preco": "108,23",
+    "link": "https://meli.la/1XWXyyK",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 7
+  },
+  {
+    "id": 8,
+    "categoria": "Eletrodomésticos",
+    "nome": "Fritadeira Elétrica Air Fryer",
+    "descricao": "Fritadeira Elétrica Air Fryer Oven Black INOX WAP WAOD2",
+    "imagem": "imagens/Fritadeira Elétrica Air Fryer.png",
+    "loja": "Mercado Livre",
+    "preco": "419,00",
+    "link": "https://meli.la/2FXbdoB",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 8
+  },
+  {
+    "id": 9,
+    "categoria": "Moda e Acessórios",
+    "nome": "Tênis Feminino Questar 3 Adidas",
+    "descricao": "Tênis Feminino Questar 3 Adidas",
+    "imagem": "imagens/Tênis Feminino Questar 3 Adida.png",
+    "loja": "Mercado Livre",
+    "preco": "284,99",
+    "link": "https://meli.la/296snwg",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 9
+  },
+  {
+    "id": 10,
+    "categoria": "Tecnologia",
+    "nome": "Impressora Multifuncional HP DeskJet",
+    "descricao": "Impressora Multifuncional HP DeskJet Ink Advantage 2975 Colorida 1 USB 2.0 de alta velocidade Wi-Fi de banda dupla - 100 a 240 VCA",
+    "imagem": "imagens/Impressora Multifuncional HP DeskJet.png",
+    "loja": "Mercado Livre",
+    "preco": "435,01",
+    "link": "https://meli.la/2Td8tFC",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 10
+  },
+  {
+    "id": 11,
+    "categoria": "Casa e Organização",
+    "nome": "Espelho Redondo de 50cm com Led",
+    "descricao": "Espelho Redondo Grande de 50cm com Led Frio - Espelho com Luz Ideal para Quarto, Banheiro e Sala, Espelho com Led e Moldura Lapidada para Decoração de Parede",
+    "imagem": "imagens/Espelho Redondo de 50cm com Led.png",
+    "loja": "Mercado Livre",
+    "preco": "65,57",
+    "link": "https://meli.la/2tBiui4",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 11
+  },
+  {
+    "id": 12,
+    "categoria": "Casa e Organização",
+    "nome": "Espelho Organico 90x40",
+    "descricao": "Espelho Rocco Corpo Inteiro Organico 90x40 Pinterest Grande",
+    "imagem": "imagens/Espelho Organico 90x40.png",
+    "loja": "Mercado Livre",
+    "preco": "78,99",
+    "link": "https://meli.la/23vVqu7",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 12
+  },
+  {
+    "id": 13,
     "categoria": "Casa e Organização",
     "nome": "Lixeira Inteligente com Sensor",
     "descricao": "Lixeira Inteligente Automática com Sensor para Cozinha e Banheiro, 16 Litros Preto. Funcionamento é alimentado por pilhas recarregáveis via USB.",
@@ -11,10 +179,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 1
+    "ordem": 13
   },
   {
-    "id": 2,
+    "id": 14,
     "categoria": "Casa e Organização",
     "nome": "Escultura Mulher estudando",
     "descricao": "Escultura Mulher estudando reflexiva em Resina dourada",
@@ -25,10 +193,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 2
+    "ordem": 14
   },
   {
-    "id": 3,
+    "id": 15,
     "categoria": "Casa e Organização",
     "nome": "Kit com 3 Esculturas Decorativas Modernas",
     "descricao": "Boneco Pensador + Mão Pixelada + Rosto Abstrato. O conjunto reúne três peças decorativas que representam criatividade, reflexão e arte moderna. Quando posicionadas juntas em uma mesa, estante ou aparador, criam um destaque visual imediato que chama atenção e valoriza qualquer ambiente.",
@@ -39,10 +207,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 3
+    "ordem": 15
   },
   {
-    "id": 4,
+    "id": 16,
     "categoria": "Moda e Acessórios",
     "nome": "Conjunto Calça Skinny e Colete",
     "descricao": "Conjunto Calça Skinny Com Colete Social Alfaiataria Feminino",
@@ -53,10 +221,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 4
+    "ordem": 16
   },
   {
-    "id": 5,
+    "id": 17,
     "categoria": "Moda e Acessórios",
     "nome": "Sandália Elástico Ortopédica",
     "descricao": "Sandália Feminina Elástico Ortopédica Anatômica Confort",
@@ -67,10 +235,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 5
+    "ordem": 17
   },
   {
-    "id": 6,
+    "id": 18,
     "categoria": "Moda e Acessórios",
     "nome": "Sandália Rasteira Via Ouro",
     "descricao": "Sandália Rasteira Feminina Via Ouro Strass Confortável",
@@ -81,10 +249,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 6
+    "ordem": 18
   },
   {
-    "id": 7,
+    "id": 19,
     "categoria": "Cozinha",
     "nome": "Jogo de Jantar 16 Peças Opalino Branco",
     "descricao": "Aparelho Jogo Kit De Jantar 16 Peças Opalino Branco 4 Pratos Rasos, 4 Pratos Fundos, 4 Pratos de Sobremesa e 4 Bowls. Moderno Côncavo Resistente Sólar",
@@ -95,10 +263,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 7
+    "ordem": 19
   },
   {
-    "id": 8,
+    "id": 20,
     "categoria": "Cozinha",
     "nome": "Filtro Café Permanente 103  Aço Inox",
     "descricao": "Filtro Permanente Café 103 Aço Inox Reutilizável Coador Universal Malha Fina Lavável Sem Papel Alta Durabilidade Premium",
@@ -109,10 +277,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 8
+    "ordem": 20
   },
   {
-    "id": 9,
+    "id": 21,
     "categoria": "Cozinha",
     "nome": "Jarra Vidro Tampa Inox",
     "descricao": "Jarra Vidro Borossilicato 1,8 Litros Tampa Inox Hermética Agua Suco Transparente",
@@ -123,10 +291,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 9
+    "ordem": 21
   },
   {
-    "id": 10,
+    "id": 22,
     "categoria": "Reforma e Construção",
     "nome": "Torneira Metal 3 Saídas",
     "descricao": "Torneira Metal 3 Saídas Tanque Tanquinho Máquina De Lavar",
@@ -137,10 +305,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 10
+    "ordem": 22
   },
   {
-    "id": 11,
+    "id": 23,
     "categoria": "Reforma e Construção",
     "nome": "Torneira 3 Saidas - Tanque Maquina de lavar e tanquinho",
     "descricao": "Torneira 3 Saidas Em Metal Para Maquina Lavar Multifuncional",
@@ -151,10 +319,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 11
+    "ordem": 23
   },
   {
-    "id": 12,
+    "id": 24,
     "categoria": "Reforma e Construção",
     "nome": "Torneira 2 Saídas - Tanque e Maquina de Lavar",
     "descricao": "Torneira Máquina De Lavar 2 Saídas Tanque Lavanderia Cromada",
@@ -165,10 +333,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 12
+    "ordem": 24
   },
   {
-    "id": 13,
+    "id": 25,
     "categoria": "Reforma e Construção",
     "nome": "Válvula Pia Inox Com Cesto Removível",
     "descricao": "Válvula Pia Cozinha 4 1/2 Inox 304 Com Cesto Removível Ralo",
@@ -179,10 +347,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 13
+    "ordem": 25
   },
   {
-    "id": 14,
+    "id": 26,
     "categoria": "Reforma e Construção",
     "nome": "Chuveirinho Para Torneiras Sem Rosca",
     "descricao": "Chuveirinho Arejador 360º Para Torneiras Sem Rosca",
@@ -193,10 +361,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 14
+    "ordem": 26
   },
   {
-    "id": 15,
+    "id": 27,
     "categoria": "Reforma e Construção",
     "nome": "Ventilador de Teto com Luz LED",
     "descricao": "Ventilador de Teto com Luz LED para Quarto e Sala, 6 Pás, 50cm, Silencioso e Controle Remoto",
@@ -207,10 +375,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 15
+    "ordem": 27
   },
   {
-    "id": 16,
+    "id": 28,
     "categoria": "Alimentos e Bebidas",
     "nome": "Bolinho Duplo Chocolate 40g - 16 unidades",
     "descricao": "Display Bauducco Bolinho Duplo Chocolate 40g - 16 unidades",
@@ -221,10 +389,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 16
+    "ordem": 28
   },
   {
-    "id": 17,
+    "id": 29,
     "categoria": "Alimentos e Bebidas",
     "nome": "Isotônico Gatorade Tangerina 500ml - 6 unidades",
     "descricao": "Isotônico Gatorade Tangerina, Garrafa 500ml, Pack com 6 unidades",
@@ -235,10 +403,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 17
+    "ordem": 29
   },
   {
-    "id": 18,
+    "id": 30,
     "categoria": "Alimentos e Bebidas",
     "nome": "Chocolate Snickers 15 Unidades",
     "descricao": "Chocolate Snickers Original Minis 15Un",
@@ -249,10 +417,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 18
+    "ordem": 30
   },
   {
-    "id": 19,
+    "id": 31,
     "categoria": "Alimentos e Bebidas",
     "nome": "Heinz Ketchup Zero Açúcar 373g",
     "descricao": "Heinz Ketchup Zero Açúcar 373g",
@@ -263,10 +431,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 19
+    "ordem": 31
   },
   {
-    "id": 20,
+    "id": 32,
     "categoria": "Alimentos e Bebidas",
     "nome": "Coca-Cola sem açucar",
     "descricao": "Pack de Coca-Cola sem açucar Lata 220mL 6 unidades",
@@ -277,10 +445,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 20
+    "ordem": 32
   },
   {
-    "id": 21,
+    "id": 33,
     "categoria": "Alimentos e Bebidas",
     "nome": "Heinz Maionese Tradicional 400G",
     "descricao": "Heinz Maionese Tradicional 400G",
@@ -291,10 +459,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 21
+    "ordem": 33
   },
   {
-    "id": 22,
+    "id": 34,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Batom Duo Matte Líquido E Bala",
     "descricao": "Batom Duo Matte Líquido E Bala Lip Twice Ruby Rose Lt40 ",
@@ -305,10 +473,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 22
+    "ordem": 34
   },
   {
-    "id": 23,
+    "id": 35,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Sombra Líquida Océane",
     "descricao": "Sombra Líquida Cobre Liquid Eyeshadow Sheen 4g Océane",
@@ -319,10 +487,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 23
+    "ordem": 35
   },
   {
-    "id": 24,
+    "id": 36,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Água Micelar Solução De Limpeza",
     "descricao": "Água Micelar Solução De Limpeza 5 Em 1 L'oréal Paris Todos Os Tipos De Pele",
@@ -333,10 +501,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 24
+    "ordem": 36
   },
   {
-    "id": 25,
+    "id": 37,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Creme Hidratante Facial Principia",
     "descricao": "Creme Hidratante Facial Principia Ch-01 Karité Glicerina 50g Todo Tipo De Pele Dia/noite",
@@ -347,10 +515,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 25
+    "ordem": 37
   },
   {
-    "id": 26,
+    "id": 38,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Esfoliante Corporal NIVEA",
     "descricao": "Esfoliante Corporal NIVEA  para Banho 200ml, Esfoliação Suave, Remove Impurezas, Renovação Celular, Pele Uniforme e Macia",
@@ -361,10 +529,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 26
+    "ordem": 38
   },
   {
-    "id": 27,
+    "id": 39,
     "categoria": "Utilidades",
     "nome": "Mini Aspirador Portátil",
     "descricao": "MINI ASPIRADOR DE PÓ PORTÁTIL 3 EM 1 RECARREGÁVEL USB. Limpeza rápida, prática e eficiente para seu carro, notebook, computador, teclado e equipamentos eletrônicos.",
@@ -375,10 +543,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 27
+    "ordem": 39
   },
   {
-    "id": 28,
+    "id": 40,
     "categoria": "Cozinha",
     "nome": "Jogo De Facas 9 Peças Tramontina",
     "descricao": "Jogo De Facas 9 Peças Tramontina Plenus 23498048 Preto",
@@ -389,10 +557,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 28
+    "ordem": 40
   },
   {
-    "id": 29,
+    "id": 41,
     "categoria": "Produtos de Limpeza",
     "nome": "Surf Detergente em Pó Flor de Lis - 5,6 kg",
     "descricao": "Surf Detergente em Pó Flor de Lis, Tecnologia 5 em 1, 5,6 kg, 84 Lavagens, Remove Manchas e Alto Poder de Limpeza",
@@ -403,10 +571,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 29
+    "ordem": 41
   },
   {
-    "id": 30,
+    "id": 42,
     "categoria": "Produtos de Limpeza",
     "nome": "Percarbonato de Sódio 1kg",
     "descricao": "Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Sem Cloro, Biodegradável e Seguro para Roupas Brancas, Coloridas e Limpeza Doméstica Calisul",
@@ -417,10 +585,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 30
+    "ordem": 42
   },
   {
-    "id": 31,
+    "id": 43,
     "categoria": "Produtos de Limpeza",
     "nome": "Desinfetante Líquido Para Uso Geral",
     "descricao": "Desinfetante Líquido - Lavanda 5 Litros Roxo",
@@ -431,10 +599,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 31
+    "ordem": 43
   },
   {
-    "id": 32,
+    "id": 44,
     "categoria": "Produtos de Limpeza",
     "nome": "Vinagre de Álcool Concentrado",
     "descricao": "O Vinagre de Álcool 6% (5 litros) é a solução ecológica e de múltiplos usos para sua casa. Não contém produtos químicos. É perfeito para conservas e higienização de alimentos.",
@@ -445,10 +613,10 @@
     "corBotao": "#808080",
     "ativo": true,
     "destaque": false,
-    "ordem": 32
+    "ordem": 44
   },
   {
-    "id": 33,
+    "id": 45,
     "categoria": "Moda e Acessórios",
     "nome": "Tênis Feminino Ortopédico",
     "descricao": "Tênis Feminino Ortopédico Caminhada Academia Corrida Fitness",
@@ -459,10 +627,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 33
+    "ordem": 45
   },
   {
-    "id": 34,
+    "id": 46,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Kit Principia para Rotina de Skincare",
     "descricao": "Kit Principia para Rotina de Skincare Pele Sensível com Protetor Solar FPS 60",
@@ -473,10 +641,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 34
+    "ordem": 46
   },
   {
-    "id": 35,
+    "id": 47,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Protetor Solar Facial FPS 60",
     "descricao": "Protetor Solar Facial FPS 60 com Ativo Hialurônico que Previne Rugas, Manchas Solares, Hidrata e Tem Toque Seco, sem Perfume, Solar Expertise Antirrugas L'Oréal Paris 40g",
@@ -487,10 +655,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 35
+    "ordem": 47
   },
   {
-    "id": 36,
+    "id": 48,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Massageador Facial",
     "descricao": "Massageador Facial Pescoço Terapia Led Antirrugas E Papada",
@@ -501,10 +669,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 36
+    "ordem": 48
   },
   {
-    "id": 37,
+    "id": 49,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Escova Rotativa 1300 W",
     "descricao": "Ber21pd Biv Preto E Dourado Biv - 1300 W",
@@ -515,10 +683,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 37
+    "ordem": 49
   },
   {
-    "id": 38,
+    "id": 50,
     "categoria": "Casa e Organização",
     "nome": "Lixeira Inteligente Automática",
     "descricao": "Branca Universal Com Sensor Hearbuds Recarregável Anti Odor 16L",
@@ -529,10 +697,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 38
+    "ordem": 50
   },
   {
-    "id": 39,
+    "id": 51,
     "categoria": "Utilidades",
     "nome": "Filtro De Linha 5 Tomadas 4 Usb",
     "descricao": "Filtro De Linha 5 Tomadas 4 Usb Tipo C Cabo 2m 10a Casa Mesa",
@@ -543,10 +711,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 39
+    "ordem": 51
   },
   {
-    "id": 40,
+    "id": 52,
     "categoria": "Casa e Organização",
     "nome": "Tapete Peludo Felpudo",
     "descricao": "Tapete Peludo Felpudo Para Sala e Quarto.  2x1,5m. Antiderrapante e Lavável - Bege Mesclado",
@@ -557,10 +725,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 40
+    "ordem": 52
   },
   {
-    "id": 41,
+    "id": 53,
     "categoria": "Casa e Organização",
     "nome": "Kit 5 Suportes Porta Shampoo E Sabonete",
     "descricao": "Kit 5 Prateleira Banheiro Suporte Porta Shampoo E Sabonete",
@@ -571,10 +739,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 41
+    "ordem": 53
   },
   {
-    "id": 42,
+    "id": 54,
     "categoria": "Reforma e Construção",
     "nome": "Fechadura Digital Biométrica",
     "descricao": "Fechadura Digital Inteligente Biométrica Eletronica Touch",
@@ -585,10 +753,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 42
+    "ordem": 54
   },
   {
-    "id": 43,
+    "id": 55,
     "categoria": "Casa e Organização",
     "nome": "Poltrona e Pufe Inflável",
     "descricao": "Poltrona Inflável Ultra Lounge Com Pufe Sofá Preguiçoso Cor Marrom",
@@ -599,10 +767,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 43
+    "ordem": 55
   },
   {
-    "id": 44,
+    "id": 56,
     "categoria": "Moda e Acessórios",
     "nome": "Relógio Feminino Colar Brinco Pulseira",
     "descricao": "Kit Relógio Feminino Colar Brinco Pulseira Folheado Presente Dourado",
@@ -613,10 +781,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 44
+    "ordem": 56
   },
   {
-    "id": 45,
+    "id": 57,
     "categoria": "Moda e Acessórios",
     "nome": "Conjunto Blusa Gola Alta E Calça",
     "descricao": "Conjunto Inverno Frio Blusa Gola Alta E Calça Pantalona",
@@ -627,10 +795,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 45
+    "ordem": 57
   },
   {
-    "id": 46,
+    "id": 58,
     "categoria": "Moda e Acessórios",
     "nome": "Conjunto Colar e Brinco Coração",
     "descricao": "Conjunto Colar + Brinco Coração Prata 925 Para Presente",
@@ -641,10 +809,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 46
+    "ordem": 58
   },
   {
-    "id": 47,
+    "id": 59,
     "categoria": "Moda e Acessórios",
     "nome": "Conjunto Colar Pulseira Brinco Anel",
     "descricao": "Conjunto Colar Pulseira Brinco Anel Coração Banho Ouro 18k",
@@ -655,10 +823,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 47
+    "ordem": 59
   },
   {
-    "id": 48,
+    "id": 60,
     "categoria": "Cozinha",
     "nome": "Cozedor de Ovos Elétrico",
     "descricao": "Cozedor de Ovos Elétrico Rezzet para 7 Ovos com Desligamento Automático",
@@ -669,10 +837,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 48
+    "ordem": 60
   },
   {
-    "id": 49,
+    "id": 61,
     "categoria": "Cozinha",
     "nome": "Kit 6 Potes Vidro Herméticos",
     "descricao": "Porta-tempero de vidro com tampa de bambu. Com capacidade de 200 ml e dimensões de 8 cm de altura por 7 cm de diâmetro.",
@@ -683,10 +851,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 49
+    "ordem": 61
   },
   {
-    "id": 50,
+    "id": 62,
     "categoria": "Cozinha",
     "nome": "Chaleira Elétrica 1000w",
     "descricao": "Chaleira Elétrica Preto Fosco 2l Deslig Automático 1000w",
@@ -697,10 +865,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 50
+    "ordem": 62
   },
   {
-    "id": 51,
+    "id": 63,
     "categoria": "Cozinha",
     "nome": "Panela Elétrica 700w",
     "descricao": "Panela Elétrica 700w Antiaderente Cerâmica Cozinha E Frita",
@@ -711,10 +879,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 51
+    "ordem": 63
   },
   {
-    "id": 52,
+    "id": 64,
     "categoria": "Cozinha",
     "nome": "Mini Panela De Arroz Elétrica",
     "descricao": "Mini Panela De Arroz Elétrica Cerâmica 1,8 Litros Premium",
@@ -725,10 +893,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 52
+    "ordem": 64
   },
   {
-    "id": 53,
+    "id": 65,
     "categoria": "Cozinha",
     "nome": "Kit 03 Potes Herméticos Para Geladeira",
     "descricao": "Kit 03 Potes Herméticos Para Geladeira Com Trava Alimentos Porta Mantimentos Cesto Removivel Escorredor Cozinha Marmita Anti Vazamento Lacre Transparente Organizador Dispensa",
@@ -739,10 +907,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 53
+    "ordem": 65
   },
   {
-    "id": 54,
+    "id": 66,
     "categoria": "Cozinha",
     "nome": "Jogo 4 Xícaras e Pires de Café",
     "descricao": "Conjunto Jogo 4 Xícaras Café Com 4 Pires Vidro Transparente Elegante Com Bolinhas Xícara Luxo Mesa Posta Café Da Manhã",
@@ -753,10 +921,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 54
+    "ordem": 66
   },
   {
-    "id": 55,
+    "id": 67,
     "categoria": "Tecnologia",
     "nome": "Teclado Mecânico K500-b68",
     "descricao": "Teclado Mecânico K500-b68 Switch Red Hot Swapp Machenike Preto E Cinza Português Brasil",
@@ -767,10 +935,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 55
+    "ordem": 67
   },
   {
-    "id": 56,
+    "id": 68,
     "categoria": "Tecnologia",
     "nome": "Fone de Ouvido Bluetooth OWS Ear Clip",
     "descricao": "Fone de Ouvido Bluetooth OWS Ear Clip Controle por Toque iOS Android Academia Corrida Esporte com Brincos de Borboleta Prateados Presente",
@@ -781,10 +949,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 56
+    "ordem": 68
   },
   {
-    "id": 57,
+    "id": 69,
     "categoria": "Fitness e Saúde",
     "nome": "Bicicleta Ergométrica Spinning Rmira",
     "descricao": "Bicicleta Ergométrica Spinning Rmira Com Bluetooth e Roda de Inércia de 14 kg",
@@ -795,10 +963,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 57
+    "ordem": 69
   },
   {
-    "id": 58,
+    "id": 70,
     "categoria": "Fitness e Saúde",
     "nome": "Chuteira Society Uz",
     "descricao": "Chuteira Society Uz + Meião Caneleira Mochila Relógio",
@@ -809,10 +977,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 58
+    "ordem": 70
   },
   {
-    "id": 59,
+    "id": 71,
     "categoria": "Fitness e Saúde",
     "nome": "Kit Calção e Meião De Futebol",
     "descricao": "Kit 1 Calção Em Dry + 1 Meião De Futebol Kanga Sport",
@@ -823,10 +991,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 59
+    "ordem": 71
   },
   {
-    "id": 60,
+    "id": 72,
     "categoria": "Reforma e Construção",
     "nome": "Papel De Parede Pedra",
     "descricao": "Papel De Parede Pedra Ornamental Cozinha Quadradinhos",
@@ -837,10 +1005,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 60
+    "ordem": 72
   },
   {
-    "id": 61,
+    "id": 73,
     "categoria": "Reforma e Construção",
     "nome": "Papel De Parede Efeito Gesso",
     "descricao": "Papel De Parede Efeito Gesso 3d Gold Cinza Geometrico 3m",
@@ -851,10 +1019,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 61
+    "ordem": 73
   },
   {
-    "id": 62,
+    "id": 74,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Creme Facial Antissinais",
     "descricao": "Creme Facial Antissinais Cicatricure Antirrugas 50g",
@@ -865,10 +1033,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 62
+    "ordem": 74
   },
   {
-    "id": 63,
+    "id": 75,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Pente Alisador de Barba",
     "descricao": "Pente Alisador de Barba e Cabelo Masculino Elétrico Bivolt – Escova Prancha Anti Frizz Portátil",
@@ -879,10 +1047,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 63
+    "ordem": 75
   },
   {
-    "id": 64,
+    "id": 76,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Secador De Cabelo Philco",
     "descricao": "Secador De Cabelo Tatinium Travel 1000w Philco Bivolt Vermelho",
@@ -893,10 +1061,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 64
+    "ordem": 76
   },
   {
-    "id": 65,
+    "id": 77,
     "categoria": "Moda e Acessórios",
     "nome": "Conjunto Feminino Camisa E Short",
     "descricao": "Conjunto Linho Feminino Camisa E Short Linha Premium",
@@ -907,10 +1075,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 65
+    "ordem": 77
   },
   {
-    "id": 66,
+    "id": 78,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Escova secadora modeladora 1200W",
     "descricao": "Escova secadora modeladora 1200W para secar, alisar e modelar os cabelos com praticidade. Ideal para uso diário com acabamento profissional.",
@@ -921,10 +1089,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 66
+    "ordem": 78
   },
   {
-    "id": 67,
+    "id": 79,
     "categoria": "Utilidades",
     "nome": "Limpador Ultrassônico Joias",
     "descricao": "Limpador Ultrassônico Uv Joias Moedas Máquina Limpeza Led",
@@ -935,10 +1103,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 67
+    "ordem": 79
   },
   {
-    "id": 68,
+    "id": 80,
     "categoria": "Fitness e Saúde",
     "nome": "Kit 2 Conjuntos Fitness",
     "descricao": "2 Conjunto Fitness Feminino Top E Short De Academia",
@@ -949,10 +1117,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 68
+    "ordem": 80
   },
   {
-    "id": 69,
+    "id": 81,
     "categoria": "Utilidades",
     "nome": "Escova de limpeza Elétrica",
     "descricao": "Escova de limpeza Elétrica Bivolt Giratória Recarregável Esfregão Limpa Tudo Casa Banheiro Cozinha",
@@ -963,10 +1131,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 69
+    "ordem": 81
   },
   {
-    "id": 70,
+    "id": 82,
     "categoria": "Tecnologia",
     "nome": "Headset Gamer",
     "descricao": "Headset Gamer Wireless Warrior - Ph703 Preto",
@@ -977,10 +1145,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 70
+    "ordem": 82
   },
   {
-    "id": 71,
+    "id": 83,
     "categoria": "Tecnologia",
     "nome": "Carregador Turbo 40w",
     "descricao": "Carregador Turbo 40w Compativel Com iPhone 8 X Xr 11 12 13 14 Pro Max Usb Tipo C Duplo",
@@ -991,10 +1159,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 71
+    "ordem": 83
   },
   {
-    "id": 72,
+    "id": 84,
     "categoria": "Pets",
     "nome": "Roupinha Para Pet",
     "descricao": "Roupinha Para Pet Macacão Inverno Macho Fêmea Roupinha Frio",
@@ -1005,10 +1173,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 72
+    "ordem": 84
   },
   {
-    "id": 73,
+    "id": 85,
     "categoria": "Pets",
     "nome": "Removedor de pelos",
     "descricao": "Removedor De Sub-pelos Rake Desembolador Pet Shop Banho Tosa",
@@ -1019,10 +1187,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 73
+    "ordem": 85
   },
   {
-    "id": 74,
+    "id": 86,
     "categoria": "Pets",
     "nome": "Porta Ração",
     "descricao": "Porta Ração Pote Com Tampa Pet Gato Cachorro Dispenser Porta Racao Pote Container Porta Ração Dispenser Cor Transparente Capacidade 2,5 Litros Drop Shopy",
@@ -1033,10 +1201,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 74
+    "ordem": 86
   },
   {
-    "id": 75,
+    "id": 87,
     "categoria": "Pets",
     "nome": "Caminha Pet Redonda",
     "descricao": "Caminha Pet Redonda Sherpa Peludinha Cães E Gatos Cama Luxo",
@@ -1047,10 +1215,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 75
+    "ordem": 87
   },
   {
-    "id": 76,
+    "id": 88,
     "categoria": "Moda e Acessórios",
     "nome": "Kit Bolsas Feminina",
     "descricao": "Kit Bolsas Feminina Transversal Média + Tira Colo + Carteira Cor Marfim",
@@ -1061,10 +1229,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 76
+    "ordem": 88
   },
   {
-    "id": 77,
+    "id": 89,
     "categoria": "Cozinha",
     "nome": "Dispenser Giratório",
     "descricao": "Organize sua cozinha de forma prática e inteligente com o Dispenser Giratório de Grãos 6 Divisórias.",
@@ -1075,10 +1243,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 77
+    "ordem": 89
   },
   {
-    "id": 78,
+    "id": 90,
     "categoria": "Casa e Organização",
     "nome": "Mesa Portátil Dobrável",
     "descricao": "Mesa Portátil Dobrável P Notebook Home Office Cama Refeição",
@@ -1089,10 +1257,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 78
+    "ordem": 90
   },
   {
-    "id": 79,
+    "id": 91,
     "categoria": "Casa e Organização",
     "nome": "Kit Cobre Leito Casal",
     "descricao": "Kit Cobre Leito Casal 3 Peças Estampado Colcha Dupla Face",
@@ -1103,10 +1271,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 79
+    "ordem": 91
   },
   {
-    "id": 80,
+    "id": 92,
     "categoria": "Casa e Organização",
     "nome": "Dupla de Vaso decorativo",
     "descricao": "Dupla De Vaso De Ceramica Solitario Decoração De Casa E Sala",
@@ -1117,10 +1285,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 80
+    "ordem": 92
   },
   {
-    "id": 81,
+    "id": 93,
     "categoria": "Casa e Organização",
     "nome": "Despertador Digital De Mesa",
     "descricao": "Despertador Digital De Mesa Led Espelhado Temperatura Data Cor Preto",
@@ -1131,10 +1299,10 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 81
+    "ordem": 93
   },
   {
-    "id": 82,
+    "id": 94,
     "categoria": "Beleza e Cuidado Pessoal",
     "nome": "Depilador Elétrico Feminino",
     "descricao": "Maquininha Depilador Elétrico Feminino 4 Em 1 Pelos Íntimos",
@@ -1145,6 +1313,6 @@
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
-    "ordem": 82
+    "ordem": 94
   }
 ]
