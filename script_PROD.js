@@ -1,6 +1,6 @@
 let produtosFiltrados = [];
 let paginaAtual = 1;
-const produtosPorPagina = 16;
+const produtosPorPagina = 8;
 
 // =============================
 // CARREGAR PRODUTOS
