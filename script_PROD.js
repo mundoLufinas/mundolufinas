@@ -12,6 +12,8 @@ async function carregarProdutos(categoria, destino) {
         const resposta = await fetch("produtos.json");
         const produtos = await resposta.json();
 
+        produtos.reverse();
+
         const produtosCategoria = categoria === "Todos"
             ? produtos
             : produtos.filter(produto => produto.categoria === categoria);
