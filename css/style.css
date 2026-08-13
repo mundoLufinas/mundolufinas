@@ -26,6 +26,7 @@
     --bs-danger: #dc3545;
     --bg-escuro: #3d293a;
     --bg-rosa-top: #d396c9;
+    
 
 }
 
@@ -909,3 +910,205 @@ height: 68px;
 
 
 }
+
+
+
+
+
+
+/* ==========================================
+NOVO TOPO MUNDO LUFINAS
+========================================== */
+
+.hero-lufinas{
+background:#FDF6FA;
+border:1px solid #EADCE7;
+border-radius:24px;
+padding:24px;
+}
+
+.hero-titulo{
+text-align:center;
+color:#7A4064;
+font-weight:700;
+margin-bottom:24px;
+}
+
+.hero-topo{
+display:flex;
+align-items:center;
+gap:18px;
+}
+
+.hero-avatar img{
+width:64px;
+height:64px;
+border-radius:50%;
+object-fit:cover;
+object-position:center top;
+border:3px solid #fff;
+box-shadow:0 8px 25px rgba(184,110,157,.15);
+}
+
+.hero-pesquisa{
+flex:1;
+}
+
+.hero-descricao{
+margin-top:18px;
+color:#6B606B;
+line-height:1.7;
+}
+
+.hero-descricao strong{
+color:#A85C8C;
+}
+
+/* Categorias horizontais */
+
+.categorias-scroll{
+display:flex;
+gap:24px;
+overflow-x:auto;
+padding-top:18px;
+padding-bottom:10px;
+-webkit-overflow-scrolling:touch;
+scrollbar-width:none;
+border-top:1px solid #F0E4EC;
+}
+
+.categorias-scroll::-webkit-scrollbar{
+display:none;
+}
+
+.categoria-tab{
+border:none;
+background:transparent;
+padding:0;
+font-size:.95rem;
+font-weight:500;
+color:#7A6A74;
+white-space:nowrap;
+position:relative;
+transition:.25s;
+}
+
+.categoria-tab:hover
+
+.categoria-tab.ativa{
+color:#A85C8C;
+font-weight:700;
+}
+
+.categoria-tab.ativa::after{
+content:"";
+position:absolute;
+left:0;
+right:0;
+bottom:-10px;
+height:3px;
+border-radius:2px;
+background:#A85C8C;
+}
+
+/* Banners */
+
+.banners-home{
+display:flex;
+gap:18px;
+overflow-x:auto;
+padding-bottom:6px;
+-webkit-overflow-scrolling:touch;
+scrollbar-width:none;
+}
+
+.banners-home::-webkit-scrollbar{
+display:none;
+}
+
+.banner-card{
+min-width:280px;
+border-radius:22px;
+padding:24px;
+color:#fff;
+position:relative;
+}
+
+.banner-card h4{
+margin-top:10px;
+margin-bottom:10px;
+font-weight:700;
+}
+
+.banner-card p{
+margin:0;
+opacity:.95;
+line-height:1.6;
+}
+
+.banner-tag{
+display:inline-block;
+background:rgba(255,255,255,.2);
+padding:6px 12px;
+border-radius:999px;
+font-size:.8rem;
+font-weight:600;
+}
+
+.banner-card.favorito{
+background:linear-gradient(135deg,#C986AF,#A85C8C);
+}
+
+.banner-card.promo{
+background:linear-gradient(135deg,#F4B183,#E48B5B);
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+
+.hero-lufinas{
+    padding:20px;
+}
+
+.hero-topo{
+    align-items:center;
+}
+
+.hero-avatar img{
+    width:56px;
+    height:56px;
+}
+
+.hero-titulo{
+    font-size:1.6rem;
+}
+
+.banner-card{
+    min-width:240px;
+    padding:20px;
+}
+
+
+}
+
+
+
+
+.cabecalho-categoria{
+    text-align:center;
+}
+
+.cabecalho-categoria h1{
+    color:#7A4064;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.cabecalho-categoria p{
+    color:#8D7A86;
+    margin:0;
+}
+
+
