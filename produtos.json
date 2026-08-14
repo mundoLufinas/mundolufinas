@@ -3043,5 +3043,20 @@
     "ativo": true,
     "destaque": false,
     "ordem": 203
+  },
+  {
+    "id": 204,
+    "categoria": "Esporte e Fitness",
+    "nome": "Kit 3 Shorts 2 em 1 Masculino",
+    "descricao": "Kit com 3 shorts masculinos 2 em 1, indicado para academia, corrida, caminhada e treinos. Confeccionados em poliéster dry fit, possuem camada interna de compressão e bolsos para levar pequenos itens. Oferecem leveza, mobilidade e conforto durante atividades físicas.",
+    "imagem": "imagens/225-kit-3-shorts-2-em-1-masculino.png",
+    "alt": "Kit 3 Shorts 2 em 1 Masculino",
+    "loja": "Mercado Livre",
+    "preco": "65,54",
+    "link": "https://meli.la/333SA8s",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 204
   }
 ]
