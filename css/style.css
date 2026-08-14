@@ -858,8 +858,8 @@ border: 0;
 
 
 .navbar-lufinas{
-    height:60px;
-    min-height:63px;
+    height:80px;
+    min-height:80px;
     display:flex;
     justify-content:center;   /* centraliza na horizontal */
     align-items:center;       /* centraliza na vertical */
@@ -888,7 +888,7 @@ opacity: 0.9;
 
 /* Espaço necessário porque o cabeçalho é fixo */
 .espaco-cabecalho {
-height: 68px;
+height: 78px;
 }
 
 /* Celular */
@@ -896,8 +896,8 @@ height: 68px;
 
 
 .navbar-lufinas {
-    height: 60px;
-    min-height: 60px;
+    height: 80px;
+    min-height: 80px;
 }
 
 .navbar-brand-lufinas {
@@ -905,7 +905,7 @@ height: 68px;
 }
 
 .espaco-cabecalho {
-    height: 60px;
+    height: 80px;
 }
 
 
@@ -1112,3 +1112,212 @@ background:linear-gradient(135deg,#F4B183,#E48B5B);
 }
 
 
+/* =========================================================
+   CABEÇALHO - LOGO + PESQUISA
+   ========================================================= */
+
+@media (min-width: 992px) {
+
+    .navbar-lufinas {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .pesquisa-lufinas {
+        width: 360px;
+        margin-left: auto;
+    }
+
+}
+
+/* ==============================
+   CAIXA DE PESQUISA - MUNDO LUFINAS
+   ============================== */
+
+.caixa-pesquisa {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 430px;
+    height: 46px;
+    background: #fff;
+    border: 1px solid #d9bfdc;
+    border-radius: 25px;
+    padding: 0 16px;
+    box-shadow: 0 3px 10px rgba(61, 41, 58, 0.08);
+    transition: all 0.25s ease;
+}
+
+.caixa-pesquisa:focus-within {
+    border-color: #a981b6;
+    box-shadow: 0 4px 14px rgba(169, 129, 182, 0.20);
+}
+
+.caixa-pesquisa .icone-pesquisa {
+    font-size: 27px;
+    color: #a981b6;
+    line-height: 1;
+    margin-right: 9px;
+    transform: rotate(-20deg);
+}
+
+.caixa-pesquisa input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #3d293a;
+}
+
+.caixa-pesquisa input::placeholder {
+    color: #a58fa8;
+    opacity: 1;
+}
+
+/* Celular */
+@media (max-width: 767px) {
+
+    .caixa-pesquisa {
+        max-width: 100%;
+        height: 43px;
+        padding: 0 13px;
+    }
+
+    .caixa-pesquisa input {
+        font-size: 13px;
+    }
+
+    .caixa-pesquisa .icone-pesquisa {
+        font-size: 24px;
+        margin-right: 7px;
+    }
+}
+
+/* ==============================
+   MENU DE CATEGORIAS - ABAS
+   ============================== */
+
+.menu-categorias {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 4px;
+    border-bottom: 1px solid #ead7e8;
+}
+
+.menu-categorias a {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #fff5fc;
+    color: #6f536d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+
+    /* cantos superiores delicados */
+    border-radius: 9px 9px 0 0;
+
+    transition: all 0.2s ease;
+}
+
+/* quando passa o mouse */
+.menu-categorias a:hover {
+    background-color: #f8e3f3;
+    color: #6b3262;
+}
+
+/* categoria ativa */
+.menu-categorias a.ativa {
+    background-color: #e8b9dc;
+    color: #5d2854;
+    font-weight: 700;
+}
+
+
+/* Celular */
+@media (max-width: 767px) {
+
+    .menu-categorias {
+        justify-content: flex-start;
+        overflow-x: auto;
+        gap: 3px;
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
+
+    .menu-categorias::-webkit-scrollbar {
+        display: none;
+    }
+
+    .menu-categorias a {
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+}
+
+.categoria-tab {
+    background-color: #fdf3fa;
+    border: none;
+    color: #6f5368;
+    padding: 7px 16px;
+    margin-right: 4px;
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Categoria selecionada */
+.categoria-tab.ativa {
+    background-color: #efd3e7;
+    color: #5c3d54;
+    font-weight: 600;
+}
+
+/* Efeito ao passar o mouse */
+.categoria-tab:hover {
+    background-color: #f3dfed;
+}
+
+/* Área das categorias */
+.categorias-scroll {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    border-bottom: 1px solid #efd3e7;
+}
+
+/* Abas */
+.categoria-tab {
+    background-color: #fdf3fa;
+    border: none;
+    border-bottom: 1px solid #efd3e7;
+    color: #6f5368;
+    padding: 7px 16px;
+    margin-right: 4px;
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Aba ativa */
+.categoria-tab.ativa {
+    background-color: #efd3e7;
+    color: #5c3d54;
+    font-weight: 600;
+
+    border-bottom: 1px solid #efd3e7;
+}
+
+/* Hover */
+.categoria-tab:hover {
+    background-color: #f3dfed;
+}

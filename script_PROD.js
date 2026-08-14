@@ -124,16 +124,9 @@ catalogo.innerHTML += `
             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
 
 
-                <h5
-                    class="mb-1"
-                    style="
-                        font-size: 18px;
-                        line-height: 1.2;
-                        min-height: 43px;
-                    "
-                >
-                    ${produto.nome}
-                </h5>
+                <p class="mb-1" style="font-size: 18px; color: #444444; font-weight: 800; line-height: 1.2;" >
+                    <strong>${produto.nome}</strong>
+                </p>
 
 
                 <div
@@ -150,10 +143,11 @@ catalogo.innerHTML += `
 
 
                 <p
-                    class="text-dark fs-5 fw-bold mb-0 text-nowrap"
+                    class="mb-1" style="font-size: 25px; color: #814e0a; font-weight: 900; line-height: 1.0; min-height: 33px;"
                 >
                     R$ ${produto.preco}
                 </p>
+
 
                 <div
                     class="mt-2 text-left"

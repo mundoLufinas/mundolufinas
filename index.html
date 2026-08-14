@@ -62,11 +62,30 @@
 <div class="container px-0">
 
     <nav class="navbar navbar-lufinas">
+
         <a href="index.html" class="navbar-brand-lufinas">
             <img src="img/logo-mundo-lufinas.png"
                 alt="Mundo LuFiNas"
                 class="logo-site">
         </a>
+
+        <div class="pesquisa-lufinas">
+
+            <div class="input-group">
+
+                <div class="caixa-pesquisa">
+                    <span class="icone-pesquisa">⌕</span>
+                    <input
+                        type="text"
+                        id="campoPesquisa"
+                        placeholder="O que você procura?"
+                    >
+                </div>
+
+            </div>
+
+        </div>
+
     </nav>
 
 </div>
@@ -78,62 +97,17 @@
 <!-- Espaço para compensar o cabeçalho fixo -->
 
 <div class="espaco-cabecalho"></div>
+<div class="container py-2">
 
+    <div class="categorias-scroll" id="categoriasScroll">
 
+        <button class="categoria-tab ativa" data-categoria="Todos">
+            Todos
+        </button>
 
+    </div>
 
-<!-------------------------------------------------------------------------------- AREA DE CONSULTAS -->
-<div class="container py-4">
-
-                <div class="hero-lufinas">
-
-
-                <h2 class="hero-titulo">Encontre o que você procura</h2>
-
-                <div class="hero-topo">
-
-                    <div class="hero-avatar">
-                        <img src="img/lu-avatar.png" alt="Luciana - Mundo LuFiNas">
-                    </div>
-
-                    <div class="hero-pesquisa">
-                        <div class="input-group">
-                            <input type="text"
-                                id="campoPesquisa"
-                                class="form-control form-control-lg border-0 shadow-sm"
-                                placeholder="Digite qualquer palavra...">
-
-                            <span class="input-group-text bg-white border-0 shadow-sm">
-                                <i class="fa fa-search text-secondary"></i>
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
-
-                <p class="hero-descricao">
-                    <strong>Oi, eu sou a Lu.</strong>
-                    Pesquiso e seleciono produtos que realmente valem a pena para facilitar sua escolha.
-                </p>
-
-                <div class="categorias-scroll" id="categoriasScroll">
-
-                    <button class="categoria-tab ativa" data-categoria="Todos">
-                        Todos
-                    </button>
-
-                    <!-- As demais categorias serão adicionadas pelo JavaScript -->
-
-                </div>
-
-
-                </div>
-
-
-
-
-                </div>
-
+</div>
 
  <!--------------------------------------------------------------------------------------------------------------------- pesquisa geral -->
 <!-- Catálogo -->
@@ -141,29 +115,38 @@
     <div class="container">
 
         <!-- Cabeçalho dos resultados -->
-<div class="cabecalho-categoria mb-4">
 
-    <h1 id="tituloCategoria">Todos</h1>
+<div class="row align-items-center mb-4">
 
-    <p id="quantidadeProdutos">
-        0 produtos encontrados
-    </p>
+    <!-- Título e quantidade -->
+    <div class="col-md-7 text-md-start text-center">
+        <h1 id="tituloCategoria">Todos</h1>
+
+        <p id="quantidadeProdutos">
+            0 produtos encontrados
+        </p>
+    </div>
+
+    <!-- Ordenação -->
+    <div class="col-md-5 d-flex justify-content-md-end justify-content-center mt-3 mt-md-0">
+        <select id="ordenacao" class="form-select" style="max-width:260px;">
+            <option value="relevancia">Ordenar por</option>
+            <option value="menor-preco">Menor preço</option>
+            <option value="maior-preco">Maior preço</option>
+            <option value="az">Nome (A–Z)</option>
+            <option value="za">Nome (Z–A)</option>
+        </select>
+    </div>
 
 </div>
 
-<div class="d-flex justify-content-end mb-4">
 
-    <select id="ordenacao" class="form-select" style="max-width:260px;">
-        <option value="relevancia">Ordenar por</option>
-        <option value="menor-preco">Menor preço</option>
-        <option value="maior-preco">Maior preço</option>
-        <option value="az">Nome (A–Z)</option>
-        <option value="za">Nome (Z–A)</option>
-    </select>
 
-</div>
 
-        <!-- Produtos -->
+
+
+
+        <!-- Produtos -------------------------------------------------->
         <div id="catalogo" class="row g-4">
             <!-- Os produtos serão inseridos aqui pelo JavaScript -->
         </div>
