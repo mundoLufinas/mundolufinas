@@ -2998,5 +2998,50 @@
     "ativo": true,
     "destaque": false,
     "ordem": 200
+  },
+  {
+    "id": 201,
+    "categoria": "Cozinha",
+    "nome": "Panela de Pressão MTA 4,5L com Visor",
+    "descricao": "Panela de pressão MTA com capacidade de 4,5 litros, visor de vidro para acompanhar o cozimento sem abrir a tampa e revestimento antiaderente interno e externo. Possui cabos antitérmicos, estrutura em alumínio e certificação do INMETRO. Indicada para preparo prático e seguro de refeições no dia a dia.",
+    "imagem": "imagens/222-panela-de-pressao-mta-4-5l-com-visor.png",
+    "alt": "Panela de Pressão MTA 4,5L com Visor",
+    "loja": "Mercado Livre",
+    "preco": "164,89",
+    "link": "https://meli.la/1hscCSx",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 201
+  },
+  {
+    "id": 202,
+    "categoria": "Cozinha",
+    "nome": "Forma de Gelo 48 Cubos com Dispenser",
+    "descricao": "Forma de gelo com capacidade para 48 cubos, equipada com caixa coletora, tampa, gaveta dispenser e pegador. Facilita a produção, o armazenamento e a retirada do gelo de forma mais prática e higiênica. Ideal para preparar bebidas, drinks e uso diário em casa.",
+    "imagem": "imagens/223-forma-de-gelo-48-cubos-com-dispenser.png",
+    "alt": "Forma de Gelo 48 Cubos com Dispenser",
+    "loja": "Mercado Livre",
+    "preco": "42,99",
+    "link": "https://meli.la/31R9uvU",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 202
+  },
+  {
+    "id": 203,
+    "categoria": "Cozinha",
+    "nome": "Chapa de Pedra para Fondue e Pizza",
+    "descricao": "Chapa de pedra para preparar fondue de carne, porções, pizzas e grelhados. Ideal para servir alimentos quentes à mesa, mantendo o calor por mais tempo e facilitando o preparo em refeições, encontros e churrascos caseiros. Produto da linha Panela de Pedra de Minas.",
+    "imagem": "imagens/224-chapa-de-pedra-para-fondue-e-pizza.png",
+    "alt": "Chapa de Pedra para Fondue e Pizza",
+    "loja": "Mercado Livre",
+    "preco": "78,99",
+    "link": "https://meli.la/15t6hTM",
+    "corBotao": "#FFE600",
+    "ativo": true,
+    "destaque": false,
+    "ordem": 203
   }
 ]
