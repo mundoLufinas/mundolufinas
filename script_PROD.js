@@ -1,6 +1,18 @@
 let produtosFiltrados = [];
 let paginaAtual = 1;
-const produtosPorPagina = 20;
+const produtosPorPagina = 24;
+
+function embaralharPrimeirosProdutos(produtos, quantidade = 20) {
+    const primeiros = produtos.slice(0, quantidade);
+    const restante = produtos.slice(quantidade);
+
+    for (let i = primeiros.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [primeiros[i], primeiros[j]] = [primeiros[j], primeiros[i]];
+    }
+
+    return [...primeiros, ...restante];
+}
 
 // =============================
 // CARREGAR PRODUTOS
@@ -10,9 +22,13 @@ async function carregarProdutos(categoria, destino) {
     try {
 
         const resposta = await fetch("produtos.json");
-        const produtos = await resposta.json();
+        let produtos = await resposta.json();
 
         produtos.reverse();
+
+        if (categoria === "Todos") {
+            produtos = embaralharPrimeirosProdutos(produtos, 20);
+        }
 
         const produtosCategoria = categoria === "Todos"
             ? produtos
@@ -413,6 +429,7 @@ async function pesquisarProdutos(texto) {
 
         texto = texto.toLowerCase();
 
+
         produtosFiltrados = produtos.filter(produto =>
 
             produto.nome.toLowerCase().includes(texto) ||
@@ -670,10 +687,296 @@ function criarCategorias(categorias) {
 }
 
 
+
+// ==================================================
+// CRIAR SUBCATEGORIAS
+// ==================================================
+function criarSubcategorias(categoria, produtos) {
+
+    const container =
+        document.getElementById("subcategoriasScroll");
+
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    // =============================
+    // TODOS NÃO TEM SUBCATEGORIAS
+    // =============================
+
+    if (categoria === "Todos") {
+
+        container.style.display = "none";
+        return;
+
+    }
+
+    // =============================
+    // PEGAR SUBCATEGORIAS
+    // =============================
+
+    const subcategorias =
+        [...new Set(
+
+            produtos
+                .filter(produto =>
+                    produto.categoria === categoria &&
+                    produto.subcategoria
+                )
+                .map(produto =>
+                    produto.subcategoria
+                )
+
+        )].sort((a, b) =>
+            a.localeCompare(b, "pt-BR")
+        );
+
+    // Se não houver subcategorias,
+    // esconde a segunda linha
+
+    if (subcategorias.length === 0) {
+
+        container.style.display = "none";
+        return;
+
+    }
+
+    // =============================
+    // MOSTRAR SEGUNDA LINHA
+    // =============================
+
+    container.style.display = "flex";
+
+    // =============================
+    // BOTÃO TODOS
+    // =============================
+
+    const todos =
+        document.createElement("a");
+
+    todos.href = "#";
+    todos.className = "subcategoria-tab ativa";
+    todos.dataset.subcategoria = "";
+
+    todos.innerText = "Todos";
+
+    todos.addEventListener(
+        "click",
+        function (evento) {
+
+            evento.preventDefault();
+
+            selecionarSubcategoria(
+                categoria,
+                "",
+                true
+            );
+
+        }
+    );
+
+    container.appendChild(todos);
+
+
+    // =============================
+    // CRIAR SUBCATEGORIAS
+    // =============================
+
+    subcategorias.forEach(subcategoria => {
+
+        const botao =
+            document.createElement("a");
+
+        botao.href = "#";
+
+        botao.className =
+            "subcategoria-tab";
+
+        botao.dataset.subcategoria =
+            subcategoria;
+
+        botao.innerText =
+            subcategoria;
+
+        botao.addEventListener(
+            "click",
+            function (evento) {
+
+                evento.preventDefault();
+
+                selecionarSubcategoria(
+                    categoria,
+                    subcategoria,
+                    true
+                );
+
+            }
+        );
+
+        container.appendChild(botao);
+
+    });
+
+}
+
+
+// ==================================================
+// SELECIONAR SUBCATEGORIA
+// ==================================================
+function selecionarSubcategoria(
+    categoria,
+    subcategoria,
+    atualizarProdutos = true
+) {
+
+    // =============================
+    // MARCAR SUBCATEGORIA ATIVA
+    // =============================
+
+    document
+        .querySelectorAll(".subcategoria-tab")
+        .forEach(tab => {
+
+            tab.classList.remove("ativa");
+
+        });
+
+
+    const ativa =
+        document.querySelector(
+            `.subcategoria-tab[data-subcategoria="${CSS.escape(subcategoria)}"]`
+        );
+
+
+    if (ativa) {
+
+        ativa.classList.add("ativa");
+
+        ativa.scrollIntoView({
+
+            behavior: "smooth",
+            inline: "center",
+            block: "nearest"
+
+        });
+
+    }
+
+
+    // =============================
+    // FILTRAR PRODUTOS
+    // =============================
+
+    if (atualizarProdutos) {
+
+        carregarProdutosSubcategoria(
+            categoria,
+            subcategoria
+        );
+
+    }
+
+}
+
+
+
+// ==================================================
+// CARREGAR PRODUTOS DA SUBCATEGORIA
+// ==================================================
+async function carregarProdutosSubcategoria(
+    categoria,
+    subcategoria
+) {
+
+    try {
+
+        const resposta =
+            await fetch("produtos.json");
+
+        const produtos =
+            await resposta.json();
+
+
+        // =============================
+        // FILTRAR
+        // =============================
+
+        produtosFiltrados =
+            produtos.filter(produto =>
+
+                produto.categoria === categoria &&
+
+                (
+                    subcategoria === "" ||
+                    produto.subcategoria === subcategoria
+                )
+
+            );
+
+
+        // =============================
+        // TÍTULO
+        // =============================
+
+        const titulo =
+            document.getElementById("tituloCategoria");
+
+        const quantidade =
+            document.getElementById("quantidadeProdutos");
+
+
+        if (titulo) {
+
+            titulo.innerText =
+                subcategoria === ""
+                    ? categoria
+                    : subcategoria;
+
+        }
+
+
+        if (quantidade) {
+
+            quantidade.innerText =
+                produtosFiltrados.length +
+                " produtos encontrados";
+
+        }
+
+
+        // =============================
+        // RESETAR PAGINAÇÃO
+        // =============================
+
+        paginaAtual = 1;
+
+        renderizarPagina();
+
+
+    } catch (erro) {
+
+        console.error(
+            "Erro ao carregar subcategoria:",
+            erro
+        );
+
+    }
+
+}
+
+
+
+
+
+
+
 // ==================================================
 // SELECIONAR CATEGORIA
 // ==================================================
-function selecionarCategoria(
+// ==================================================
+// SELECIONAR CATEGORIA
+// ==================================================
+async function selecionarCategoria(
     categoria,
     atualizarProdutos = true
 ) {
@@ -700,7 +1003,6 @@ function selecionarCategoria(
     if (ativa) {
 
         ativa.classList.add("ativa");
-
 
         ativa.scrollIntoView({
 
@@ -751,6 +1053,41 @@ function selecionarCategoria(
         carregarProdutos(
             categoria,
             "catalogo"
+        );
+
+    }
+
+
+    // =============================
+    // CARREGAR SUBCATEGORIAS
+    // =============================
+
+    const container =
+        document.getElementById("subcategoriasScroll");
+
+    if (!container) return;
+
+
+    try {
+
+        const resposta =
+            await fetch("produtos.json");
+
+        const produtos =
+            await resposta.json();
+
+
+        criarSubcategorias(
+            categoria,
+            produtos
+        );
+
+
+    } catch (erro) {
+
+        console.error(
+            "Erro ao carregar subcategorias:",
+            erro
         );
 
     }

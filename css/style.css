@@ -1321,3 +1321,70 @@ background:linear-gradient(135deg,#F4B183,#E48B5B);
 .categoria-tab:hover {
     background-color: #f3dfed;
 }
+
+/* ==================================================
+   SUBCATEGORIAS
+   ================================================== */
+
+.subcategorias-scroll {
+    display: none;
+    align-items: center;
+    gap: 6px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 2px 0 5px 0;
+    margin-top: -4px;
+
+    scrollbar-width: none;
+}
+
+.subcategorias-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* ==================================================
+   ABA DA SUBCATEGORIA
+   ================================================== */
+
+.subcategoria-tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px 12px;
+
+    background-color: #fff8fc;
+    color: #8d6b84;
+
+    border: 1px solid #eadce6;
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    transition: all 0.2s ease;
+
+    flex-shrink: 0;
+}
+
+
+/* HOVER */
+
+.subcategoria-tab:hover {
+    background-color: #f8edf5;
+    color: #6f4d66;
+    text-decoration: none;
+}
+
+
+/* ATIVA */
+
+.subcategoria-tab.ativa {
+    background-color: #ead5e5;
+    color: #6b4660;
+    border-color: #d8b9cf;
+    font-weight: 700;
+}
