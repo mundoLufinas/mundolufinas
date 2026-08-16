@@ -2,7 +2,7 @@ let produtosFiltrados = [];
 let paginaAtual = 1;
 const produtosPorPagina = 24;
 
-function embaralharPrimeirosProdutos(produtos, quantidade = 20) {
+function embaralharPrimeirosProdutos(produtos, quantidade = 10) {
     const primeiros = produtos.slice(0, quantidade);
     const restante = produtos.slice(quantidade);
 
@@ -27,7 +27,7 @@ async function carregarProdutos(categoria, destino) {
         produtos.reverse();
 
         if (categoria === "Todos") {
-            produtos = embaralharPrimeirosProdutos(produtos, 20);
+            produtos = embaralharPrimeirosProdutos(produtos, 10);
         }
 
         const produtosCategoria = categoria === "Todos"
