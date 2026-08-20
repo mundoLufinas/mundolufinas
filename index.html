@@ -1,417 +1,871 @@
 <!DOCTYPE html>
-<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
+<html lang="pt-BR">
 
-        
+<head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LYHT31VRSN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta charset="utf-8">
 
-  gtag('config', 'G-LYHT31VRSN');
-</script>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-<title>Mundo LuFiNas</title>
+    <title>Mundo LuFiNas | Achadinhos e Ofertas</title>
 
-<!-- Favicon -->
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
-
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
-
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <meta
+        name="description"
+        content="Achadinhos, ofertas e produtos selecionados pensando em preço, utilidade e custo-benefício."
+    >
 
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- =====================================================
+         FAVICON
+         ===================================================== -->
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="img/favicon-32.png"
+    >
 
-    <body>
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="img/favicon-16.png"
+    >
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-rosa-escuro" role="status"></div>
-            Carregando...
-        </div>
-        <!-- Spinner End -->
-
-
-<!-- Navbar start -->
-
-<div class="container-fluid fixed-top navbar-lufinas">
+    <link
+        rel="apple-touch-icon"
+        href="img/apple-touch-icon.png"
+    >
 
 
-<div class="container px-0">
+    <!-- =====================================================
+         FONTES
+         ===================================================== -->
 
-    <nav class="navbar navbar-lufinas">
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
 
-        <a href="index.html" class="navbar-brand-lufinas">
-            <img src="img/logo-mundo-lufinas.png"
-                alt="Mundo LuFiNas"
-                class="logo-site">
-        </a>
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
-        <div class="pesquisa-lufinas">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
-            <div class="input-group">
 
-                <div class="caixa-pesquisa">
-                    <span class="icone-pesquisa">⌕</span>
-                    <input
-                        type="text"
-                        id="campoPesquisa"
-                        placeholder="O que você procura?"
-                    >
+    <!-- =====================================================
+         ÍCONES
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    >
+
+
+    <!-- =====================================================
+         BOOTSTRAP
+         ===================================================== -->
+
+    <link
+        href="css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         CSS MUNDO LUFINAS
+         ===================================================== -->
+
+    <link
+        href="css/style.css"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     SPINNER
+     ========================================================= -->
+
+<div
+    id="spinner"
+    class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+>
+    <div
+        class="spinner-grow text-rosa-escuro"
+        role="status"
+    ></div>
+
+    <span class="ms-2">
+        Carregando...
+    </span>
+</div>
+
+
+
+<!-- =========================================================
+     CABEÇALHO COMPLETO
+     ========================================================= -->
+
+<header class="container-fluid fixed-top topo-site-lufinas">
+
+
+    <!-- =====================================================
+         FAIXA SUPERIOR
+         ===================================================== -->
+
+    <div class="barra-beneficios-topo">
+
+        <div class="container">
+
+            <div class="beneficios-topo-inner">
+
+
+                <div class="beneficio-topo">
+
+                    <i class="fas fa-heart"></i>
+
+                    <span>
+                        A gente pesquisa. Você economiza.
+                    </span>
+
                 </div>
 
+
+                <div class="beneficio-topo beneficio-topo-centro">
+
+                    <i class="fas fa-fire"></i>
+
+                    <span>
+                        Ofertas atualizadas todos os dias
+                    </span>
+
+                </div>
+
+
+                <div class="beneficio-topo beneficio-topo-direita">
+
+                    <i class="fas fa-shield-alt"></i>
+
+                    <span>
+                        Compra 100% segura
+                    </span>
+
+                </div>
+
+
             </div>
 
         </div>
 
-    </nav>
-
-</div>
-
-
-</div>
-<!-- Navbar End -->
-
-<!-- Espaço para compensar o cabeçalho fixo -->
-
-<div class="espaco-cabecalho"></div>
-
-<div class="container py-2">
-
-    <div class="categorias-scroll" id="categoriasScroll">
-
-        <button class="categoria-tab ativa" data-categoria="Todos">
-            Todos
-        </button>
-
     </div>
-
-</div>
-<div class="container">
-    <div
-        class="subcategorias-scroll"
-        id="subcategoriasScroll"
-    ></div>
-</div>
- <!--------------------------------------------------------------------------------------------------------------------- pesquisa geral -->
-<!-- Catálogo -->
-<div class="container-fluid fruite py-3">
-    <div class="container">
-
-        <!-- Cabeçalho dos resultados -->
-
-<div class="row align-items-center mb-4">
-
-    <!-- Título e quantidade -->
-    <div class="col-md-7 text-md-start text-center">
-        <h1 id="tituloCategoria">Todos</h1>
-
-        <p id="quantidadeProdutos">
-            0 produtos encontrados
-        </p>
-    </div>
-
-    <!-- Ordenação -->
-    <div class="col-md-5 d-flex justify-content-md-end justify-content-center mt-3 mt-md-0">
-        <select id="ordenacao" class="form-select" style="max-width:260px;">
-            <option value="relevancia">Ordenar por</option>
-            <option value="menor-preco">Menor preço</option>
-            <option value="maior-preco">Maior preço</option>
-            <option value="az">Nome (A–Z)</option>
-            <option value="za">Nome (Z–A)</option>
-        </select>
-    </div>
-
-</div>
-
-
-
-
-
-
-
-        <!-- Produtos -------------------------------------------------->
-        <div id="catalogo" class="row g-4">
-            <!-- Os produtos serão inseridos aqui pelo JavaScript -->
-        </div>
-
-        <!-- Paginação -->
-        <div class="col-12">
-            <div class="pagination d-flex justify-content-center mt-5">
-                <a href="#" class="rounded">&laquo;</a>
-                <a href="#" class="active rounded">1</a>
-                <a href="#" class="rounded">2</a>
-                <a href="#" class="rounded">3</a>
-                <a href="#" class="rounded">4</a>
-                <a href="#" class="rounded">5</a>
-                <a href="#" class="rounded">6</a>
-                <a href="#" class="rounded">&raquo;</a>
-            </div>
-        </div>
-
-    </div>
-</div>
-<!-- Catálogo End -->
-
-
-
-
-
-
-
 
 
 
     <!-- =====================================================
-         RODAPÉ
+         LOGO + BUSCA
          ===================================================== -->
 
-    <footer class="footer-lufinas">
+    <div class="navbar-lufinas">
 
-        <div class="container py-5">
+        <div class="container px-0">
+
+            <nav class="navbar navbar-lufinas">
 
 
-            <!-- Marca -->
+                <!-- LOGO -->
 
-            <div class="text-center mb-5">
+                <a
+                    href="index.html"
+                    class="navbar-brand-lufinas"
+                    aria-label="Página inicial Mundo LuFiNas"
+                >
 
-                <h2 class="footer-logo">
-                    Mundo LuFiNas
-                </h2>
+                    <img
+                        src="img/logo-mundo-lufinas.png"
+                        alt="Mundo LuFiNas"
+                        class="logo-site"
+                    >
 
-                <p class="footer-subtitle">
-                    Seu espaço para descobrir produtos que realmente valem a pena.
-                </p>
+                </a>
+
+
+
+                <!-- BUSCA -->
+
+                <div class="pesquisa-lufinas">
+
+                    <div class="caixa-pesquisa">
+
+                        <i class="fas fa-search icone-pesquisa-novo"></i>
+
+                        <input
+                            type="text"
+                            id="campoPesquisa"
+                            placeholder="O que você procura?"
+                            autocomplete="off"
+                            aria-label="Pesquisar produtos"
+                        >
+
+                        <button
+                            type="button"
+                            class="botao-pesquisa-lufinas"
+                            aria-label="Pesquisar"
+                            tabindex="-1"
+                        >
+
+                            <i class="fas fa-search"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SOBRE NÓS -->
+
+                <div class="acoes-topo">
+
+                    <a
+                        href="#sobreMundoLufinas"
+                        class="link-sobre-nos"
+                    >
+
+                        <i class="far fa-info-circle"></i>
+
+                        <span>
+                            Sobre nós
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+            </nav>
+
+        </div>
+
+    </div>
+
+
+</header>
+
+
+
+<!-- =========================================================
+     ESPAÇO DO CABEÇALHO FIXO
+     ========================================================= -->
+
+<div class="espaco-cabecalho"></div>
+
+
+
+<!-- =========================================================
+     CATEGORIAS
+     ========================================================= -->
+
+<section class="area-categorias-principais">
+
+    <div class="container">
+
+        <div
+            class="categorias-scroll"
+            id="categoriasScroll"
+        >
+
+            <!--
+                O JavaScript cria as categorias reais
+                da planilha / produtos.json.
+            -->
+
+            <button
+                class="categoria-tab ativa"
+                data-categoria="Todos"
+            >
+                Todos
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SUBCATEGORIAS
+     ========================================================= -->
+
+<section class="area-subcategorias">
+
+    <div class="container">
+
+        <div
+            class="subcategorias-scroll"
+            id="subcategoriasScroll"
+        ></div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CONTEÚDO PRINCIPAL
+     ========================================================= -->
+
+<main>
+
+
+    <!-- =====================================================
+         BANNER ACHADINHOS
+         ===================================================== -->
+
+    <section class="secao-achadinhos">
+
+        <div class="container">
+
+            <div class="banner-achadinhos">
+
+
+                <div class="banner-achadinhos-texto">
+
+                    <h1>
+                        Achadinhos escolhidos para você 💕
+                    </h1>
+
+                    <p>
+                        Produtos selecionados pensando em preço,
+                        utilidade e custo-benefício.
+                    </p>
+
+                </div>
+
+
+                <div class="banner-achadinhos-decoracao">
+
+                    <img
+                        src="img/íconeLufinas.png"
+                        alt=""
+                        class="icone-achadinhos-lufinas"
+                    >
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         OFERTAS DE HOJE
+         O JavaScript novo preencherá esta área
+         ===================================================== -->
+
+    <section
+        class="secao-ofertas-hoje"
+        id="secaoOfertasHoje"
+    >
+
+        <div class="container">
+
+
+            <div class="cabecalho-secao-ofertas">
+
+
+                <div class="titulo-ofertas-hoje">
+
+                    <i class="fas fa-fire"></i>
+
+                    <h2>
+                        Ofertas de hoje
+                    </h2>
+
+                </div>
+
+
+                <a
+                    href="#todosProdutos"
+                    class="ver-todas-ofertas"
+                >
+                    Ver todas as ofertas
+
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+
 
             </div>
 
 
 
-            <div class="row g-5">
+            <div
+                class="ofertas-scroll"
+                id="ofertasHoje"
+            >
+
+                <!--
+                    Os cards das ofertas serão
+                    inseridos aqui pelo JavaScript.
+                -->
+
+            </div>
 
 
-                <!-- Como funciona -->
+        </div>
 
-                <div class="col-lg-7">
-
-                    <h4 class="footer-title">
-                        Como funciona o Mundo LuFiNas
-                    </h4>
+    </section>
 
 
-                    <p>
-                        O <strong>Mundo LuFiNas</strong> é um portal de recomendações
-                        criado para facilitar a sua busca por produtos que realmente
-                        valem a pena.
-                    </p>
+
+    <!-- =====================================================
+         TODOS OS PRODUTOS
+         ===================================================== -->
+
+    <section
+        class="secao-todos-produtos"
+        id="todosProdutos"
+    >
+
+        <div class="container">
 
 
-                    <p>
-                        Eu pesquiso, comparo e seleciono produtos disponíveis em
-                        plataformas oficiais e lojas parceiras, priorizando qualidade,
-                        custo-benefício, utilidade e boas avaliações.
-                    </p>
+            <!-- =================================================
+                 CABEÇALHO DO CATÁLOGO
+                 ================================================= -->
+
+            <div class="cabecalho-catalogo">
 
 
-                    <p>
-                        O objetivo é economizar o seu tempo, reunindo sugestões
-                        organizadas por categorias para que você encontre boas
-                        oportunidades de forma rápida e segura.
+                <div class="cabecalho-catalogo-esquerda">
+
+                    <div class="titulo-catalogo-linha">
+
+                        <i class="fas fa-shopping-bag"></i>
+
+                        <h2 id="tituloCategoria">
+                            Todos os produtos
+                        </h2>
+
+                    </div>
+
+
+                    <p id="quantidadeProdutos">
+                        0 produtos encontrados
                     </p>
 
                 </div>
 
 
 
-                <!-- Transparência -->
+                <div class="cabecalho-catalogo-direita">
 
-                <div class="col-lg-5">
-
-                    <h4 class="footer-title">
-                        Transparência
-                    </h4>
-
-
-                    <p>
-                        O Mundo LuFiNas participa de programas de afiliados de
-                        plataformas parceiras, atualmente com
-                        <strong>Mercado Livre</strong>.
-                    </p>
+                    <label
+                        for="ordenacao"
+                        class="label-ordenacao"
+                    >
+                        Ordenar por:
+                    </label>
 
 
-                    <p>
-                        Isso significa que posso receber uma pequena comissão
-                        pelas compras realizadas através dos links do site,
-                        <strong>sem qualquer custo adicional para você</strong>.
-                    </p>
+                    <select
+                        id="ordenacao"
+                        class="form-select"
+                    >
 
-                    <p class="mt-3">
-                        <strong> Novas plataformas parceiras poderão ser adicionadas futuramente.</strong>
-                    </p>
+                        <option value="relevancia">
+                            Mais relevantes
+                        </option>
+
+                        <option value="menor-preco">
+                            Menor preço
+                        </option>
+
+                        <option value="maior-preco">
+                            Maior preço
+                        </option>
+
+                        <option value="az">
+                            Nome (A–Z)
+                        </option>
+
+                        <option value="za">
+                            Nome (Z–A)
+                        </option>
+
+                    </select>
+
+                </div>
 
 
-                    <p class="footer-disclaimer">
-                        O Mundo LuFiNas participa de programas de afiliados desta plataforma,
-                        mas não a representa oficialmente.
-                    </p>
+            </div>
+
+
+
+            <!-- =================================================
+                 CATÁLOGO
+                 ================================================= -->
+
+            <div
+                id="catalogo"
+                class="row g-3"
+            >
+
+                <!--
+                    Os produtos continuam sendo
+                    inseridos pelo script_PROD.js
+                -->
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PAGINAÇÃO
+                 ================================================= -->
+
+            <div class="area-paginacao">
+
+                <div
+                    class="pagination d-flex justify-content-center mt-5"
+                >
+
+                    <!--
+                        A paginação real é criada
+                        pelo script_PROD.js.
+                    -->
 
                 </div>
 
             </div>
 
 
+        </div>
 
-            <hr class="footer-divider">
+    </section>
 
 
 
-            <!-- Aviso importante -->
+    <!-- =====================================================
+         FAIXA DE BENEFÍCIOS
+         ===================================================== -->
 
-            <div class="footer-alert">
+
+
+
+</main>
+
+
+
+<!-- =========================================================
+     RODAPÉ
+     ========================================================= -->
+
+<footer
+    class="footer-lufinas"
+    id="sobreMundoLufinas"
+>
+
+
+    <div class="container py-5">
+
+
+        <!-- =================================================
+             MARCA
+             ================================================= -->
+
+        <div class="text-center mb-5">
+
+            <h2 class="footer-logo">
+                Mundo LuFiNas
+            </h2>
+
+            <p class="footer-subtitle">
+                Seu espaço para descobrir produtos que realmente valem a pena.
+            </p>
+
+        </div>
+
+
+
+        <div class="row g-5">
+
+
+            <!-- =================================================
+                 COMO FUNCIONA
+                 ================================================= -->
+
+            <div class="col-lg-7">
 
                 <h4 class="footer-title">
-                    Informações sobre preços e promoções
+                    Como funciona o Mundo LuFiNas
                 </h4>
 
 
                 <p>
-                    Todos os <strong>preços, promoções, descontos, condições de
-                    pagamento, disponibilidade, frete, prazos de entrega e
-                    descrições dos produtos</strong> apresentados no Mundo LuFiNas
-                    são fornecidos pelas respectivas plataformas parceiras.
+                    O <strong>Mundo LuFiNas</strong> é um portal de
+                    recomendações criado para facilitar a sua busca
+                    por produtos que realmente valem a pena.
                 </p>
 
 
                 <p>
-                    Essas informações podem ser alteradas, atualizadas ou encerradas
-                    a qualquer momento pelos próprios sites, sem aviso prévio.
+                    Eu pesquiso, comparo e seleciono produtos disponíveis
+                    em plataformas oficiais e lojas parceiras, priorizando
+                    qualidade, custo-benefício, utilidade e boas avaliações.
                 </p>
 
 
                 <p>
-                    Antes de finalizar qualquer compra, recomendamos sempre
-                    verificar as informações diretamente na página oficial do
-                    produto na plataforma correspondente.
+                    O objetivo é economizar o seu tempo, reunindo sugestões
+                    organizadas por categorias para que você encontre boas
+                    oportunidades de forma rápida e segura.
                 </p>
 
             </div>
 
 
 
-            <hr class="footer-divider">
+            <!-- =================================================
+                 TRANSPARÊNCIA
+                 ================================================= -->
+
+            <div class="col-lg-5">
+
+                <h4 class="footer-title">
+                    Transparência
+                </h4>
 
 
-
-            <!-- Contato -->
-
-            <div class="row align-items-center footer-contact">
-
-                <div class="col-md-6 mb-3 mb-md-0">
-
-                    <h5 class="footer-title mb-2">
-                        Contato
-                    </h5>
+                <p>
+                    O Mundo LuFiNas participa de programas de afiliados
+                    de plataformas parceiras, atualmente com
+                    <strong>Mercado Livre</strong>.
+                </p>
 
 
-                    <p class="mb-1">
-
-                        <i class="fa fa-envelope me-2"></i>
-
-                        <a href="mailto:lucianafinas@gmail.com">
-                            lucianafinas@gmail.com
-                        </a>
-
-                    </p>
-
-                </div>
+                <p>
+                    Isso significa que posso receber uma pequena comissão
+                    pelas compras realizadas através dos links do site,
+                    <strong>sem qualquer custo adicional para você</strong>.
+                </p>
 
 
-                <div class="col-md-6 text-md-end">
+                <p class="mt-3">
+                    <strong>
+                        Novas plataformas parceiras poderão ser adicionadas futuramente.
+                    </strong>
+                </p>
 
-                    <p class="mb-0">
-                        Recomendações organizadas com carinho e transparência.
-                    </p>
 
-                </div>
+                <p class="footer-disclaimer">
+                    O Mundo LuFiNas participa de programas de afiliados desta
+                    plataforma, mas não a representa oficialmente.
+                </p>
 
             </div>
+
 
         </div>
 
 
 
-        <!-- Copyright -->
+        <hr class="footer-divider">
 
-        <div class="footer-bottom">
 
-            <div
-                class="container d-flex flex-column flex-md-row
-                       justify-content-between align-items-center"
-            >
 
-                <p class="mb-2 mb-md-0">
+        <!-- =================================================
+             AVISO DE PREÇOS
+             ================================================= -->
 
-                    © 2026 <strong>Mundo LuFiNas</strong>.
-                    Todos os direitos reservados.
+        <div class="footer-alert">
+
+            <h4 class="footer-title">
+                Informações sobre preços e promoções
+            </h4>
+
+
+            <p>
+                Todos os <strong>preços, promoções, descontos,
+                condições de pagamento, disponibilidade, frete,
+                prazos de entrega e descrições dos produtos</strong>
+                apresentados no Mundo LuFiNas são fornecidos pelas
+                respectivas plataformas parceiras.
+            </p>
+
+
+            <p>
+                Essas informações podem ser alteradas, atualizadas
+                ou encerradas a qualquer momento pelos próprios sites,
+                sem aviso prévio.
+            </p>
+
+
+            <p>
+                Antes de finalizar qualquer compra, recomendamos sempre
+                verificar as informações diretamente na página oficial
+                do produto na plataforma correspondente.
+            </p>
+
+        </div>
+
+
+
+        <hr class="footer-divider">
+
+
+
+        <!-- =================================================
+             CONTATO
+             ================================================= -->
+
+        <div class="row align-items-center footer-contact">
+
+
+            <div class="col-md-6 mb-3 mb-md-0">
+
+                <h5 class="footer-title mb-2">
+                    Contato
+                </h5>
+
+                <p class="mb-1">
+
+                    <i class="fa fa-envelope me-2"></i>
+
+                    <a href="mailto:lucianafinas@gmail.com">
+                        lucianafinas@gmail.com
+                    </a>
 
                 </p>
 
+            </div>
+
+
+            <div class="col-md-6 text-md-end">
 
                 <p class="mb-0">
-
-                    Desenvolvido por
-                    <strong>Luciana Fiori do Nascimento</strong>
-
+                    Recomendações organizadas com carinho e transparência.
                 </p>
 
             </div>
 
+
         </div>
 
-    </footer>
 
-
-        <!-- Footer End -->
-
+    </div>
 
 
 
+    <!-- =====================================================
+         COPYRIGHT
+         ===================================================== -->
+
+    <div class="footer-bottom">
+
+        <div
+            class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
+        >
+
+            <p class="mb-2 mb-md-0">
+
+                © 2026
+
+                <strong>
+                    Mundo LuFiNas
+                </strong>.
+
+                Todos os direitos reservados.
+
+            </p>
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-categorias border-1 border-categorias rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+            <p class="mb-0">
 
-        
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                Desenvolvido por
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+                <strong>
+                    Luciana Fiori do Nascimento
+                </strong>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- =========================================================
+     VOLTAR AO TOPO
+     ========================================================= -->
+
+<a
+    href="#"
+    class="btn btn-categorias rounded-circle back-to-top"
+    aria-label="Voltar ao topo"
+>
+
+    <i class="fa fa-arrow-up"></i>
+
+</a>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+     ========================================================= -->
+
+<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+></script>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+></script>
+
+
+<!-- JavaScript base -->
+
+<script src="js/main.js"></script>
+
+
+<!-- Produtos -->
 
 <script src="script_PROD.js"></script>
+
 
 </body>
 

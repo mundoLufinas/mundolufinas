@@ -6,15 +6,10 @@
     <meta charset="utf-8">
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYHT31VRSN"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-LYHT31VRSN');
-    </script>
+    
 
+    
     <title>Produto | Mundo LuFiNas</title>
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -514,15 +509,82 @@
          CABEÇALHO
          ===================================================== -->
 
-    <div class="container-fluid fixed-top navbar-lufinas">
+<!-- =========================================================
+     CABEÇALHO COMPLETO
+     ========================================================= -->
+
+<header class="container-fluid fixed-top topo-site-lufinas">
+
+
+    <!-- =====================================================
+         FAIXA SUPERIOR
+         ===================================================== -->
+
+    <div class="barra-beneficios-topo">
+
+        <div class="container">
+
+            <div class="beneficios-topo-inner">
+
+
+                <div class="beneficio-topo">
+
+                    <i class="fas fa-heart"></i>
+
+                    <span>
+                        A gente pesquisa. Você economiza.
+                    </span>
+
+                </div>
+
+
+                <div class="beneficio-topo beneficio-topo-centro">
+
+                    <i class="fas fa-fire"></i>
+
+                    <span>
+                        Ofertas atualizadas todos os dias
+                    </span>
+
+                </div>
+
+
+                <div class="beneficio-topo beneficio-topo-direita">
+
+                    <i class="fas fa-shield-alt"></i>
+
+                    <span>
+                        Compra 100% segura
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         LOGO + BUSCA
+         ===================================================== -->
+
+    <div class="navbar-lufinas">
 
         <div class="container px-0">
 
             <nav class="navbar navbar-lufinas">
 
+
+                <!-- LOGO -->
+
                 <a
                     href="index.html"
                     class="navbar-brand-lufinas"
+                    aria-label="Página inicial Mundo LuFiNas"
                 >
 
                     <img
@@ -533,6 +595,61 @@
 
                 </a>
 
+
+
+                <!-- BUSCA -->
+
+                <div class="pesquisa-lufinas">
+
+                    <div class="caixa-pesquisa">
+
+                        <i class="fas fa-search icone-pesquisa-novo"></i>
+
+                        <input
+                            type="text"
+                            id="campoPesquisa"
+                            placeholder="O que você procura?"
+                            autocomplete="off"
+                            aria-label="Pesquisar produtos"
+                        >
+
+                        <button
+                            type="button"
+                            class="botao-pesquisa-lufinas"
+                            aria-label="Pesquisar"
+                            tabindex="-1"
+                        >
+
+                            <i class="fas fa-search"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SOBRE NÓS -->
+
+                <div class="acoes-topo">
+
+                    <a
+                        href="index.html#sobreMundoLufinas"
+                        class="link-sobre-nos"
+                    >
+
+                        <i class="far fa-info-circle"></i>
+
+                        <span>
+                            Sobre nós
+                        </span>
+
+                    </a>
+
+                </div>
+
+
             </nav>
 
         </div>
@@ -540,9 +657,15 @@
     </div>
 
 
-    <!-- Espaço para compensar o cabeçalho fixo -->
+</header>
 
-    <div class="espaco-cabecalho"></div>
+
+
+<!-- =========================================================
+     ESPAÇO DO CABEÇALHO FIXO
+     ========================================================= -->
+
+<div class="espaco-cabecalho"></div>
 
 
 
@@ -550,51 +673,106 @@
          PRODUTO
          ===================================================== -->
 
-    <main class="produto-area">
+<main class="produto-area">
 
-        <div class="container">
-
-            <div class="produto-container">
+    <div class="container">
 
 
-                <!-- VOLTAR -->
+        <!-- =====================================================
+             VOLTAR AO CATÁLOGO
+             ===================================================== -->
 
-                <a
-                    href="index.html"
-                    class="btn-voltar"
-                    id="botaoVoltar"
-                >
-                    <span class="seta-voltar"> <i class="fa fa-arrow-left"></i> </span>
-                    Voltar ao catálogo
-                </a>
+                <div class="produto-voltar-area">
 
+                    <div class="produto-acoes-superiores">
 
-
-                <div class="row g-5 align-items-start">
-
-
-                    <!-- =================================================
-                         IMAGEM
-                         ================================================= -->
-
-                    <div class="col-lg-6">
-
-                        <img
-                            id="produtoImagem"
-                            class="produto-imagem"
-                            src=""
-                            alt=""
+                        <button
+                            type="button"
+                            class="produto-compartilhar"
+                            id="botaoCompartilhar"
                         >
+
+                            <i class="fas fa-share-alt"></i>
+
+                            <span id="textoCompartilhar">
+                                Compartilhar
+                            </span>
+
+                        </button>
+
+
+                        <a
+                            href="index.html"
+                            class="produto-voltar"
+                            id="botaoVoltar"
+                        >
+
+                            <span class="produto-voltar-icone">
+                                <i class="fas fa-arrow-left"></i>
+                            </span>
+
+                            <span>
+                                Voltar ao catálogo
+                            </span>
+
+                        </a>
 
                     </div>
 
+                </div>
 
 
-                    <!-- =================================================
-                         INFORMAÇÕES
-                         ================================================= -->
 
-                    <div class="col-lg-6">
+        <!-- =====================================================
+             PRODUTO PRINCIPAL
+             ===================================================== -->
+
+        <section class="produto-detalhe-card">
+
+            <div class="row g-4 g-lg-5 align-items-start">
+
+
+                <!-- =================================================
+                     IMAGEM / FUTURA GALERIA
+                     ================================================= -->
+
+                <div class="col-lg-6">
+
+                    <div class="produto-galeria">
+
+
+                        <!--
+                            FUTURAMENTE:
+                            aqui entram as miniaturas das
+                            outras 3 ou 4 fotos do produto.
+                        -->
+
+
+                        <div class="produto-imagem-principal">
+
+                            <img
+                                id="produtoImagem"
+                                class="produto-imagem"
+                                src=""
+                                alt=""
+                            >
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     INFORMAÇÕES
+                     ================================================= -->
+
+                <div class="col-lg-6">
+
+                    <div class="produto-info">
 
 
                         <!-- Categoria -->
@@ -605,12 +783,14 @@
                         ></div>
 
 
+
                         <!-- Título -->
 
                         <h1
                             id="produtoTitulo"
                             class="produto-titulo"
                         ></h1>
+
 
 
                         <!-- Preço -->
@@ -621,96 +801,106 @@
                         ></div>
 
 
+
                         <!-- Descrição -->
 
-                        <div
-                            id="produtoDescricao"
-                            class="produto-descricao"
-                        ></div>
+                        <div class="produto-descricao-area">
+
+                            <h2>
+                                Sobre este produto
+                            </h2>
+
+                            <div
+                                id="produtoDescricao"
+                                class="produto-descricao"
+                            ></div>
+
+                        </div>
 
 
 
                         <!-- =================================================
-                             RECOMENDAÇÃO
+                             BOTÃO MERCADO LIVRE
                              ================================================= -->
 
-                       <!-- <div class="caixa-recomendacao">
+                        <div class="produto-compra-area">
 
-                            <h5>
-                                💛 Por que eu recomendo
-                            </h5>
+                            <a
+                                id="botaoML"
+                                class="btn-ml"
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
 
-                            <p>
-                                Eu seleciono produtos que considero boas
-                                opções de compra, pensando em custo-benefício,
-                                utilidade e avaliações dos consumidores.
-                            </p>
+                                <span class="btn-ml-icone">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </span>
 
-                        </div>  -->
+                                <span>
+                                    Ver oferta no Mercado Livre
+                                </span>
+
+                                <i class="fas fa-external-link-alt btn-ml-externo"></i>
+
+                            </a>
 
 
+                            <div class="produto-aviso-compra">
 
-                        <!-- =================================================
-                             MERCADO LIVRE
-                             ================================================= -->
+                                <i class="fas fa-shield-alt"></i>
 
-                        <a
-                            id="botaoML"
-                            class="btn-ml"
-                            href="#"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            🛒 Veja + no Mercado Livre
-                        </a>
+                                <div>
+                                    <strong>Compra segura no Mercado Livre</strong>
+
+                                    <span>
+                                        Ao clicar no botão acima, você será direcionado
+                                        ao Mercado Livre para finalizar sua compra.
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
 
 
                     </div>
 
                 </div>
 
+
             </div>
 
-        </div>
+        </section>
+
+        <!-- =====================================================
+             VOCÊ TAMBÉM PODE GOSTAR
+             ===================================================== -->
+
+        <section class="produtos-relacionados">
+
+            <div class="produtos-relacionados-titulo">
+
+                <h2>
+                    Você também pode gostar 💕
+                </h2>
+
+                <p>
+                    Outros achadinhos que podem combinar com você.
+                </p>
+
+            </div>
 
 
+            <div
+                id="produtosRelacionados"
+                class="row g-3"
+            ></div>
 
-<!-- =====================================================
-     VOCÊ TAMBÉM PODE GOSTAR
-     ===================================================== -->
-
-                <section class="produtos-relacionados">
-
-                    <div class="container">
-
-                        <div class="produtos-relacionados-titulo">
-
-                            <h2>
-                                Você também pode gostar 💕
-                            </h2>
-
-                            <p>
-                                Mais produtos que podem combinar com o que você procura.
-                            </p>
-
-                        </div>
+        </section>
 
 
-                        <div
-                            id="produtosRelacionados"
-                            class="row g-4"
-                        >
-                            <!-- Produtos relacionados serão inseridos pelo JavaScript -->
-                        </div>
-
-                    </div>
-
-                </section>
-
-
-
-
-    </main>
+    </div>
 
 
 
@@ -720,175 +910,7 @@
 
     <footer class="footer-lufinas">
 
-        <div class="container py-5">
 
-
-            <!-- Marca -->
-
-            <div class="text-center mb-5">
-
-                <h2 class="footer-logo">
-                    Mundo LuFiNas
-                </h2>
-
-                <p class="footer-subtitle">
-                    Seu espaço para descobrir produtos que realmente valem a pena.
-                </p>
-
-            </div>
-
-
-
-            <div class="row g-5">
-
-
-                <!-- Como funciona -->
-
-                <div class="col-lg-7">
-
-                    <h4 class="footer-title">
-                        Como funciona o Mundo LuFiNas
-                    </h4>
-
-
-                    <p>
-                        O <strong>Mundo LuFiNas</strong> é um portal de recomendações
-                        criado para facilitar a sua busca por produtos que realmente
-                        valem a pena.
-                    </p>
-
-
-                    <p>
-                        Eu pesquiso, comparo e seleciono produtos disponíveis em
-                        plataformas oficiais e lojas parceiras, priorizando qualidade,
-                        custo-benefício, utilidade e boas avaliações.
-                    </p>
-
-
-                    <p>
-                        O objetivo é economizar o seu tempo, reunindo sugestões
-                        organizadas por categorias para que você encontre boas
-                        oportunidades de forma rápida e segura.
-                    </p>
-
-                </div>
-
-
-
-                <!-- Transparência -->
-
-                <div class="col-lg-5">
-
-                    <h4 class="footer-title">
-                        Transparência
-                    </h4>
-
-
-                    <p>
-                        O Mundo LuFiNas participa de programas de afiliados de
-                        plataformas parceiras, atualmente com
-                        <strong>Mercado Livre</strong>.
-                    </p>
-
-
-                    <p>
-                        Isso significa que posso receber uma pequena comissão
-                        pelas compras realizadas através dos links do site,
-                        <strong>sem qualquer custo adicional para você</strong>.
-                    </p>
-
-                    <p class="mt-3">
-                        <strong> Novas plataformas parceiras poderão ser adicionadas futuramente.</strong>
-                    </p>
-
-
-                    <p class="footer-disclaimer">
-                        O Mundo LuFiNas participa de programas de afiliados desta plataforma,
-                        mas não a representa oficialmente.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-            <hr class="footer-divider">
-
-
-
-            <!-- Aviso importante -->
-
-            <div class="footer-alert">
-
-                <h4 class="footer-title">
-                    Informações sobre preços e promoções
-                </h4>
-
-
-                <p>
-                    Todos os <strong>preços, promoções, descontos, condições de
-                    pagamento, disponibilidade, frete, prazos de entrega e
-                    descrições dos produtos</strong> apresentados no Mundo LuFiNas
-                    são fornecidos pelas respectivas plataformas parceiras.
-                </p>
-
-
-                <p>
-                    Essas informações podem ser alteradas, atualizadas ou encerradas
-                    a qualquer momento pelos próprios sites, sem aviso prévio.
-                </p>
-
-
-                <p>
-                    Antes de finalizar qualquer compra, recomendamos sempre
-                    verificar as informações diretamente na página oficial do
-                    produto na plataforma correspondente.
-                </p>
-
-            </div>
-
-
-
-            <hr class="footer-divider">
-
-
-
-            <!-- Contato -->
-
-            <div class="row align-items-center footer-contact">
-
-                <div class="col-md-6 mb-3 mb-md-0">
-
-                    <h5 class="footer-title mb-2">
-                        Contato
-                    </h5>
-
-
-                    <p class="mb-1">
-
-                        <i class="fa fa-envelope me-2"></i>
-
-                        <a href="mailto:lucianafinas@gmail.com">
-                            lucianafinas@gmail.com
-                        </a>
-
-                    </p>
-
-                </div>
-
-
-                <div class="col-md-6 text-md-end">
-
-                    <p class="mb-0">
-                        Recomendações organizadas com carinho e transparência.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
 
 
 
