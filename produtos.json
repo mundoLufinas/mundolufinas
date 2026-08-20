@@ -4927,28 +4927,7 @@
     "promocaoAte": "",
     "ordem": 224
   },
-  {
-    "id": 225,
-    "categoria": "Beleza",
-    "subcategoria": "Cabelos e Aparelhos",
-    "nome": "Escova Secadora Britânia Soft Rosa",
-    "descricao": "Escova secadora Britânia Soft 4 em 1, indicada para secar, alisar, modelar e dar volume aos cabelos. Possui até 1300W de potência, revestimento cerâmico, emissão de íons, luz infravermelha, 2 velocidades, 3 temperaturas, cerdas com pontas emborrachadas e cabo giratório de 1,8 m. Bivolt com seleção manual.",
-    "imagem": "fotos/260-escova-secadora-britania-soft-rosa.jpg",
-    "alt": "Escova Secadora Britânia Soft Rosa",
-    "loja": "Mercado Livre",
-    "preco": "78,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "160,90",
-    "desconto": 50,
-    "link": "https://meli.la/15n6muP",
-    "corBotao": "#FFE600",
-    "ativo": true,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 225
-  },
+
   {
     "id": 226,
     "categoria": "Beleza",
