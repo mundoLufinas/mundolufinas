@@ -498,6 +498,10 @@ a {
    CATEGORIAS
    ========================================================= */
 
+/* =========================================================
+   CATEGORIAS COM ÍCONES
+   ========================================================= */
+
 .area-categorias-principais {
 
     background:
@@ -507,65 +511,88 @@ a {
         1px solid #F1E4EA;
 }
 
+
+/* faixa horizontal */
+
 .categorias-scroll {
 
     display:
         flex;
 
     align-items:
-        center;
+        flex-start;
 
     gap:
-        7px;
+        14px;
 
     overflow-x:
         auto;
 
-    white-space:
-        nowrap;
+    overflow-y:
+        hidden;
 
     padding:
-        10px 0;
+        12px 2px 10px;
 
-    border:
-        0;
+    white-space:
+        nowrap;
 
     scrollbar-width:
         none;
 
     -webkit-overflow-scrolling:
         touch;
+
+    scroll-behavior:
+        smooth;
 }
 
+
 .categorias-scroll::-webkit-scrollbar {
-    display: none;
+
+    display:
+        none;
 }
+
+
+/* =========================================================
+   CADA CATEGORIA
+   ========================================================= */
 
 .categoria-tab {
 
-    flex-shrink:
-        0;
+    flex:
+        0 0 auto;
+
+    min-width:
+        78px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    align-items:
+        center;
+
+    justify-content:
+        flex-start;
+
+    gap:
+        6px;
 
     padding:
-        9px 17px;
+        4px 3px 7px;
 
     border:
-        1px solid #EEDFE6;
-
-    border-radius:
-        8px;
+        0;
 
     background:
-        #FFF9FB;
+        transparent;
 
     color:
-        #653B4D;
-
-    font-size:
-        12px;
-
-    font-weight:
-        600;
+        #5D4651;
 
     cursor:
         pointer;
@@ -573,43 +600,228 @@ a {
     text-decoration:
         none;
 
+    font-family:
+        "Open Sans",
+        sans-serif;
+
     transition:
-        all .2s ease;
+        color .2s ease;
+
+    position:
+        relative;
 }
+
+
+/* remove comportamento antigo */
 
 .categoria-tab::after {
-    display: none !important;
+
+    display:
+        none !important;
 }
 
-.categoria-tab:hover {
+
+/* =========================================================
+   CÍRCULO DO ÍCONE
+   ========================================================= */
+
+.categoria-icone {
+
+    width:
+        48px;
+
+    height:
+        48px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    flex-shrink:
+        0;
+
+    border:
+        1px solid #EFDDE6;
+
+    border-radius:
+        50%;
 
     background:
-        #F9EAF1;
+        linear-gradient(
+            145deg,
+            #FFFDFE,
+            #FAEEF4
+        );
 
     color:
         var(--rosa-escuro);
 
-    border-color:
-        #E2C3D1;
+    font-size:
+        19px;
+
+    box-shadow:
+        0 3px 10px
+        rgba(100, 51, 76, .06);
+
+    transition:
+        all .2s ease;
 }
+
+
+/* =========================================================
+   NOME
+   ========================================================= */
+
+.categoria-nome {
+
+    display:
+        block;
+
+    max-width:
+        100px;
+
+    overflow:
+        hidden;
+
+    text-overflow:
+        ellipsis;
+
+    color:
+        inherit;
+
+    font-size:
+        10px;
+
+    font-weight:
+        600;
+
+    line-height:
+        1.15;
+
+    text-align:
+        center;
+
+    white-space:
+        nowrap;
+}
+
+
+/* =========================================================
+   HOVER
+   ========================================================= */
+
+.categoria-tab:hover {
+
+    color:
+        var(--rosa-principal);
+}
+
+
+.categoria-tab:hover
+.categoria-icone {
+
+    border-color:
+        #DFAFC4;
+
+    background:
+        #FCECF3;
+
+    color:
+        var(--rosa-principal);
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 5px 14px
+        rgba(182, 63, 115, .12);
+}
+
+
+/* =========================================================
+   CATEGORIA ATIVA
+   ========================================================= */
 
 .categoria-tab.ativa {
 
     background:
+        transparent;
+
+    color:
+        var(--rosa-principal);
+
+    border:
+        0;
+
+    box-shadow:
+        none;
+
+    font-weight:
+        700;
+}
+
+
+.categoria-tab.ativa
+.categoria-icone {
+
+    background:
+        var(--rosa-principal);
+
+    border-color:
         var(--rosa-principal);
 
     color:
         #FFFFFF;
 
-    border-color:
-        var(--rosa-principal);
+    box-shadow:
+        0 5px 14px
+        rgba(182, 63, 115, .20);
+}
+
+
+.categoria-tab.ativa
+.categoria-nome {
 
     font-weight:
         700;
+}
 
-    box-shadow:
-        0 3px 10px
-        rgba(182,63,115,.14);
+
+/* tracinho rosa da categoria escolhida */
+
+.categoria-tab.ativa::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    left:
+        50%;
+
+    bottom:
+        0;
+
+    width:
+        28px;
+
+    height:
+        3px;
+
+    border-radius:
+        999px;
+
+    background:
+        var(--rosa-principal);
+
+    transform:
+        translateX(-50%);
 }
 
 
@@ -2295,22 +2507,66 @@ a {
 
     /* categorias */
 
+    /* =====================================================
+       CATEGORIAS MOBILE
+       ===================================================== */
+
     .categorias-scroll {
+
+        gap:
+            7px;
+
+        padding:
+            10px 4px 9px;
+
+        scroll-padding-left:
+            4px;
+    }
+
+
+    .categoria-tab {
+
+        min-width:
+            62px;
 
         gap:
             5px;
 
         padding:
-            8px 0;
+            3px 1px 7px;
     }
 
-    .categoria-tab {
 
-        padding:
-            8px 13px;
+    .categoria-icone {
+
+        width:
+            44px;
+
+        height:
+            44px;
 
         font-size:
-            11px;
+            17px;
+    }
+
+
+    .categoria-nome {
+
+        max-width:
+            67px;
+
+        font-size:
+            9px;
+    }
+
+
+    .categoria-tab.ativa::before {
+
+        width:
+            24px;
+
+        height:
+            3px;
     }
 
     .subcategoria-tab {
@@ -3706,3 +3962,19 @@ a {
 
 }
 
+/* =====================================================
+   PRODUTO - LOGO CENTRALIZADA NO CABEÇALHO
+   ===================================================== */
+
+
+.navbar.navbar-lufinas.navbar-produto-centralizada {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.navbar.navbar-lufinas.navbar-produto-centralizada
+.navbar-brand-lufinas {
+    margin: 0 !important;
+}

@@ -962,13 +962,37 @@ async function carregarProdutos(
                 );
 
 
-            if (titulo) {
+                if (titulo) {
 
-                titulo.innerText =
-                    categoria === "Todos"
-                        ? "Todos os produtos"
-                        : categoria;
-            }
+                    // =================================================
+                    // TEXTO DO TÍTULO
+                    // =================================================
+
+                    titulo.innerText =
+                        categoria === "Todos"
+                            ? "Todos os produtos"
+                            : categoria;
+
+
+                    // =================================================
+                    // ÍCONE DO TÍTULO
+                    // Usa o mesmo ícone do menu de categorias
+                    // =================================================
+
+                    const iconeTitulo =
+                        document.querySelector(
+                            ".titulo-catalogo-linha > i"
+                        );
+
+
+                    if (iconeTitulo) {
+
+                        iconeTitulo.className =
+                            obterIconeCategoria(
+                                categoria
+                            );
+                    }
+                }
 
 
             if (quantidade) {
@@ -2275,6 +2299,114 @@ function alternarOfertasHoje(mostrar) {
 // CARREGA AS CATEGORIAS
 // ============================================================
 
+// ============================================================
+// ÍCONES DAS CATEGORIAS
+// ============================================================
+
+function obterIconeCategoria(categoria) {
+
+    const nome =
+        String(
+            categoria || ""
+        )
+            .trim()
+            .toLowerCase();
+
+
+    const icones = {
+
+        "todos":
+            "fas fa-th-large",
+
+        "beleza":
+            "fas fa-spa",
+
+        "casa":
+            "fas fa-couch",
+
+        "cozinha":
+            "fas fa-utensils",
+
+        "moda":
+            "fas fa-tshirt",
+
+        "eletrodomésticos":
+            "fas fa-blender",
+
+        "eletrodomesticos":
+            "fas fa-blender",
+
+        "celulares & acessórios":
+            "fas fa-mobile-alt",
+
+        "celulares & acessorios":
+            "fas fa-mobile-alt",
+
+        "esporte & fitness":
+            "fas fa-dumbbell",
+
+        "pet shop":
+            "fas fa-paw",
+
+        "reforma & construção":
+            "fas fa-tools",
+
+        "reforma & construcao":
+            "fas fa-tools",
+
+        "tech, áudio, vídeo & acessórios":
+            "fas fa-headphones",
+
+        "tech, audio, video & acessorios":
+            "fas fa-headphones"
+
+    };
+
+
+    return (
+        icones[nome] ||
+        "fas fa-tag"
+    );
+}
+
+
+
+// ============================================================
+// MONTA O CONTEÚDO VISUAL DA CATEGORIA
+// ============================================================
+
+function montarConteudoCategoria(
+    categoria
+) {
+
+    const icone =
+        obterIconeCategoria(
+            categoria
+        );
+
+
+    return `
+
+        <span class="categoria-icone">
+
+            <i class="${icone}"></i>
+
+        </span>
+
+        <span class="categoria-nome">
+            ${categoria}
+        </span>
+
+    `;
+
+}
+
+
+
+// ============================================================
+// CARREGA AS CATEGORIAS
+// ============================================================
+
 async function carregarCategorias() {
 
     const container =
@@ -2346,8 +2478,10 @@ async function carregarCategorias() {
             "Todos";
 
 
-        botaoTodos.innerText =
-            "Todos";
+        botaoTodos.innerHTML =
+            montarConteudoCategoria(
+                "Todos"
+            );
 
 
         botaoTodos.addEventListener(
@@ -2358,10 +2492,6 @@ async function carregarCategorias() {
                     this
                 );
 
-
-                // =============================================
-                // EM "TODOS", OFERTAS DE HOJE VOLTA A APARECER
-                // =============================================
 
                 alternarOfertasHoje(
                     true
@@ -2381,6 +2511,7 @@ async function carregarCategorias() {
                     "Todos",
                     "catalogo"
                 );
+
             }
         );
 
@@ -2411,8 +2542,10 @@ async function carregarCategorias() {
                     categoria;
 
 
-                botao.innerText =
-                    categoria;
+                botao.innerHTML =
+                    montarConteudoCategoria(
+                        categoria
+                    );
 
 
                 botao.addEventListener(
@@ -2424,10 +2557,8 @@ async function carregarCategorias() {
                         );
 
 
-                        // =====================================
-                        // CATEGORIA ESPECÍFICA
-                        // ESCONDE OFERTAS DE HOJE
-                        // =====================================
+                        // Categoria específica:
+                        // esconde Ofertas de hoje
 
                         alternarOfertasHoje(
                             false
@@ -2449,6 +2580,7 @@ async function carregarCategorias() {
                             categoria,
                             "catalogo"
                         );
+
                     }
                 );
 
@@ -2456,6 +2588,7 @@ async function carregarCategorias() {
                 container.appendChild(
                     botao
                 );
+
             }
         );
 
@@ -2466,7 +2599,9 @@ async function carregarCategorias() {
             "Erro ao carregar categorias:",
             erro
         );
+
     }
+
 }
 
 

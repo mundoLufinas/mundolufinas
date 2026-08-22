@@ -1,6 +1,6 @@
 // =====================================================
 // MUNDO LUFINAS 4.0 - PÁGINA DE PRODUTO
-// PREÇOS COMPLETOS + PRODUTOS ATIVOS / INATIVOS
+// PREÇOS COMPLETOS + GALERIA AUTOMÁTICA
 // =====================================================
 
 let cacheProdutos = null;
@@ -16,15 +16,20 @@ async function obterProdutos() {
         return cacheProdutos;
     }
 
-    const resposta = await fetch("produtos.json");
+    const resposta =
+        await fetch(
+            "produtos.json"
+        );
 
     if (!resposta.ok) {
+
         throw new Error(
             "Não foi possível carregar o produtos.json"
         );
     }
 
-    cacheProdutos = await resposta.json();
+    cacheProdutos =
+        await resposta.json();
 
     return cacheProdutos;
 }
@@ -41,36 +46,59 @@ function converterPreco(valor) {
         valor === null ||
         valor === undefined
     ) {
+
         return 0;
     }
 
-    if (typeof valor === "number") {
+
+    if (
+        typeof valor ===
+        "number"
+    ) {
+
         return valor;
     }
+
 
     let texto =
         valor
             .toString()
             .trim()
-            .replace("R$", "")
-            .replace(/\s/g, "");
+            .replace(
+                "R$",
+                ""
+            )
+            .replace(
+                /\s/g,
+                ""
+            );
 
 
     // Ex.: 1.299,90
+
     if (
         texto.includes(",")
     ) {
 
         texto =
             texto
-                .replace(/\./g, "")
-                .replace(",", ".");
+                .replace(
+                    /\./g,
+                    ""
+                )
+                .replace(
+                    ",",
+                    "."
+                );
 
     }
 
 
     const numero =
-        Number(texto);
+        Number(
+            texto
+        );
+
 
     return isNaN(numero)
         ? 0
@@ -85,17 +113,25 @@ function converterPreco(valor) {
 function formatarPreco(valor) {
 
     const numero =
-        converterPreco(valor);
+        converterPreco(
+            valor
+        );
+
 
     if (!numero) {
+
         return "";
     }
+
 
     return numero.toLocaleString(
         "pt-BR",
         {
-            minimumFractionDigits: 2,
-            maximumFractionDigits: 2
+            minimumFractionDigits:
+                2,
+
+            maximumFractionDigits:
+                2
         }
     );
 }
@@ -112,15 +148,18 @@ function montarPrecoProduto(produto) {
             produto.preco
         );
 
+
     const precoPromocional =
         formatarPreco(
             produto.precoPromocional
         );
 
+
     const precoOriginal =
         formatarPreco(
             produto.precoOriginal
         );
+
 
     const desconto =
         Number(
@@ -139,10 +178,17 @@ function montarPrecoProduto(produto) {
 
 
     const ehPix =
+
         precoPromocional &&
+
         (
-            condicao.includes("PIX") ||
-            condicao.includes("MERCADO PAGO")
+            condicao.includes(
+                "PIX"
+            ) ||
+
+            condicao.includes(
+                "MERCADO PAGO"
+            )
         );
 
 
@@ -273,6 +319,430 @@ function montarPrecoProduto(produto) {
 
 
 // =====================================================
+// GALERIA
+// VERIFICA SE UMA FOTO REALMENTE EXISTE
+// =====================================================
+
+function verificarImagemExiste(url) {
+
+    return new Promise(
+        resolve => {
+
+            const imagem =
+                new Image();
+
+
+            imagem.onload =
+                function () {
+
+                    resolve(
+                        true
+                    );
+                };
+
+
+            imagem.onerror =
+                function () {
+
+                    resolve(
+                        false
+                    );
+                };
+
+
+            imagem.src =
+                url;
+
+        }
+    );
+}
+
+
+// =====================================================
+// GERA OS POSSÍVEIS NOMES DAS FOTOS
+//
+// foto.jpg
+// foto-2.jpg
+// foto-3.jpg
+// foto-4.jpg
+// =====================================================
+
+function gerarPossiveisFotos(
+    imagemPrincipal
+) {
+
+    const imagem =
+        String(
+            imagemPrincipal || ""
+        ).trim();
+
+
+    if (!imagem) {
+
+        return [];
+    }
+
+
+    const ponto =
+        imagem.lastIndexOf(
+            "."
+        );
+
+
+    // Se por algum motivo não houver extensão,
+    // usa somente a imagem principal.
+
+    if (
+        ponto === -1
+    ) {
+
+        return [
+            imagem
+        ];
+    }
+
+
+    const base =
+        imagem.substring(
+            0,
+            ponto
+        );
+
+
+    const extensao =
+        imagem.substring(
+            ponto
+        );
+
+
+    return [
+
+        imagem,
+
+        base +
+            "-2" +
+            extensao,
+
+        base +
+            "-3" +
+            extensao,
+
+        base +
+            "-4" +
+            extensao
+
+    ];
+}
+
+
+// =====================================================
+// CARREGA SOMENTE AS FOTOS QUE REALMENTE EXISTEM
+// =====================================================
+
+async function obterFotosExistentes(
+    imagemPrincipal
+) {
+
+    const candidatas =
+        gerarPossiveisFotos(
+            imagemPrincipal
+        );
+
+
+    if (
+        candidatas.length === 0
+    ) {
+
+        return [];
+    }
+
+
+    const verificacoes =
+        await Promise.all(
+
+            candidatas.map(
+                async url => {
+
+                    const existe =
+                        await verificarImagemExiste(
+                            url
+                        );
+
+
+                    return existe
+                        ? url
+                        : null;
+
+                }
+            )
+        );
+
+
+    return verificacoes.filter(
+        url =>
+            url !== null
+    );
+}
+
+
+// =====================================================
+// MONTA A GALERIA DO PRODUTO
+// =====================================================
+
+async function montarGaleriaProduto(
+    produto
+) {
+
+    const imagemPrincipal =
+        document.getElementById(
+            "produtoImagem"
+        );
+
+
+    const miniaturas =
+        document.getElementById(
+            "produtoMiniaturas"
+        );
+
+
+    if (
+        !imagemPrincipal
+    ) {
+
+        return;
+    }
+
+
+    const fotoPrincipal =
+        String(
+            produto.imagem || ""
+        ).trim();
+
+
+    // =================================================
+    // NÃO TEM FOTO
+    // =================================================
+
+    if (!fotoPrincipal) {
+
+        imagemPrincipal.removeAttribute(
+            "src"
+        );
+
+
+        if (miniaturas) {
+
+            miniaturas.innerHTML =
+                "";
+
+            miniaturas.style.display =
+                "none";
+        }
+
+
+        return;
+    }
+
+
+    // =================================================
+    // MOSTRA IMEDIATAMENTE A FOTO PRINCIPAL
+    // =================================================
+
+    imagemPrincipal.src =
+        fotoPrincipal;
+
+
+    imagemPrincipal.alt =
+        produto.alt ||
+        produto.nome ||
+        "Produto Mundo LuFiNas";
+
+
+    // =================================================
+    // PROCURA FOTO 2, 3 E 4
+    // =================================================
+
+    const fotos =
+        await obterFotosExistentes(
+            fotoPrincipal
+        );
+
+
+    // Segurança:
+    // se por alguma razão a verificação da principal
+    // falhar, ainda mantemos a imagem informada no JSON.
+
+    if (
+        fotos.length === 0
+    ) {
+
+        fotos.push(
+            fotoPrincipal
+        );
+    }
+
+
+    // =================================================
+    // UMA FOTO SOMENTE
+    //
+    // NÃO MOSTRA MINIATURAS
+    // =================================================
+
+    if (
+        fotos.length <= 1
+    ) {
+
+        if (miniaturas) {
+
+            miniaturas.innerHTML =
+                "";
+
+            miniaturas.style.display =
+                "none";
+        }
+
+
+        return;
+    }
+
+
+    // =================================================
+    // DUAS OU MAIS FOTOS
+    //
+    // MOSTRA AS MINIATURAS
+    // =================================================
+
+    if (!miniaturas) {
+
+        return;
+    }
+
+
+    miniaturas.innerHTML =
+        "";
+
+
+    miniaturas.style.display =
+        "flex";
+
+
+    fotos.forEach(
+        (
+            foto,
+            indice
+        ) => {
+
+            const botao =
+                document.createElement(
+                    "button"
+                );
+
+
+            botao.type =
+                "button";
+
+
+            botao.className =
+                "produto-miniatura";
+
+
+            if (
+                indice === 0
+            ) {
+
+                botao.classList.add(
+                    "ativa"
+                );
+            }
+
+
+            botao.setAttribute(
+                "aria-label",
+                "Ver foto " +
+                    (indice + 1) +
+                    " do produto"
+            );
+
+
+            const imagem =
+                document.createElement(
+                    "img"
+                );
+
+
+            imagem.src =
+                foto;
+
+
+            imagem.alt =
+                (
+                    produto.alt ||
+                    produto.nome ||
+                    "Produto"
+                ) +
+                " - foto " +
+                (indice + 1);
+
+
+            botao.appendChild(
+                imagem
+            );
+
+
+            botao.addEventListener(
+                "click",
+                function () {
+
+                    // Troca a imagem grande.
+
+                    imagemPrincipal.src =
+                        foto;
+
+
+                    imagemPrincipal.alt =
+                        (
+                            produto.alt ||
+                            produto.nome ||
+                            "Produto"
+                        ) +
+                        " - foto " +
+                        (indice + 1);
+
+
+                    // Retira seleção das outras.
+
+                    miniaturas
+                        .querySelectorAll(
+                            ".produto-miniatura"
+                        )
+                        .forEach(
+                            item =>
+                                item.classList.remove(
+                                    "ativa"
+                                )
+                        );
+
+
+                    // Marca a clicada.
+
+                    this.classList.add(
+                        "ativa"
+                    );
+
+                }
+            );
+
+
+            miniaturas.appendChild(
+                botao
+            );
+
+        }
+    );
+}
+
+
+// =====================================================
 // CARREGAMENTO DA PÁGINA
 // =====================================================
 
@@ -285,8 +755,11 @@ document.addEventListener(
                 window.location.search
             );
 
+
         const idProduto =
-            params.get("id");
+            params.get(
+                "id"
+            );
 
 
         // ---------------------------------------------
@@ -298,6 +771,7 @@ document.addEventListener(
             mostrarErro(
                 "Produto não identificado."
             );
+
 
             return;
         }
@@ -317,12 +791,17 @@ document.addEventListener(
                 produtos.find(
                     item =>
 
-                        String(item.id) ===
-                        String(idProduto)
+                        String(
+                            item.id
+                        ) ===
+                        String(
+                            idProduto
+                        )
 
                         &&
 
-                        item.ativo !== false
+                        item.ativo !==
+                        false
                 );
 
 
@@ -336,6 +815,7 @@ document.addEventListener(
                     "Este produto não está mais disponível."
                 );
 
+
                 return;
             }
 
@@ -344,30 +824,29 @@ document.addEventListener(
             // ELEMENTOS
             // =================================================
 
-            const imagem =
-                document.getElementById(
-                    "produtoImagem"
-                );
-
             const categoria =
                 document.getElementById(
                     "produtoCategoria"
                 );
+
 
             const titulo =
                 document.getElementById(
                     "produtoTitulo"
                 );
 
+
             const preco =
                 document.getElementById(
                     "produtoPreco"
                 );
 
+
             const descricao =
                 document.getElementById(
                     "produtoDescricao"
                 );
+
 
             const botaoML =
                 document.getElementById(
@@ -376,18 +855,12 @@ document.addEventListener(
 
 
             // =================================================
-            // IMAGEM
+            // GALERIA DE FOTOS
             // =================================================
 
-            if (imagem) {
-
-                imagem.src =
-                    produto.imagem;
-
-                imagem.alt =
-                    produto.alt ||
-                    produto.nome;
-            }
+            await montarGaleriaProduto(
+                produto
+            );
 
 
             // =================================================
@@ -449,8 +922,10 @@ document.addEventListener(
                     produto.link ||
                     "#";
 
+
                 botaoML.target =
                     "_blank";
+
 
                 botaoML.rel =
                     "noopener noreferrer";
@@ -466,9 +941,11 @@ document.addEventListener(
                 produtos
             );
 
+
             ativarCompartilhamento(
                 produto
-            );            
+            );
+
 
             // =================================================
             // TÍTULO DA ABA
@@ -484,6 +961,7 @@ document.addEventListener(
                 "Erro ao carregar produto:",
                 erro
             );
+
 
             mostrarErro(
                 "Não foi possível carregar os dados do produto."
@@ -507,6 +985,7 @@ function mostrarErro(mensagem) {
 
 
     if (!container) {
+
         return;
     }
 
@@ -552,6 +1031,7 @@ function carregarProdutosRelacionados(
 
 
     if (!container) {
+
         return;
     }
 
@@ -571,12 +1051,17 @@ function carregarProdutosRelacionados(
 
                 &&
 
-                String(produto.id) !==
-                String(produtoAtual.id)
+                String(
+                    produto.id
+                ) !==
+                String(
+                    produtoAtual.id
+                )
 
                 &&
 
-                produto.ativo !== false
+                produto.ativo !==
+                false
         );
 
 
@@ -610,6 +1095,7 @@ function carregarProdutosRelacionados(
         container.innerHTML =
             "";
 
+
         return;
     }
 
@@ -627,6 +1113,7 @@ function carregarProdutosRelacionados(
                         produto.precoPromocional
                             ? produto.precoPromocional
                             : produto.preco;
+
 
                     return `
 
@@ -667,12 +1154,15 @@ function carregarProdutosRelacionados(
                                     ${
                                         produto.desconto
                                             ? `
+
                                                 <div class="card-relacionado-desconto">
                                                     ${produto.desconto}% OFF
                                                 </div>
+
                                             `
                                             : ""
                                     }
+
 
                                     <p
                                         class="card-relacionado-preco"
@@ -691,6 +1181,8 @@ function carregarProdutosRelacionados(
             )
             .join("");
 }
+
+
 // =====================================================
 // COMPARTILHAR PRODUTO DO MUNDO LUFINAS
 // =====================================================
@@ -702,6 +1194,7 @@ function ativarCompartilhamento(produto) {
             "botaoCompartilhar"
         );
 
+
     const texto =
         document.getElementById(
             "textoCompartilhar"
@@ -709,6 +1202,7 @@ function ativarCompartilhamento(produto) {
 
 
     if (!botao) {
+
         return;
     }
 
@@ -730,7 +1224,7 @@ function ativarCompartilhamento(produto) {
 
 
             // URL DA PÁGINA DO MUNDO LUFINAS
-            // NÃO compartilha o link afiliado do Mercado Livre
+            // NÃO compartilha o link afiliado do Mercado Livre.
 
             const url =
                 window.location.href;
@@ -742,13 +1236,23 @@ function ativarCompartilhamento(produto) {
                 // CELULAR / NAVEGADOR COM COMPARTILHAMENTO NATIVO
                 // =============================================
 
-                if (navigator.share) {
+                if (
+                    navigator.share
+                ) {
 
                     await navigator.share({
-                        title: titulo,
-                        text: mensagem,
-                        url: url
+
+                        title:
+                            titulo,
+
+                        text:
+                            mensagem,
+
+                        url:
+                            url
+
                     });
+
 
                     return;
                 }
@@ -768,6 +1272,7 @@ function ativarCompartilhamento(produto) {
                     texto.textContent =
                         "Link copiado!";
 
+
                     setTimeout(
                         () => {
 
@@ -777,6 +1282,7 @@ function ativarCompartilhamento(produto) {
                         },
                         2200
                     );
+
                 }
 
 
