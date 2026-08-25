@@ -2324,6 +2324,9 @@ function obterIconeCategoria(categoria) {
         "casa":
             "fas fa-couch",
 
+        "cama, mesa & banho":
+            "fas fa-bed",
+
         "cozinha":
             "fas fa-utensils",
 
