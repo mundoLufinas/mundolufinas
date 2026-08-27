@@ -6,6 +6,7 @@
 
 let produtosFiltrados = [];
 let paginaAtual = 1;
+let produtosBaseLoja = [];
 const produtosPorPagina = 24;
 let cacheProdutos = null;
 
@@ -617,6 +618,37 @@ function montarCardOferta(produto) {
 
 
     // ========================================================
+    // BADGE DA LOJA
+    // ========================================================
+
+    const classeLoja =
+        produto.loja === "Amazon"
+            ? "badge-amazon"
+            : produto.loja === "Mercado Livre"
+                ? "badge-mercado-livre"
+                : produto.loja === "Shopee"
+                    ? "badge-shopee"
+                    : "";
+
+
+    const badgeLoja =
+        produto.loja
+            ? `
+
+                <span
+                    class="
+                        badge-loja-card
+                        ${classeLoja}
+                    "
+                >
+                    ${produto.loja}
+                </span>
+
+            `
+            : "";
+
+
+    // ========================================================
     // PREÇO ORIGINAL
     // ========================================================
 
@@ -713,6 +745,9 @@ function montarCardOferta(produto) {
             </span>
 
 
+            ${badgeLoja}
+
+
             <img
                 src="${produto.imagem}"
                 alt="${produto.alt || produto.nome}"
@@ -782,6 +817,8 @@ function montarCardOferta(produto) {
 
     `;
 }
+
+
 // ============================================================
 // CARREGA OS PRODUTOS DO CATÁLOGO
 // ============================================================
@@ -1015,8 +1052,11 @@ async function carregarProdutos(
         }
 
 
+        produtosBaseLoja =
+            [...produtosCategoria];
+
         produtosFiltrados =
-            produtosCategoria;
+            [...produtosCategoria];
 
         paginaAtual =
             1;
@@ -1375,6 +1415,22 @@ function renderizarPagina() {
                 class="fruite-img position-relative"
             >
 
+            <span
+                class="
+                    badge-loja-card
+                    ${
+                        produto.loja === "Amazon"
+                            ? "badge-amazon"
+                            : produto.loja === "Mercado Livre"
+                                ? "badge-mercado-livre"
+                                : produto.loja === "Shopee"
+                                    ? "badge-shopee"
+                                    : ""
+                    }
+                "
+            >
+                ${produto.loja || ""}
+            </span>          
 
                 ${
                     promocaoRelampagoAtiva(
@@ -2119,7 +2175,90 @@ if (campoPesquisa) {
         }
     );
 }
+// ============================================================
+// FILTRO POR LOJA
+// ============================================================
 
+const filtroLoja =
+    document.getElementById(
+        "filtroLoja"
+    );
+
+
+if (filtroLoja) {
+
+    filtroLoja.addEventListener(
+        "change",
+        function () {
+
+            const lojaSelecionada =
+                this.value;
+
+
+            if (
+                lojaSelecionada ===
+                "todas"
+            ) {
+
+                produtosFiltrados =
+                    [...produtosBaseLoja];
+
+            } else {
+
+                produtosFiltrados =
+                    produtosBaseLoja.filter(
+                        produto =>
+                            produto.loja ===
+                            lojaSelecionada
+                    );
+
+            }
+
+
+            paginaAtual =
+                1;
+
+
+            const quantidade =
+                document.getElementById(
+                    "quantidadeProdutos"
+                );
+
+
+            if (quantidade) {
+
+                quantidade.innerText =
+                    produtosFiltrados.length +
+                    (
+                        produtosFiltrados.length === 1
+                            ? " produto encontrado"
+                            : " produtos encontrados"
+                    );
+
+            }
+
+
+            if (
+                ordenacao &&
+                ordenacao.value !== "relevancia"
+            ) {
+
+                ordenacao.dispatchEvent(
+                    new Event(
+                        "change"
+                    )
+                );
+
+            } else {
+
+                renderizarPagina();
+
+            }
+
+        }
+    );
+
+}
 
 // ============================================================
 // ORDENAÇÃO

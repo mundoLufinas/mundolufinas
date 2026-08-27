@@ -3978,3 +3978,142 @@ a {
 .navbar-brand-lufinas {
     margin: 0 !important;
 }
+
+/* =========================================================
+   RODAPÉ - REDES SOCIAIS
+   ========================================================= */
+
+.footer-redes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.footer-rede {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    padding: 8px 14px;
+
+    border: 1px solid var(--rosa-principal);
+    border-radius: 20px;
+
+    color: var(--rosa-principal);
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+.footer-rede:hover {
+    background: var(--rosa-principal);
+    color: #fff !important;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.footer-rede:hover i,
+.footer-rede:hover span {
+    color: #fff !important;
+}
+
+.footer-rede i {
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   BONEQUINHA - MARCA DO RODAPÉ
+   ========================================================= */
+
+.footer-marca {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-bonequinha {
+    width: 190px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto 12px auto !important;
+    object-fit: contain;
+}
+
+.footer-marca .footer-logo {
+    margin-top: 0 !important;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 767px) {
+
+    .footer-bonequinha {
+        width: 135px !important;
+    }
+
+}
+
+/* =========================================================
+   BADGE DA LOJA - CARDS DO CATÁLOGO
+   ========================================================= */
+
+.badge-loja-card {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 6;
+
+    border-radius: 20px;
+    padding: 6px 12px;
+
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10);
+
+    white-space: nowrap;
+}
+/* AMAZON */
+
+.badge-amazon {
+    background: #fff4e6;
+    color: #8a4b00;
+    border: 1px solid #f3c58b;
+}
+
+
+/* MERCADO LIVRE */
+
+.badge-mercado-livre {
+    background: #fffbea;
+    color: #6f5a00;
+    border: 1px solid #eadb87;
+}
+
+
+/* SHOPEE */
+
+.badge-shopee {
+    background: #fff0ec;
+    color: #9a3b27;
+    border: 1px solid #efb4a7;
+}
+/* =========================================================
+   FILTRO DE LOJA - MUNDO LUFINAS
+   ========================================================= */
+
+#filtroLoja {
+    border-color: #ead3dc;
+}
+
+#filtroLoja:focus {
+    border-color: #B63F73;
+    box-shadow: 0 0 0 0.2rem rgba(182, 63, 115, 0.12);
+    outline: none;
+}
