@@ -407,6 +407,32 @@
             box-shadow: 0 5px 12px rgba(0,0,0,.16);
         }
 
+            /* =================================================
+            BOTÃO AMAZON
+            ================================================= */
+
+            .btn-ml.btn-amazon {
+                background: #ff9900 !important;
+                color: #111 !important;
+            }
+
+            .btn-ml.btn-amazon:hover {
+                background: #e68a00 !important;
+                color: #111 !important;
+            }
+
+            .aviso-amazon {
+                background: #fff8eb;
+                border: 1px solid #f3c27a;
+            }
+
+            .aviso-amazon i {
+                color: #ff9900;
+            }
+
+            .aviso-amazon strong {
+                color: #7a4a00;
+            }
 
         /* =================================================
            RESPONSIVIDADE
@@ -887,7 +913,7 @@
                             <div class="produto-compra-area">
 
                                 <a
-                                    id="botaoML"
+                                    id="botaoLoja"
                                     class="btn-ml"
                                     href="#"
                                     target="_blank"
@@ -898,8 +924,8 @@
                                         <i class="fas fa-shopping-bag"></i>
                                     </span>
 
-                                    <span>
-                                        Ver oferta no Mercado Livre
+                                    <span id="textoBotaoLoja">
+                                        Ver oferta
                                     </span>
 
                                     <i class="fas fa-external-link-alt btn-ml-externo"></i>
@@ -907,19 +933,21 @@
                                 </a>
 
 
-                                <div class="produto-aviso-compra">
+                                <div
+                                    class="produto-aviso-compra"
+                                    id="avisoCompra"
+                                >
 
                                     <i class="fas fa-shield-alt"></i>
 
                                     <div>
 
-                                        <strong>
-                                            Compra segura no Mercado Livre
+                                        <strong id="tituloAvisoCompra">
+                                            Compra segura
                                         </strong>
 
-                                        <span>
-                                            Ao clicar no botão acima, você será direcionado
-                                            ao Mercado Livre para finalizar sua compra.
+                                        <span id="textoAvisoCompra">
+                                            Você será direcionado à loja para finalizar sua compra.
                                         </span>
 
                                     </div>

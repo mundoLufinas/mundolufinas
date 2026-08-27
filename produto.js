@@ -848,9 +848,24 @@ document.addEventListener(
                 );
 
 
-            const botaoML =
+            const botaoLoja =
                 document.getElementById(
-                    "botaoML"
+                    "botaoLoja"
+                );
+
+            const textoBotaoLoja =
+                document.getElementById(
+                    "textoBotaoLoja"
+                );
+
+            const tituloAvisoCompra =
+                document.getElementById(
+                    "tituloAvisoCompra"
+                );
+
+            const textoAvisoCompra =
+                document.getElementById(
+                    "textoAvisoCompra"
                 );
 
 
@@ -916,19 +931,109 @@ document.addEventListener(
             // BOTÃO MERCADO LIVRE
             // =================================================
 
-            if (botaoML) {
+            // =================================================
+            // BOTÃO DA LOJA
+            // AMAZON OU MERCADO LIVRE
+            // =================================================
 
-                botaoML.href =
+            if (botaoLoja) {
+
+                botaoLoja.href =
                     produto.link ||
                     "#";
 
-
-                botaoML.target =
+                botaoLoja.target =
                     "_blank";
 
-
-                botaoML.rel =
+                botaoLoja.rel =
                     "noopener noreferrer";
+
+
+                const loja =
+                    String(
+                        produto.loja || ""
+                    )
+                    .trim()
+                    .toLowerCase();
+
+
+                // =============================================
+                // AMAZON
+                // =============================================
+
+                if (loja === "amazon") {
+
+                botaoLoja.classList.add(
+                    "btn-amazon"
+                );
+
+                const avisoCompra =
+                    document.getElementById(
+                        "avisoCompra"
+                    );
+
+                if (avisoCompra) {
+                    avisoCompra.classList.add(
+                        "aviso-amazon"
+                    );
+                }                    
+
+                    if (textoBotaoLoja) {
+                        textoBotaoLoja.textContent =
+                            "Ver oferta na Amazon";
+                    }
+
+                    if (tituloAvisoCompra) {
+                        tituloAvisoCompra.textContent =
+                            "Compra segura na Amazon";
+                    }
+
+                    if (textoAvisoCompra) {
+                        textoAvisoCompra.textContent =
+                            "Ao clicar no botão acima, você será direcionado à Amazon para finalizar sua compra.";
+                    }
+
+                }
+
+
+                // =============================================
+                // MERCADO LIVRE
+                // =============================================
+
+                else {
+
+                botaoLoja.classList.remove(
+                    "btn-amazon"
+                );
+
+                const avisoCompra =
+                    document.getElementById(
+                        "avisoCompra"
+                    );
+
+                if (avisoCompra) {
+                    avisoCompra.classList.remove(
+                        "aviso-amazon"
+                    );
+                }
+                    
+                    if (textoBotaoLoja) {
+                        textoBotaoLoja.textContent =
+                            "Ver oferta no Mercado Livre";
+                    }
+
+                    if (tituloAvisoCompra) {
+                        tituloAvisoCompra.textContent =
+                            "Compra segura no Mercado Livre";
+                    }
+
+                    if (textoAvisoCompra) {
+                        textoAvisoCompra.textContent =
+                            "Ao clicar no botão acima, você será direcionado ao Mercado Livre para finalizar sua compra.";
+                    }
+
+                }
+
             }
 
 

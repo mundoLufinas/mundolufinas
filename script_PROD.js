@@ -2318,6 +2318,9 @@ function obterIconeCategoria(categoria) {
         "todos":
             "fas fa-th-large",
 
+        "alimentos & bebidas":
+            "fas fa-shopping-basket",
+
         "beleza":
             "fas fa-spa",
 
