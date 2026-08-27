@@ -173,7 +173,7 @@ function textoFimPromocao(produto) {
 
 function embaralharPrimeirosProdutos(
     produtos,
-    quantidade = 10
+    quantidade = 5
 ) {
 
     const primeiros =
