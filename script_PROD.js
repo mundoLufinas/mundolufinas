@@ -173,7 +173,7 @@ function textoFimPromocao(produto) {
 
 function embaralharPrimeirosProdutos(
     produtos,
-    quantidade = 10
+    quantidade = 5
 ) {
 
     const primeiros =
@@ -2592,12 +2592,99 @@ async function carregarCategorias() {
             ];
 
 
+// ============================================================
+// ORDEM ESTRATÉGICA DAS CATEGORIAS
+// ============================================================
+
+const ordemCategorias = [
+
+    "Casa",
+
+    "Beleza",
+
+    "Tech, Áudio, Vídeo & Acessórios",
+
+    "Cozinha",
+
+    "Moda",
+
+    "Pet Shop",
+
+    "Reforma & Construção",
+
+    "Esporte & Fitness",
+
+    "Alimentos & Bebidas",
+
+    "Eletrodomésticos"
+
+];
+
+
         categorias.sort(
-            (a, b) =>
-                a.localeCompare(
+            (a, b) => {
+
+                const posicaoA =
+                    ordemCategorias.indexOf(
+                        a
+                    );
+
+                const posicaoB =
+                    ordemCategorias.indexOf(
+                        b
+                    );
+
+
+                // ====================================================
+                // AS DUAS CATEGORIAS ESTÃO NA LISTA ESTRATÉGICA
+                // ====================================================
+
+                if (
+                    posicaoA !== -1 &&
+                    posicaoB !== -1
+                ) {
+
+                    return (
+                        posicaoA -
+                        posicaoB
+                    );
+                }
+
+
+                // ====================================================
+                // SÓ A PRIMEIRA ESTÁ NA LISTA ESTRATÉGICA
+                // ====================================================
+
+                if (
+                    posicaoA !== -1
+                ) {
+
+                    return -1;
+                }
+
+
+                // ====================================================
+                // SÓ A SEGUNDA ESTÁ NA LISTA ESTRATÉGICA
+                // ====================================================
+
+                if (
+                    posicaoB !== -1
+                ) {
+
+                    return 1;
+                }
+
+
+                // ====================================================
+                // CATEGORIAS NOVAS FICAM NO FINAL EM ORDEM ALFABÉTICA
+                // ====================================================
+
+                return a.localeCompare(
                     b,
                     "pt-BR"
-                )
+                );
+
+            }
         );
 
 
