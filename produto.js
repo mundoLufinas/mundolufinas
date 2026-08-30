@@ -948,6 +948,94 @@ document.addEventListener(
                 botaoLoja.rel =
                     "noopener noreferrer";
 
+                    // =================================================
+                    // MEDIR CLIQUE NO BOTÃO DA LOJA
+                    // GOOGLE ANALYTICS + MICROSOFT CLARITY
+                    // =================================================
+
+                    botaoLoja.addEventListener(
+                        "click",
+                        function () {
+
+                            const lojaClique =
+                                String(
+                                    produto.loja || ""
+                                ).trim();
+
+                            const nomeProdutoClique =
+                                String(
+                                    produto.nome || ""
+                                ).trim();
+
+                            const idProdutoClique =
+                                String(
+                                    produto.id || ""
+                                ).trim();
+
+
+                            // =========================================
+                            // GOOGLE ANALYTICS
+                            // =========================================
+
+                            if (
+                                typeof gtag ===
+                                "function"
+                            ) {
+
+                                gtag(
+                                    "event",
+                                    "clique_oferta",
+                                    {
+                                        loja:
+                                            lojaClique,
+
+                                        produto_id:
+                                            idProdutoClique,
+
+                                        produto_nome:
+                                            nomeProdutoClique
+                                    }
+                                );
+
+                            }
+
+
+                            // =========================================
+                            // MICROSOFT CLARITY
+                            // =========================================
+
+                            if (
+                                typeof clarity ===
+                                "function"
+                            ) {
+
+                                clarity(
+                                    "set",
+                                    "loja",
+                                    lojaClique
+                                );
+
+                                clarity(
+                                    "set",
+                                    "produto_id",
+                                    idProdutoClique
+                                );
+
+                                clarity(
+                                    "set",
+                                    "produto_nome",
+                                    nomeProdutoClique
+                                );
+
+                                clarity(
+                                    "event",
+                                    "clique_oferta"
+                                );
+
+                            }
+
+                        }
+                    );                    
 
                 const loja =
                     String(
