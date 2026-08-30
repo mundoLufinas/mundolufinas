@@ -10,6 +10,64 @@ let produtosBaseLoja = [];
 const produtosPorPagina = 24;
 let cacheProdutos = null;
 
+// ============================================================
+// URL AMIGÁVEL DOS PRODUTOS
+// Mantém o ID original e acrescenta o título na URL
+// Exemplo:
+// produto.html?id=45&produto=kit-manicure-portatil
+// ============================================================
+
+function criarSlugProduto(nome) {
+
+    return String(
+        nome || ""
+    )
+        .normalize("NFD")
+        .replace(
+            /[\u0300-\u036f]/g,
+            ""
+        )
+        .toLowerCase()
+        .replace(
+            /[^a-z0-9]+/g,
+            "-"
+        )
+        .replace(
+            /^-+|-+$/g,
+            ""
+        );
+}
+
+
+function criarUrlProduto(produto) {
+
+    const id =
+        encodeURIComponent(
+            produto.id
+        );
+
+    const slug =
+        criarSlugProduto(
+            produto.nome
+        );
+
+    if (!slug) {
+
+        return (
+            "produto.html?id=" +
+            id
+        );
+    }
+
+    return (
+        "produto.html?id=" +
+        id +
+        "&produto=" +
+        encodeURIComponent(
+            slug
+        )
+    );
+}
 
 // ============================================================
 // CARREGA OS PRODUTOS
@@ -734,7 +792,7 @@ function montarCardOferta(produto) {
     return `
 
         <a
-            href="produto.html?id=${produto.id}"
+            href="${criarUrlProduto(produto)}"
             class="card-oferta"
         >
 
@@ -1382,7 +1440,7 @@ function renderizarPagina() {
 <div class="col-6 col-md-6 col-lg-4 col-xl-3 px-1">
 
     <a
-        href="produto.html?id=${produto.id}"
+        href="${criarUrlProduto(produto)}"
         style="
             display: block;
             text-decoration: none;
