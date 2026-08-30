@@ -1147,7 +1147,154 @@ document.addEventListener(
             document.title =
                 `${produto.nome} | Mundo LuFiNas`;
 
+                // ========================================
+                // SEO DINÂMICO DO PRODUTO
+                // DESCRIPTION + CANONICAL
+                // ========================================
 
+                // META DESCRIPTION
+                let metaDescription =
+                    document.querySelector('meta[name="description"]');
+
+                if (metaDescription) {
+
+                    const descricaoSEO =
+                        String(produto.descricao || produto.nome || "")
+                            .replace(/\s+/g, " ")
+                            .trim()
+                            .substring(0, 160);
+
+                    metaDescription.setAttribute(
+                        "content",
+                        descricaoSEO
+                    );
+                }
+
+
+                // URL CANÔNICA
+                const slugSEO =
+                    String(produto.nome || "")
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                        .toLowerCase()
+                        .replace(/[^a-z0-9]+/g, "-")
+                        .replace(/^-+|-+$/g, "");
+
+                const urlCanonica =
+                    `https://mundolufinas.com.br/produto.html?id=${encodeURIComponent(produto.id)}&produto=${encodeURIComponent(slugSEO)}`;
+
+                let canonical =
+                    document.querySelector('link[rel="canonical"]');
+
+                if (!canonical) {
+
+                    canonical =
+                        document.createElement("link");
+
+                    canonical.rel = "canonical";
+
+                    document.head.appendChild(canonical);
+                }
+
+                canonical.href = urlCanonica;                
+                    // ========================================
+                    // OPEN GRAPH DINÂMICO
+                    // COMPARTILHAMENTO DO PRODUTO
+                    // ========================================
+
+                    function definirOpenGraph(propriedade, conteudo) {
+
+                        let meta =
+                            document.querySelector(
+                                `meta[property="${propriedade}"]`
+                            );
+
+                        if (!meta) {
+
+                            meta =
+                                document.createElement("meta");
+
+                            meta.setAttribute(
+                                "property",
+                                propriedade
+                            );
+
+                            document.head.appendChild(meta);
+                        }
+
+                        meta.setAttribute(
+                            "content",
+                            conteudo
+                        );
+                    }
+
+
+                    const tituloOG =
+                        `${produto.nome} | Mundo LuFiNas`;
+
+                    const descricaoOG =
+                        String(
+                            produto.descricao ||
+                            produto.nome ||
+                            ""
+                        )
+                            .replace(/\s+/g, " ")
+                            .trim()
+                            .substring(0, 200);
+
+
+                    // TÍTULO
+                    definirOpenGraph(
+                        "og:title",
+                        tituloOG
+                    );
+
+
+                    // DESCRIÇÃO
+                    definirOpenGraph(
+                        "og:description",
+                        descricaoOG
+                    );
+
+
+                    // URL
+                    definirOpenGraph(
+                        "og:url",
+                        urlCanonica
+                    );
+
+
+                    // TIPO
+                    definirOpenGraph(
+                        "og:type",
+                        "product"
+                    );
+
+
+                    // NOME DO SITE
+                    definirOpenGraph(
+                        "og:site_name",
+                        "Mundo LuFiNas"
+                    );
+
+
+                    // IMAGEM PRINCIPAL
+                    const imagemOG =
+                        produto.imagem
+                            ? new URL(
+                                produto.imagem,
+                                "https://mundolufinas.com.br/"
+                            ).href
+                            : "";
+
+                    if (imagemOG) {
+
+                        definirOpenGraph(
+                            "og:image",
+                            imagemOG
+                        );
+
+                    }
         } catch (erro) {
 
             console.error(
