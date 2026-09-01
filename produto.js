@@ -1051,20 +1051,20 @@ document.addEventListener(
 
                 if (loja === "amazon") {
 
-                botaoLoja.classList.add(
-                    "btn-amazon"
-                );
-
-                const avisoCompra =
-                    document.getElementById(
-                        "avisoCompra"
+                    botaoLoja.classList.add(
+                        "btn-amazon"
                     );
 
-                if (avisoCompra) {
-                    avisoCompra.classList.add(
-                        "aviso-amazon"
-                    );
-                }                    
+                    const avisoCompra =
+                        document.getElementById(
+                            "avisoCompra"
+                        );
+
+                    if (avisoCompra) {
+                        avisoCompra.classList.add(
+                            "aviso-amazon"
+                        );
+                    }
 
                     if (textoBotaoLoja) {
                         textoBotaoLoja.textContent =
@@ -1085,26 +1085,65 @@ document.addEventListener(
 
 
                 // =============================================
+                // SHOPEE
+                // =============================================
+
+                else if (loja === "shopee") {
+
+                    botaoLoja.classList.remove(
+                        "btn-amazon"
+                    );
+
+                    const avisoCompra =
+                        document.getElementById(
+                            "avisoCompra"
+                        );
+
+                    if (avisoCompra) {
+                        avisoCompra.classList.remove(
+                            "aviso-amazon"
+                        );
+                    }
+
+                    if (textoBotaoLoja) {
+                        textoBotaoLoja.textContent =
+                            "Ver oferta na Shopee";
+                    }
+
+                    if (tituloAvisoCompra) {
+                        tituloAvisoCompra.textContent =
+                            "Compra segura na Shopee";
+                    }
+
+                    if (textoAvisoCompra) {
+                        textoAvisoCompra.textContent =
+                            "Ao clicar no botão acima, você será direcionado à Shopee para finalizar sua compra.";
+                    }
+
+                }
+
+
+                // =============================================
                 // MERCADO LIVRE
                 // =============================================
 
                 else {
 
-                botaoLoja.classList.remove(
-                    "btn-amazon"
-                );
-
-                const avisoCompra =
-                    document.getElementById(
-                        "avisoCompra"
+                    botaoLoja.classList.remove(
+                        "btn-amazon"
                     );
 
-                if (avisoCompra) {
-                    avisoCompra.classList.remove(
-                        "aviso-amazon"
-                    );
-                }
-                    
+                    const avisoCompra =
+                        document.getElementById(
+                            "avisoCompra"
+                        );
+
+                    if (avisoCompra) {
+                        avisoCompra.classList.remove(
+                            "aviso-amazon"
+                        );
+                    }
+
                     if (textoBotaoLoja) {
                         textoBotaoLoja.textContent =
                             "Ver oferta no Mercado Livre";
