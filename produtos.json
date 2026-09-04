@@ -155,28 +155,6 @@
   },
   {
     "id": 8,
-    "categoria": "Casa",
-    "subcategoria": "Utilidades",
-    "nome": "Limpador Ultrassônico Joias",
-    "descricao": "Limpador Ultrassônico Uv Joias Moedas Máquina Limpeza Led",
-    "imagem": "fotos/Limpador Ultrassônico Joias.jpg",
-    "alt": "Limpador Ultrassônico Joias",
-    "loja": "Mercado Livre",
-    "preco": "44,74",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "78,80",
-    "desconto": 43,
-    "link": "https://meli.la/2i48rpN",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 8
-  },
-  {
-    "id": 9,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Escova secadora modeladora 1200W",
@@ -195,32 +173,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 9
+    "ordem": 8
   },
   {
-    "id": 10,
-    "categoria": "Beleza",
-    "subcategoria": "Cuidados Pessoais",
-    "nome": "Pente Alisador de Barba",
-    "descricao": "Pente Alisador de Barba e Cabelo Masculino Elétrico Bivolt – Escova Prancha Anti Frizz Portátil",
-    "imagem": "fotos/Pente Alisador de Barba.jpg",
-    "alt": "Pente Alisador de Barba",
-    "loja": "Mercado Livre",
-    "preco": "22,40",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/1yfNEjM",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 10
-  },
-  {
-    "id": 11,
+    "id": 9,
     "categoria": "Reforma & Construção",
     "subcategoria": "",
     "nome": "Papel De Parede Efeito Gesso",
@@ -228,21 +184,21 @@
     "imagem": "fotos/Papel De Parede Efeito Gesso.jpg",
     "alt": "Papel De Parede Efeito Gesso",
     "loja": "Mercado Livre",
-    "preco": "31,73",
+    "preco": "32,90",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
     "precoOriginal": "43,38",
-    "desconto": 26,
+    "desconto": 24,
     "link": "https://meli.la/1w7vVBr",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 11
+    "ordem": 9
   },
   {
-    "id": 12,
+    "id": 10,
     "categoria": "Reforma & Construção",
     "subcategoria": "",
     "nome": "Papel De Parede Pedra",
@@ -261,10 +217,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 12
+    "ordem": 10
   },
   {
-    "id": 13,
+    "id": 11,
     "categoria": "Esporte & Fitness",
     "subcategoria": "",
     "nome": "Chuteira Society Uz",
@@ -283,10 +239,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 13
+    "ordem": 11
   },
   {
-    "id": 14,
+    "id": 12,
     "categoria": "Esporte & Fitness",
     "subcategoria": "",
     "nome": "Bicicleta Ergométrica Spinning Rmira",
@@ -294,21 +250,21 @@
     "imagem": "fotos/Bicicleta Ergométrica Spinning Rmira.jpg",
     "alt": "Bicicleta Ergométrica Spinning Rmira | Esporte & Fitness",
     "loja": "Mercado Livre",
-    "preco": "819,00",
+    "preco": "853,60",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
-    "precoOriginal": "1499,00",
-    "desconto": 45,
+    "precoOriginal": "1399,00",
+    "desconto": 38,
     "link": "https://meli.la/25CjZrD",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 14
+    "ordem": 12
   },
   {
-    "id": 15,
+    "id": 13,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Fone de Ouvido Bluetooth OWS Ear Clip",
@@ -327,10 +283,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 15
+    "ordem": 13
   },
   {
-    "id": 16,
+    "id": 14,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Teclado Mecânico K500-b68",
@@ -349,10 +305,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 16
+    "ordem": 14
   },
   {
-    "id": 17,
+    "id": 15,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jogo 4 Xícaras e Pires de Café",
@@ -371,10 +327,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 17
+    "ordem": 15
   },
   {
-    "id": 18,
+    "id": 16,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Kit 03 Potes Herméticos Para Geladeira",
@@ -393,10 +349,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 18
+    "ordem": 16
   },
   {
-    "id": 19,
+    "id": 17,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Mini Panela De Arroz Elétrica",
@@ -415,10 +371,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 19
+    "ordem": 17
   },
   {
-    "id": 20,
+    "id": 18,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Panela Elétrica 700w",
@@ -437,10 +393,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 20
+    "ordem": 18
   },
   {
-    "id": 21,
+    "id": 19,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Chaleira Elétrica 1000w",
@@ -459,10 +415,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 21
+    "ordem": 19
   },
   {
-    "id": 22,
+    "id": 20,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Kit 6 Potes Vidro Herméticos",
@@ -481,10 +437,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 22
+    "ordem": 20
   },
   {
-    "id": 23,
+    "id": 21,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Conjunto Colar e Brinco Coração",
@@ -503,32 +459,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 23
+    "ordem": 21
   },
   {
-    "id": 24,
-    "categoria": "Moda",
-    "subcategoria": "Roupas",
-    "nome": "Conjunto Blusa Gola Alta E Calça",
-    "descricao": "Conjunto Inverno Frio Blusa Gola Alta E Calça Pantalona",
-    "imagem": "fotos/Conjunto Blusa Gola Alta E Calça.jpg",
-    "alt": "Conjunto Blusa Gola Alta E Calça",
-    "loja": "Mercado Livre",
-    "preco": "59,99",
-    "precoPromocional": "53,99",
-    "condicaoPreco": "PIX",
-    "precoOriginal": "89,90",
-    "desconto": 39,
-    "link": "https://meli.la/1YQxk7c",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 24
-  },
-  {
-    "id": 25,
+    "id": 22,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Relógio Feminino Colar Brinco Pulseira",
@@ -547,10 +481,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 25
+    "ordem": 22
   },
   {
-    "id": 26,
+    "id": 23,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Poltrona e Pufe Inflável",
@@ -559,20 +493,20 @@
     "alt": "Poltrona e Pufe Inflável",
     "loja": "Mercado Livre",
     "preco": "95,54",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
+    "precoPromocional": "89,81",
+    "condicaoPreco": "PIX",
     "precoOriginal": "153,44",
-    "desconto": 37,
+    "desconto": 41,
     "link": "https://meli.la/1BHR7qc",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 26
+    "ordem": 23
   },
   {
-    "id": 27,
+    "id": 24,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Tapete Peludo Felpudo",
@@ -591,10 +525,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 27
+    "ordem": 24
   },
   {
-    "id": 28,
+    "id": 25,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Filtro De Linha 5 Tomadas 4 Usb",
@@ -613,10 +547,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 28
+    "ordem": 25
   },
   {
-    "id": 29,
+    "id": 26,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Escova Rotativa 1300 W",
@@ -635,54 +569,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 29
+    "ordem": 26
   },
   {
-    "id": 30,
-    "categoria": "Beleza",
-    "subcategoria": "Cuidados Pessoais",
-    "nome": "Massageador Facial",
-    "descricao": "Massageador Facial Pescoço Terapia Led Antirrugas E Papada",
-    "imagem": "fotos/Massageador Facial.jpg",
-    "alt": "Massageador Facial",
-    "loja": "Mercado Livre",
-    "preco": "34,99",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/1449o7i",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 30
-  },
-  {
-    "id": 31,
-    "categoria": "Beleza",
-    "subcategoria": "Skincare",
-    "nome": "Kit Principia para Rotina de Skincare",
-    "descricao": "Kit Principia para Rotina de Skincare Pele Sensível com Protetor Solar FPS 60",
-    "imagem": "fotos/Kit Principia para Rotina de Skincare.jpg",
-    "alt": "Kit Principia para Rotina de Skincare",
-    "loja": "Mercado Livre",
-    "preco": "112,34",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "137,00",
-    "desconto": 18,
-    "link": "https://meli.la/2hnBgHu",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 31
-  },
-  {
-    "id": 32,
+    "id": 27,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Tênis Feminino Ortopédico",
@@ -701,10 +591,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 32
+    "ordem": 27
   },
   {
-    "id": 33,
+    "id": 28,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Mini Aspirador Portátil",
@@ -723,10 +613,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 33
+    "ordem": 28
   },
   {
-    "id": 34,
+    "id": 29,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Esfoliante Corporal NIVEA",
@@ -745,10 +635,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 34
+    "ordem": 29
   },
   {
-    "id": 35,
+    "id": 30,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Água Micelar Solução De Limpeza",
@@ -756,43 +646,21 @@
     "imagem": "fotos/Água Micelar Solução De Limpeza.jpg",
     "alt": "Água Micelar Solução De Limpeza | Beleza",
     "loja": "Mercado Livre",
-    "preco": "18,90",
+    "preco": "36,90",
     "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "36,39",
-    "desconto": 48,
+    "condicaoPreco": "",
+    "precoOriginal": "",
+    "desconto": "",
     "link": "https://meli.la/23joJw5",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 35
+    "ordem": 30
   },
   {
-    "id": 36,
-    "categoria": "Beleza",
-    "subcategoria": "Maquiagem",
-    "nome": "Sombra Líquida Océane",
-    "descricao": "Sombra Líquida Cobre Liquid Eyeshadow Sheen 4g Océane",
-    "imagem": "fotos/Sombra Líquida Océane.jpg",
-    "alt": "Sombra Líquida Océane",
-    "loja": "Mercado Livre",
-    "preco": "42,00",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "55,90",
-    "desconto": 24,
-    "link": "https://meli.la/2KEbhLH",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 36
-  },
-  {
-    "id": 37,
+    "id": 31,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Batom Duo Matte Líquido E Bala",
@@ -811,10 +679,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 37
+    "ordem": 31
   },
   {
-    "id": 38,
+    "id": 32,
     "categoria": "Reforma & Construção",
     "subcategoria": "",
     "nome": "Chuveirinho Para Torneiras Sem Rosca",
@@ -833,10 +701,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 38
+    "ordem": 32
   },
   {
-    "id": 39,
+    "id": 33,
     "categoria": "Reforma & Construção",
     "subcategoria": "",
     "nome": "Válvula Pia Inox Com Cesto Removível",
@@ -851,14 +719,14 @@
     "desconto": 24,
     "link": "https://meli.la/1yJRLqy",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 39
+    "ordem": 33
   },
   {
-    "id": 40,
+    "id": 34,
     "categoria": "Reforma & Construção",
     "subcategoria": "",
     "nome": "Torneira 2 Saídas - Tanque e Maquina de Lavar",
@@ -877,32 +745,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 40
+    "ordem": 34
   },
   {
-    "id": 41,
-    "categoria": "Reforma & Construção",
-    "subcategoria": "",
-    "nome": "Torneira 3 Saidas - Tanque Maquina de lavar e tanquinho",
-    "descricao": "Torneira 3 Saidas Em Metal Para Maquina Lavar Multifuncional",
-    "imagem": "fotos/Torneira 3 Saidas - Tanque Maquina de lavar e tanquinho.jpg",
-    "alt": "Torneira 3 Saidas - Tanque Maquina de lavar e tanquinho",
-    "loja": "Mercado Livre",
-    "preco": "59,80",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "69,90",
-    "desconto": 14,
-    "link": "https://meli.la/2VZau7V",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 41
-  },
-  {
-    "id": 42,
+    "id": 35,
     "categoria": "Reforma & Construção",
     "subcategoria": "",
     "nome": "Torneira Metal 3 Saídas",
@@ -911,8 +757,8 @@
     "alt": "Torneira Metal 3 Saídas",
     "loja": "Mercado Livre",
     "preco": "187,45",
-    "precoPromocional": "178,08",
-    "condicaoPreco": "PIX",
+    "precoPromocional": "",
+    "condicaoPreco": "",
     "precoOriginal": "",
     "desconto": "",
     "link": "https://meli.la/2qQDjaV",
@@ -921,10 +767,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 42
+    "ordem": 35
   },
   {
-    "id": 43,
+    "id": 36,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jarra Vidro Tampa Inox",
@@ -939,14 +785,14 @@
     "desconto": 35,
     "link": "https://meli.la/2xpoTYK",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 43
+    "ordem": 36
   },
   {
-    "id": 44,
+    "id": 37,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Filtro Café Permanente 103  Aço Inox",
@@ -961,14 +807,14 @@
     "desconto": 46,
     "link": "https://meli.la/1fqWs8v",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 44
+    "ordem": 37
   },
   {
-    "id": 45,
+    "id": 38,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jogo de Jantar 16 Peças Opalino Branco",
@@ -983,14 +829,14 @@
     "desconto": 34,
     "link": "https://meli.la/1pMWqBF",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 45
+    "ordem": 38
   },
   {
-    "id": 46,
+    "id": 39,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Sandália Rasteira Via Ouro",
@@ -1009,10 +855,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 46
+    "ordem": 39
   },
   {
-    "id": 47,
+    "id": 40,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Sandália Elástico Ortopédica",
@@ -1031,10 +877,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 47
+    "ordem": 40
   },
   {
-    "id": 48,
+    "id": 41,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Kit com 3 Esculturas Decorativas Modernas",
@@ -1049,14 +895,14 @@
     "desconto": 13,
     "link": "https://meli.la/2vVreab",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 48
+    "ordem": 41
   },
   {
-    "id": 49,
+    "id": 42,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Escultura Mulher estudando",
@@ -1075,10 +921,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 49
+    "ordem": 42
   },
   {
-    "id": 50,
+    "id": 43,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Lixeira Inteligente com Sensor",
@@ -1097,10 +943,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 50
+    "ordem": 43
   },
   {
-    "id": 51,
+    "id": 44,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Impressora Multifuncional HP DeskJet",
@@ -1108,21 +954,21 @@
     "imagem": "fotos/Impressora Multifuncional HP DeskJet.jpg",
     "alt": "Impressora Multifuncional HP DeskJet",
     "loja": "Mercado Livre",
-    "preco": "469,99",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "699,00",
-    "desconto": 32,
+    "preco": "499,00",
+    "precoPromocional": "449,10",
+    "condicaoPreco": "PIX",
+    "precoOriginal": "549,00",
+    "desconto": 18,
     "link": "https://meli.la/2Td8tFC",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 51
+    "ordem": 44
   },
   {
-    "id": 52,
+    "id": 45,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Tênis Feminino Questar 3 Adida",
@@ -1141,10 +987,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 52
+    "ordem": 45
   },
   {
-    "id": 53,
+    "id": 46,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Fritadeira Elétrica Air Fryer",
@@ -1163,10 +1009,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 53
+    "ordem": 46
   },
   {
-    "id": 54,
+    "id": 47,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Liquidificador Philco 1200W 3L",
@@ -1174,21 +1020,21 @@
     "imagem": "fotos/Liquidificador Philco 1200W 3L.jpg",
     "alt": "Liquidificador Philco 1200W 3L",
     "loja": "Mercado Livre",
-    "preco": "149,90",
+    "preco": "164,19",
     "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
+    "condicaoPreco": "OFERTA",
+    "precoOriginal": "259,90",
+    "desconto": 36,
     "link": "https://meli.la/1XWXyyK",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 54
+    "ordem": 47
   },
   {
-    "id": 55,
+    "id": 48,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Mixer De Mão Portátil 200w",
@@ -1207,10 +1053,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 55
+    "ordem": 48
   },
   {
-    "id": 56,
+    "id": 49,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Multiprocessador De Alimentos All In",
@@ -1229,10 +1075,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 56
+    "ordem": 49
   },
   {
-    "id": 57,
+    "id": 50,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Fogão Cooktop Safanelli 4 Bocas",
@@ -1247,14 +1093,14 @@
     "desconto": "",
     "link": "https://meli.la/1cYdTfv",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 57
+    "ordem": 50
   },
   {
-    "id": 58,
+    "id": 51,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Geladeira Hisense Inox 417L Inverter Frost Free",
@@ -1273,10 +1119,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 58
+    "ordem": 51
   },
   {
-    "id": 59,
+    "id": 52,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Descascador de Alho Automático",
@@ -1295,10 +1141,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 59
+    "ordem": 52
   },
   {
-    "id": 60,
+    "id": 53,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Smartphone Samsung Galaxy A05s",
@@ -1306,9 +1152,9 @@
     "imagem": "fotos/Smartphone Samsung Galaxy A05s.jpg",
     "alt": "Smartphone Samsung Galaxy A05s",
     "loja": "Mercado Livre",
-    "preco": "970,52",
-    "precoPromocional": "",
-    "condicaoPreco": "",
+    "preco": "1150,00",
+    "precoPromocional": "1000,50",
+    "condicaoPreco": "PIX",
     "precoOriginal": "",
     "desconto": "",
     "link": "https://meli.la/1jdJSc6",
@@ -1317,10 +1163,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 60
+    "ordem": 53
   },
   {
-    "id": 61,
+    "id": 54,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Kit 3 Capa Celular Prova Dagua",
@@ -1339,10 +1185,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 61
+    "ordem": 54
   },
   {
-    "id": 62,
+    "id": 55,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Kit Facial Kokeshi Completo 3 Passos",
@@ -1351,20 +1197,20 @@
     "alt": "Kit Facial Kokeshi Completo 3 Passos",
     "loja": "Mercado Livre",
     "preco": "75,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
+    "precoPromocional": "64,51",
+    "condicaoPreco": "PIX",
     "precoOriginal": "93,90",
-    "desconto": 19,
+    "desconto": 31,
     "link": "https://meli.la/2tQS27h",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 62
+    "ordem": 55
   },
   {
-    "id": 63,
+    "id": 56,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Frigideira Cerâmica Antiaderente Grande 24cm",
@@ -1383,10 +1229,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 63
+    "ordem": 56
   },
   {
-    "id": 64,
+    "id": 57,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Kit Organizadores Com 14 unidades Multiuso",
@@ -1405,10 +1251,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 64
+    "ordem": 57
   },
   {
-    "id": 65,
+    "id": 58,
     "categoria": "Casa",
     "subcategoria": "Utilidades",
     "nome": "Kit Ferramentas 46 Peças",
@@ -1416,21 +1262,21 @@
     "imagem": "fotos/108-kit-ferramentas-46-pe-as.jpg",
     "alt": "Kit Ferramentas 46 Peças",
     "loja": "Mercado Livre",
-    "preco": "27,80",
+    "preco": "36,00",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
-    "precoOriginal": "42,99",
-    "desconto": 35,
+    "precoOriginal": "42,97",
+    "desconto": 16,
     "link": "https://meli.la/1TGdJvW",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 65
+    "ordem": 58
   },
   {
-    "id": 66,
+    "id": 59,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Panela De Meia Pressão Luxo 3,5l",
@@ -1449,10 +1295,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 66
+    "ordem": 59
   },
   {
-    "id": 67,
+    "id": 60,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Cooktop Fogão Itatiaia Essencial 5 Bocas",
@@ -1460,21 +1306,21 @@
     "imagem": "fotos/111-cooktop-fogao-itatiaia-essencial-5-bocas.jpg",
     "alt": "Cooktop Fogão Itatiaia Essencial 5 Bocas",
     "loja": "Mercado Livre",
-    "preco": "356,90",
+    "preco": "274,99",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
     "precoOriginal": "678,90",
-    "desconto": 47,
+    "desconto": 59,
     "link": "https://meli.la/1X1k4iM",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 67
+    "ordem": 60
   },
   {
-    "id": 68,
+    "id": 61,
     "categoria": "Casa",
     "subcategoria": "Utilidades",
     "nome": "Kit 2 Sensores De Presença",
@@ -1482,7 +1328,7 @@
     "imagem": "fotos/112-kit-2-sensores-de-presen-a.jpg",
     "alt": "Kit 2 Sensores De Presença",
     "loja": "Mercado Livre",
-    "preco": "38,20",
+    "preco": "37,99",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
     "precoOriginal": "65,90",
@@ -1493,10 +1339,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 68
+    "ordem": 61
   },
   {
-    "id": 69,
+    "id": 62,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Tênis Asics Macio Couro",
@@ -1515,10 +1361,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 69
+    "ordem": 62
   },
   {
-    "id": 70,
+    "id": 63,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Smartphone Realme Note 70 8gb 256gb",
@@ -1526,21 +1372,21 @@
     "imagem": "fotos/122-smartphone-realme-note-70-8gb-256gb.jpg",
     "alt": "Smartphone Realme Note 70 8gb 256gb",
     "loja": "Mercado Livre",
-    "preco": "1049,99",
-    "precoPromocional": "913,49",
-    "condicaoPreco": "PIX",
+    "preco": "1105,00",
+    "precoPromocional": "",
+    "condicaoPreco": "",
     "precoOriginal": "",
     "desconto": "",
     "link": "https://meli.la/1qxk915",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 70
+    "ordem": 63
   },
   {
-    "id": 71,
+    "id": 64,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Suporte Celular Gps Veicular",
@@ -1555,14 +1401,14 @@
     "desconto": 34,
     "link": "https://meli.la/2tAdp4S",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 71
+    "ordem": 64
   },
   {
-    "id": 72,
+    "id": 65,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Fone Ouvido Bandana Faixa Cabeça Bluetooth",
@@ -1577,80 +1423,14 @@
     "desconto": 7,
     "link": "https://meli.la/1scwPyT",
     "corBotao": "#FFE600",
-    "ativo": true,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 72
-  },
-  {
-    "id": 73,
-    "categoria": "Celulares & Acessórios",
-    "subcategoria": "",
-    "nome": "Suporte Universal De Celular",
-    "descricao": "Suporte Universal De Celular Tablet Mesa Escritório Portátil",
-    "imagem": "fotos/126-suporte-universal-de-celular.jpg",
-    "alt": "Suporte Universal De Celular",
-    "loja": "Mercado Livre",
-    "preco": "19,01",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "22,90",
-    "desconto": 16,
-    "link": "https://meli.la/1CXv9cJ",
-    "corBotao": "#FFE600",
     "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 73
+    "ordem": 65
   },
   {
-    "id": 74,
-    "categoria": "Tech, Áudio, Vídeo & Acessórios",
-    "subcategoria": "",
-    "nome": "Smart TV LG 65 polegadas",
-    "descricao": "Smart TV LG UHD AI UA75 65 polegadas HDR10 Pro Processador α7 AI Ger8 webOS 25",
-    "imagem": "fotos/128-smart-tv-lg-65-polegadas.jpg",
-    "alt": "Smart TV LG 65 polegadas",
-    "loja": "Mercado Livre",
-    "preco": "3887,78",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "4999,00",
-    "desconto": 22,
-    "link": "https://meli.la/1XMuryM",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 74
-  },
-  {
-    "id": 75,
-    "categoria": "Tech, Áudio, Vídeo & Acessórios",
-    "subcategoria": "",
-    "nome": "Smart Tv Philco 50 polegadas",
-    "descricao": "Smart Tv Philco 50 P50vik 4k Uhd Led Roku Dolby Audio Wi-fi Hdr10 110/220v",
-    "imagem": "fotos/129-smart-tv-philco-50-polegadas.jpg",
-    "alt": "Smart Tv Philco 50 polegadas",
-    "loja": "Mercado Livre",
-    "preco": "2221,11",
-    "precoPromocional": "1999,00",
-    "condicaoPreco": "PIX",
-    "precoOriginal": "3499,00",
-    "desconto": 42,
-    "link": "https://meli.la/25TWNZq",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 75
-  },
-  {
-    "id": 76,
+    "id": 66,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Smart Tv Philco 32 polegadas",
@@ -1665,14 +1445,14 @@
     "desconto": 22,
     "link": "https://meli.la/2qXCBdg",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 76
+    "ordem": 66
   },
   {
-    "id": 77,
+    "id": 67,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Roteador Tp-link Wireless",
@@ -1687,58 +1467,14 @@
     "desconto": 23,
     "link": "https://meli.la/1naKeZz",
     "corBotao": "#FFE600",
-    "ativo": true,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 77
-  },
-  {
-    "id": 78,
-    "categoria": "Moda",
-    "subcategoria": "Joias & Bijuterias",
-    "nome": "Relógio Feminino + Colar E Brincos",
-    "descricao": "Relógio Feminino Quartz Prova D Água + Kit Colar E Brincos",
-    "imagem": "fotos/135-relogio-feminino-colar-e-brincos.jpg",
-    "alt": "Relógio Feminino + Colar E Brincos",
-    "loja": "Mercado Livre",
-    "preco": "47,00",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "69,50",
-    "desconto": 32,
-    "link": "https://meli.la/1Yf1xzG",
-    "corBotao": "#FFE600",
     "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 78
+    "ordem": 67
   },
   {
-    "id": 79,
-    "categoria": "Moda",
-    "subcategoria": "Bolsas, Carteiras & Acessórios",
-    "nome": "Bolsa Sacola Grande Universitária + Carteira",
-    "descricao": "Bolsa Sacola Grande Universitária + Carteira Kit Com 2 Peças Cor Rosê",
-    "imagem": "fotos/141-bolsa-sacola-grande-universitaria-carteira.jpg",
-    "alt": "Bolsa Sacola Grande Universitária + Carteira",
-    "loja": "Mercado Livre",
-    "preco": "39,98",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "69,90",
-    "desconto": 42,
-    "link": "https://meli.la/2THBRRA",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 79
-  },
-  {
-    "id": 80,
+    "id": 68,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Purificador Ibbl - Água Gelada - Bivolt",
@@ -1757,10 +1493,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 80
+    "ordem": 68
   },
   {
-    "id": 81,
+    "id": 69,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Purificador De Água Natural - Branco",
@@ -1779,10 +1515,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 81
+    "ordem": 69
   },
   {
-    "id": 82,
+    "id": 70,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Purificador Lorenzetti - Água Natural - Branco",
@@ -1797,14 +1533,14 @@
     "desconto": 17,
     "link": "https://meli.la/26k25We",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 82
+    "ordem": 70
   },
   {
-    "id": 83,
+    "id": 71,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Kit 3 Cintos Femininos Fino",
@@ -1823,10 +1559,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 83
+    "ordem": 71
   },
   {
-    "id": 84,
+    "id": 72,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Bolsa Térmica Marmiteira",
@@ -1845,10 +1581,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 84
+    "ordem": 72
   },
   {
-    "id": 85,
+    "id": 73,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Blusa Multiforme Feminina",
@@ -1867,10 +1603,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 85
+    "ordem": 73
   },
   {
-    "id": 86,
+    "id": 74,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Bolsa Feminina Tote Meia Lua De Ombro E Mão",
@@ -1889,10 +1625,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 86
+    "ordem": 74
   },
   {
-    "id": 87,
+    "id": 75,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Marmita Elétrica 1.5l Com Divisórias",
@@ -1911,32 +1647,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 87
+    "ordem": 75
   },
   {
-    "id": 88,
-    "categoria": "Tech, Áudio, Vídeo & Acessórios",
-    "subcategoria": "",
-    "nome": "Smart Tv 39 Philco Full Hd",
-    "descricao": "Roku Tv Dolby Audio P39cra",
-    "imagem": "fotos/160-smart-tv-39-philco-full-hd.jpg",
-    "alt": "Smart Tv 39 Philco Full Hd",
-    "loja": "Mercado Livre",
-    "preco": "1724,90",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/2Tk6XS3",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 88
-  },
-  {
-    "id": 89,
+    "id": 76,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Aspirador De Pó E Água Inox Turbo",
@@ -1944,21 +1658,21 @@
     "imagem": "fotos/162-aspirador-de-po-e-gua-inox-turbo.jpg",
     "alt": "Aspirador De Pó E Água Inox Turbo",
     "loja": "Mercado Livre",
-    "preco": "359,90",
+    "preco": "335,00",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
     "precoOriginal": "599,90",
-    "desconto": 40,
+    "desconto": 44,
     "link": "https://meli.la/1PbgTCj",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 89
+    "ordem": 76
   },
   {
-    "id": 90,
+    "id": 77,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Teclado Dobrável Bluetooth e Mouse Sem Fio",
@@ -1966,21 +1680,21 @@
     "imagem": "fotos/165-teclado-dobravel-bluetooth-e-mouse-sem-fio.jpg",
     "alt": "Teclado Dobrável Bluetooth e Mouse Sem Fio",
     "loja": "Mercado Livre",
-    "preco": "127,00",
+    "preco": "108,19",
     "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
+    "condicaoPreco": "OFERTA",
+    "precoOriginal": "139,42",
+    "desconto": 22,
     "link": "https://meli.la/1Who5hm",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 90
+    "ordem": 77
   },
   {
-    "id": 91,
+    "id": 78,
     "categoria": "Casa",
     "subcategoria": "Utilidades",
     "nome": "Limpador Magnético Dupla Face para Vidros e Janelas Usefull",
@@ -1999,10 +1713,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 91
+    "ordem": 78
   },
   {
-    "id": 92,
+    "id": 79,
     "categoria": "Casa",
     "subcategoria": "Utilidades",
     "nome": "Kit Movimentador de Móveis com Rodinhas 150 kg",
@@ -2021,10 +1735,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 92
+    "ordem": 79
   },
   {
-    "id": 93,
+    "id": 80,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Suporte Refrigerado para Notebook com 2 Coolers",
@@ -2043,10 +1757,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 93
+    "ordem": 80
   },
   {
-    "id": 94,
+    "id": 81,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Faqueiro Tramontina Búzios",
@@ -2065,32 +1779,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 94
+    "ordem": 81
   },
   {
-    "id": 95,
-    "categoria": "Casa",
-    "subcategoria": "Organização",
-    "nome": "Organizador de Maquiagem Giratório",
-    "descricao": "Organizador em acrílico transparente com giro 360°, ideal para armazenar maquiagens, batons, pincéis, perfumes e cosméticos. Possui divisórias internas e colmeias que mantêm os itens visíveis e acessíveis, além de estrutura resistente, fácil de montar e com design elegante para penteadeiras e banheiros.",
-    "imagem": "fotos/177-organizador-de-maquiagem-giratorio.jpg",
-    "alt": "Organizador de Maquiagem Giratório",
-    "loja": "Mercado Livre",
-    "preco": "44,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "58,80",
-    "desconto": 23,
-    "link": "https://meli.la/2uAgKhY",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 95
-  },
-  {
-    "id": 96,
+    "id": 82,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Batedor Elétrico de Bifes",
@@ -2109,10 +1801,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 96
+    "ordem": 82
   },
   {
-    "id": 97,
+    "id": 83,
     "categoria": "Casa",
     "subcategoria": "Banheiro",
     "nome": "Kit Lavabo Luxo com Bandeja",
@@ -2131,10 +1823,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 97
+    "ordem": 83
   },
   {
-    "id": 98,
+    "id": 84,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Smartwatch Foxbox com Chamada",
@@ -2142,21 +1834,21 @@
     "imagem": "fotos/181-smartwatch-foxbox-com-chamada.jpg",
     "alt": "Smartwatch Foxbox com Chamada",
     "loja": "Mercado Livre",
-    "preco": "182,91",
+    "preco": "193,19",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
     "precoOriginal": "298,00",
-    "desconto": 38,
+    "desconto": 35,
     "link": "https://meli.la/2S2tamQ",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 98
+    "ordem": 84
   },
   {
-    "id": 99,
+    "id": 85,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Geladeira Consul Frost Free 333L",
@@ -2164,7 +1856,7 @@
     "imagem": "fotos/183-geladeira-consul-frost-free-333l.jpg",
     "alt": "Geladeira Consul Frost Free 333L",
     "loja": "Mercado Livre",
-    "preco": "2832,22",
+    "preco": "2917,19",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -2175,10 +1867,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 99
+    "ordem": 85
   },
   {
-    "id": 100,
+    "id": 86,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Geladeira Electrolux IM7 480L",
@@ -2197,10 +1889,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 100
+    "ordem": 86
   },
   {
-    "id": 101,
+    "id": 87,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Multiprocessador Mondial Turbo Chef",
@@ -2208,7 +1900,7 @@
     "imagem": "fotos/185-multiprocessador-mondial-turbo-chef.jpg",
     "alt": "Multiprocessador Mondial Turbo Chef",
     "loja": "Mercado Livre",
-    "preco": "649,00",
+    "preco": "399,00",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -2219,10 +1911,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 101
+    "ordem": 87
   },
   {
-    "id": 102,
+    "id": 88,
     "categoria": "Pet Shop",
     "subcategoria": "",
     "nome": "Coleira Peitoral Para Cachorro Ajustável Com Guia",
@@ -2241,10 +1933,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 102
+    "ordem": 88
   },
   {
-    "id": 103,
+    "id": 89,
     "categoria": "Pet Shop",
     "subcategoria": "",
     "nome": "Coleira Antipulgas e Carrapatos Pet",
@@ -2263,10 +1955,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 103
+    "ordem": 89
   },
   {
-    "id": 104,
+    "id": 90,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Kit 60 Pilhas AAA Palito",
@@ -2285,10 +1977,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 104
+    "ordem": 90
   },
   {
-    "id": 105,
+    "id": 91,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Cobre Leito Casal Oslo Azul 3 Peças",
@@ -2307,10 +1999,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 105
+    "ordem": 91
   },
   {
-    "id": 106,
+    "id": 92,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Kit Relógio Feminino Prateado",
@@ -2329,10 +2021,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 106
+    "ordem": 92
   },
   {
-    "id": 107,
+    "id": 93,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Aparelho de Fondue Preto 6 Pessoas",
@@ -2351,10 +2043,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 107
+    "ordem": 93
   },
   {
-    "id": 108,
+    "id": 94,
     "categoria": "Esporte & Fitness",
     "subcategoria": "",
     "nome": "Esteira Elétrica Dobrável com LCD",
@@ -2369,14 +2061,14 @@
     "desconto": 68,
     "link": "https://meli.la/2vmwUKN",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 108
+    "ordem": 94
   },
   {
-    "id": 109,
+    "id": 95,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Mesa Dobrável para Notebook MDF",
@@ -2395,54 +2087,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 109
+    "ordem": 95
   },
   {
-    "id": 110,
-    "categoria": "Reforma & Construção",
-    "subcategoria": "",
-    "nome": "Torneira Preta para Banheiro em Inox",
-    "descricao": "Torneira de bancada para pia de banheiro ou lavabo, com bica baixa e acabamento preto. Produzida em aço inox, oferece resistência à umidade e visual moderno. Indicada para cubas baixas e bancadas, é uma opção prática para ambientes contemporâneos.",
-    "imagem": "fotos/203-torneira-preta-para-banheiro-em-inox.jpg",
-    "alt": "Torneira Preta para Banheiro em Inox",
-    "loja": "Mercado Livre",
-    "preco": "64,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "90,89",
-    "desconto": 28,
-    "link": "https://meli.la/2wKrwBm",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 110
-  },
-  {
-    "id": 111,
-    "categoria": "Reforma & Construção",
-    "subcategoria": "",
-    "nome": "Tanque Inox Escovado 34x40cm",
-    "descricao": "Tanque para lavanderia em aço inox escovado, com medidas aproximadas de 34 x 40 cm. Acompanha ralo, válvula de escoamento e sifão, oferecendo praticidade para lavar roupas, peças delicadas e utensílios de limpeza. Pode ser instalado embutido ou sobreposto em bancada e possui acabamento moderno.",
-    "imagem": "fotos/204-tanque-inox-escovado-34x40cm.jpg",
-    "alt": "Tanque Inox Escovado 34x40cm",
-    "loja": "Mercado Livre",
-    "preco": "183,34",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "599,00",
-    "desconto": 69,
-    "link": "https://meli.la/2wmAa2T",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 111
-  },
-  {
-    "id": 112,
+    "id": 96,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Faca Elétrica Black+Decker FEL150",
@@ -2461,10 +2109,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 112
+    "ordem": 96
   },
   {
-    "id": 113,
+    "id": 97,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Máscara de Dormir Bluetooth Preta",
@@ -2483,32 +2131,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 113
+    "ordem": 97
   },
   {
-    "id": 114,
-    "categoria": "Moda",
-    "subcategoria": "Roupas",
-    "nome": "Kit 2 Calças Jogger Tactel",
-    "descricao": "Kit com 2 calças jogger masculinas Impulse, nas cores preta e cinza. Feitas em Tactel com elastano, oferecem leveza, conforto e secagem rápida. Têm modelagem slim esportiva, cintura com elástico, punhos jogger e bolsos laterais. Ideais para treinos, corridas, academia e uso casual.",
-    "imagem": "fotos/211-kit-2-cal-as-jogger-tactel.jpg",
-    "alt": "Kit 2 Calças Jogger Tactel",
-    "loja": "Mercado Livre",
-    "preco": "78,89",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "112,71",
-    "desconto": 30,
-    "link": "https://meli.la/1mgUNxD",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 114
-  },
-  {
-    "id": 115,
+    "id": 98,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Blusa Cacharrel Masculina Canelada",
@@ -2527,10 +2153,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 115
+    "ordem": 98
   },
   {
-    "id": 116,
+    "id": 99,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Calça Cargo Jeans Larga Masculina",
@@ -2538,21 +2164,21 @@
     "imagem": "fotos/213-cal-a-cargo-jeans-larga-masculina.jpg",
     "alt": "Calça Cargo Jeans Larga Masculina",
     "loja": "Mercado Livre",
-    "preco": "64,90",
+    "preco": "109,00",
     "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "109,00",
-    "desconto": 40,
+    "condicaoPreco": "",
+    "precoOriginal": "",
+    "desconto": "",
     "link": "https://meli.la/1KQEyt1",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 116
+    "ordem": 99
   },
   {
-    "id": 117,
+    "id": 100,
     "categoria": "Casa",
     "subcategoria": "Iluminação",
     "nome": "Luminária LED com Sensor de Movimento",
@@ -2571,10 +2197,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 117
+    "ordem": 100
   },
   {
-    "id": 118,
+    "id": 101,
     "categoria": "Casa",
     "subcategoria": "Iluminação",
     "nome": "Painel LED Embutir 18W Avant",
@@ -2593,10 +2219,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 118
+    "ordem": 101
   },
   {
-    "id": 119,
+    "id": 102,
     "categoria": "Casa",
     "subcategoria": "Iluminação",
     "nome": "Luminária Solar 63 LEDs com Controle",
@@ -2615,10 +2241,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 119
+    "ordem": 102
   },
   {
-    "id": 120,
+    "id": 103,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Kit Gamer RGB Rosa 4 em 1",
@@ -2637,10 +2263,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 120
+    "ordem": 103
   },
   {
-    "id": 121,
+    "id": 104,
     "categoria": "Reforma & Construção",
     "subcategoria": "",
     "nome": "Válvula Transferidora de Pressão",
@@ -2659,10 +2285,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 121
+    "ordem": 104
   },
   {
-    "id": 122,
+    "id": 105,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Suporte Veicular 360° para Celular",
@@ -2681,10 +2307,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 122
+    "ordem": 105
   },
   {
-    "id": 123,
+    "id": 106,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Forma de Gelo 48 Cubos com Dispenser",
@@ -2703,10 +2329,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 123
+    "ordem": 106
   },
   {
-    "id": 124,
+    "id": 107,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Chapa de Pedra para Fondue e Pizza",
@@ -2725,10 +2351,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 124
+    "ordem": 107
   },
   {
-    "id": 125,
+    "id": 108,
     "categoria": "Esporte & Fitness",
     "subcategoria": "",
     "nome": "Kit 3 Shorts 2 em 1 Masculino",
@@ -2747,10 +2373,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 125
+    "ordem": 108
   },
   {
-    "id": 126,
+    "id": 109,
     "categoria": "Casa",
     "subcategoria": "Iluminação",
     "nome": "Luminária Bola de Cristal 3D LED",
@@ -2769,10 +2395,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 126
+    "ordem": 109
   },
   {
-    "id": 127,
+    "id": 110,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Moto G06 256GB 4gb Ram + 8gb Ram Boost Tela 6,9” Bege",
@@ -2791,32 +2417,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 127
+    "ordem": 110
   },
   {
-    "id": 128,
-    "categoria": "Casa",
-    "subcategoria": "Iluminação",
-    "nome": "Kit 2 Pendentes Borboleta LED Dourados",
-    "descricao": "Kit com 2 luminárias pendentes LED em formato de borboleta, com acabamento dourado, estrutura metálica e asas em acrílico. Possuem LED integrado de 6W, cabo ajustável de até 140 cm e alimentação bivolt automática (110–265V). Ideais para quartos, cabeceiras, corredores e espaços decorativos internos.",
-    "imagem": "fotos/232-kit-2-pendentes-borboleta-led-dourados.jpg",
-    "alt": "Kit 2 Pendentes Borboleta LED Dourados",
-    "loja": "Mercado Livre",
-    "preco": "93,00",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "250,00",
-    "desconto": 62,
-    "link": "https://meli.la/1PUADBG",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 128
-  },
-  {
-    "id": 129,
+    "id": 111,
     "categoria": "Casa",
     "subcategoria": "Iluminação",
     "nome": "Plafon LED 36W Quadrado Dourado",
@@ -2835,10 +2439,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 129
+    "ordem": 111
   },
   {
-    "id": 130,
+    "id": 112,
     "categoria": "Casa",
     "subcategoria": "Iluminação",
     "nome": "Arandela LED Meia Lua IP65",
@@ -2857,10 +2461,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 130
+    "ordem": 112
   },
   {
-    "id": 131,
+    "id": 113,
     "categoria": "Casa",
     "subcategoria": "Iluminação",
     "nome": "Kit 2 Luminárias LED com Sensor",
@@ -2879,10 +2483,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 131
+    "ordem": 113
   },
   {
-    "id": 132,
+    "id": 114,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Legging Flare Bailarina Cintura Alta",
@@ -2901,32 +2505,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 132
+    "ordem": 114
   },
   {
-    "id": 133,
-    "categoria": "Moda",
-    "subcategoria": "Roupas",
-    "nome": "Calça Cargo Wide Leg Cintura Alta",
-    "descricao": "Calça jeans feminina Stillger com modelagem wide leg/pantalona e cintura alta. Possui estilo cargo com 4 bolsos, tecido principal em algodão e caimento amplo. A peça une visual moderno e utilitário, sendo indicada para looks casuais e urbanos. Disponível em diferentes tamanhos e cores, incluindo preto marmorizado.",
-    "imagem": "fotos/240-cal-a-cargo-wide-leg-cintura-alta.jpg",
-    "alt": "Calça Cargo Wide Leg Cintura Alta",
-    "loja": "Mercado Livre",
-    "preco": "69,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "110,90",
-    "desconto": 36,
-    "link": "https://meli.la/28a11Qr",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 133
-  },
-  {
-    "id": 134,
+    "id": 115,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Calça Pantalona com Cinto e Bolsos",
@@ -2945,10 +2527,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 134
+    "ordem": 115
   },
   {
-    "id": 135,
+    "id": 116,
     "categoria": "Eletrodomésticos",
     "subcategoria": "",
     "nome": "Air Fryer WAP Barbecue Heat 6,6L",
@@ -2967,32 +2549,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 135
+    "ordem": 116
   },
   {
-    "id": 136,
-    "categoria": "Eletrodomésticos",
-    "subcategoria": "",
-    "nome": "Air Fryer WAP Barbecue Digital 10L",
-    "descricao": "Fritadeira elétrica WAP Barbecue Digital 12 em 1, com capacidade de 10 litros, painel digital, 1700W e tecnologia Smokeless para reduzir fumaça em ambientes internos. Possui circulação de ar 360°, 4 níveis para grelhar e funções para fritar sem óleo, assar, gratinar, desidratar, cozinhar a vapor, preparar ensopados e manter aquecido.",
-    "imagem": "fotos/243-air-fryer-wap-barbecue-digital-10l.jpg",
-    "alt": "Air Fryer WAP Barbecue Digital 10L",
-    "loja": "Mercado Livre",
-    "preco": "1169,99",
-    "precoPromocional": "1134,89",
-    "condicaoPreco": "PIX",
-    "precoOriginal": "2098,00",
-    "desconto": 45,
-    "link": "https://meli.la/2TQS7ZF",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 136
-  },
-  {
-    "id": 137,
+    "id": 117,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Máquina de Macarrão Elétrica USB",
@@ -3011,10 +2571,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 137
+    "ordem": 117
   },
   {
-    "id": 138,
+    "id": 118,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Tênis Feminino O2X Leve e Confortável",
@@ -3033,10 +2593,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 138
+    "ordem": 118
   },
   {
-    "id": 139,
+    "id": 119,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Kit 3 Frigideiras Antiaderentes",
@@ -3055,10 +2615,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 139
+    "ordem": 119
   },
   {
-    "id": 140,
+    "id": 120,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Fatiador Multiuso de Banana e Legumes",
@@ -3077,10 +2637,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 140
+    "ordem": 120
   },
   {
-    "id": 141,
+    "id": 121,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Secador Taiff Style 2000W Preto",
@@ -3088,21 +2648,21 @@
     "imagem": "fotos/255-secador-taiff-style-2000w-preto.jpg",
     "alt": "Secador Taiff Style 2000W Preto",
     "loja": "Mercado Livre",
-    "preco": "239,00",
+    "preco": "259,90",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
-    "precoOriginal": "404,91",
-    "desconto": 40,
+    "precoOriginal": "299,98",
+    "desconto": 13,
     "link": "https://meli.la/14WTyKa",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 141
+    "ordem": 121
   },
   {
-    "id": 142,
+    "id": 122,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Tênis O2X Feminino para Academia",
@@ -3121,10 +2681,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 142
+    "ordem": 122
   },
   {
-    "id": 143,
+    "id": 123,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Escova Secadora Britânia Soft Rosa",
@@ -3143,10 +2703,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 143
+    "ordem": 123
   },
   {
-    "id": 144,
+    "id": 124,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Protetor Vichy UV Clear FPS 60",
@@ -3165,10 +2725,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 144
+    "ordem": 124
   },
   {
-    "id": 145,
+    "id": 125,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jogo 6 Copos Canelados 423ml",
@@ -3187,10 +2747,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 145
+    "ordem": 125
   },
   {
-    "id": 146,
+    "id": 126,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Soundbar Gamer RGB USB P2",
@@ -3209,10 +2769,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 146
+    "ordem": 126
   },
   {
-    "id": 147,
+    "id": 127,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Caixa de Som Knup KP-6040 RGB",
@@ -3227,14 +2787,14 @@
     "desconto": 24,
     "link": "https://meli.la/2koRCoW",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 147
+    "ordem": 127
   },
   {
-    "id": 148,
+    "id": 128,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Câmera Infantil Instantânea Dorama Rosa",
@@ -3242,21 +2802,21 @@
     "imagem": "fotos/269-camera-infantil-instantanea-dorama-rosa.jpg",
     "alt": "Câmera Infantil Instantânea Dorama Rosa",
     "loja": "Mercado Livre",
-    "preco": "117,99",
-    "precoPromocional": "105,01",
+    "preco": "109,69",
+    "precoPromocional": "97,62",
     "condicaoPreco": "PIX",
     "precoOriginal": "149,99",
-    "desconto": 29,
+    "desconto": 34,
     "link": "https://meli.la/1p9TD25",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 148
+    "ordem": 128
   },
   {
-    "id": 149,
+    "id": 129,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Câmera Infantil Digital 48MP HD",
@@ -3275,10 +2835,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 149
+    "ordem": 129
   },
   {
-    "id": 150,
+    "id": 130,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Câmera Infantil Instantânea HD Kit",
@@ -3297,10 +2857,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 150
+    "ordem": 130
   },
   {
-    "id": 151,
+    "id": 131,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Regata Polo Bicolor",
@@ -3319,10 +2879,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 151
+    "ordem": 131
   },
   {
-    "id": 152,
+    "id": 132,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Suéter Masculino Tricô",
@@ -3341,10 +2901,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 152
+    "ordem": 132
   },
   {
-    "id": 153,
+    "id": 133,
     "categoria": "Esporte & Fitness",
     "subcategoria": "",
     "nome": "Conjunto Fitness Feminino",
@@ -3363,10 +2923,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 153
+    "ordem": 133
   },
   {
-    "id": 154,
+    "id": 134,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Shampoo Grecin Control GX 118ml",
@@ -3374,21 +2934,21 @@
     "imagem": "fotos/25708528-shampoo-re.jpg",
     "alt": "Shampoo Grecin Control GX 118ml",
     "loja": "Mercado Livre",
-    "preco": "83,92",
-    "precoPromocional": "79,72",
+    "preco": "78,33",
+    "precoPromocional": "74,41",
     "condicaoPreco": "PIX",
     "precoOriginal": "111,90",
-    "desconto": 28,
+    "desconto": 33,
     "link": "https://meli.la/2cavhMh",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 154
+    "ordem": 134
   },
   {
-    "id": 155,
+    "id": 135,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Leave-In Elseve Collagen Lifter",
@@ -3407,10 +2967,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 155
+    "ordem": 135
   },
   {
-    "id": 156,
+    "id": 136,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Máscara Elseve Collagen Lifter",
@@ -3429,10 +2989,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 156
+    "ordem": 136
   },
   {
-    "id": 157,
+    "id": 137,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "BB Cream L’Oréal FPS 20",
@@ -3451,10 +3011,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 157
+    "ordem": 137
   },
   {
-    "id": 158,
+    "id": 138,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Corretivo Under Eye Ruby Kisses",
@@ -3473,10 +3033,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 158
+    "ordem": 138
   },
   {
-    "id": 159,
+    "id": 139,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Máscara Maybelline The Colossal",
@@ -3495,32 +3055,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 159
+    "ordem": 139
   },
   {
-    "id": 160,
-    "categoria": "Beleza",
-    "subcategoria": "Maquiagem",
-    "nome": "Paleta Ruby Rose 18 Cores",
-    "descricao": "Paleta de sombras com 18 cores para criar maquiagens neutras, coloridas ou mais elaboradas.",
-    "imagem": "fotos/64116824-paleta-de.jpg",
-    "alt": "Paleta Ruby Rose 18 Cores",
-    "loja": "Mercado Livre",
-    "preco": "52,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "70,47",
-    "desconto": 24,
-    "link": "https://meli.la/312UVYm",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 160
-  },
-  {
-    "id": 161,
+    "id": 140,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Secador Philco PSC3500 4 em 1",
@@ -3539,10 +3077,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 161
+    "ordem": 140
   },
   {
-    "id": 162,
+    "id": 141,
     "categoria": "Beleza",
     "subcategoria": "Cuidados Pessoais",
     "nome": "Body Splash Árabe C4un 200ml",
@@ -3550,43 +3088,21 @@
     "imagem": "fotos/74984894-body-splas.jpg",
     "alt": "Body Splash Árabe C4un 200ml",
     "loja": "Mercado Livre",
-    "preco": "75,98",
+    "preco": "69,65",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
     "precoOriginal": "126,65",
-    "desconto": 40,
+    "desconto": 45,
     "link": "https://meli.la/2ZguChn",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 162
+    "ordem": 141
   },
   {
-    "id": 163,
-    "categoria": "Moda",
-    "subcategoria": "Roupas",
-    "nome": "Casaco Teddy com Capuz",
-    "descricao": "Sobretudo feminino teddy em poliéster, com toque macio, capuz e dois bolsos externos. Ideal para dias frios, passeios e looks casuais de inverno.\r\n",
-    "imagem": "fotos/3306288295-blusa-tedd.jpg",
-    "alt": "Casaco Teddy com Capuz",
-    "loja": "Mercado Livre",
-    "preco": "55,95",
-    "precoPromocional": "47,56",
-    "condicaoPreco": "PIX",
-    "precoOriginal": "170,00",
-    "desconto": 72,
-    "link": "https://meli.la/1xTchYC",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 163
-  },
-  {
-    "id": 164,
+    "id": 142,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Suporte Magnético Wireless",
@@ -3605,10 +3121,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 164
+    "ordem": 142
   },
   {
-    "id": 165,
+    "id": 143,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Kit 2 Suportes Magnéticos Hmaston",
@@ -3627,10 +3143,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 165
+    "ordem": 143
   },
   {
-    "id": 166,
+    "id": 144,
     "categoria": "Celulares & Acessórios",
     "subcategoria": "",
     "nome": "Cordão Ajustável para Celular",
@@ -3649,10 +3165,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 166
+    "ordem": 144
   },
   {
-    "id": 167,
+    "id": 145,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Aparelho de Jantar 30 Peças",
@@ -3671,10 +3187,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 167
+    "ordem": 145
   },
   {
-    "id": 168,
+    "id": 146,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jogo de Bowls de Vidro 150ml 6 Peças",
@@ -3689,14 +3205,14 @@
     "desconto": 40,
     "link": "https://meli.la/2P2Pw2G",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 168
+    "ordem": 146
   },
   {
-    "id": 169,
+    "id": 147,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Toalha de Mesa Retangular 8 Lugares",
@@ -3715,10 +3231,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 169
+    "ordem": 147
   },
   {
-    "id": 170,
+    "id": 148,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Toalha de Mesa Térmica Linho Branco",
@@ -3733,14 +3249,14 @@
     "desconto": "",
     "link": "https://meli.la/1dtiEN8",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 170
+    "ordem": 148
   },
   {
-    "id": 171,
+    "id": 149,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Toalha de Banho Gigante Teka",
@@ -3759,10 +3275,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 171
+    "ordem": 149
   },
   {
-    "id": 172,
+    "id": 150,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Toalha de Rosto Karsten Imperial",
@@ -3781,10 +3297,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 172
+    "ordem": 150
   },
   {
-    "id": 173,
+    "id": 151,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Toalha de Rosto Turim 100% Algodão",
@@ -3803,10 +3319,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 173
+    "ordem": 151
   },
   {
-    "id": 174,
+    "id": 152,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Pano de Prato Karsten Cuisine Branco",
@@ -3825,10 +3341,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 174
+    "ordem": 152
   },
   {
-    "id": 175,
+    "id": 153,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Lençol Casal Sem Elástico 400 Fios",
@@ -3847,10 +3363,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 175
+    "ordem": 153
   },
   {
-    "id": 176,
+    "id": 154,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Kit 4 Guardanapos Algodão Bordô 40x40cm",
@@ -3858,43 +3374,21 @@
     "imagem": "fotos/46449039-kit-4-guar.jpg",
     "alt": "Kit 4 Guardanapos Algodão Bordô 40x40cm",
     "loja": "Mercado Livre",
-    "preco": "48,00",
+    "preco": "43,20",
     "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
+    "condicaoPreco": "OFERTA",
+    "precoOriginal": "48,00",
+    "desconto": 10,
     "link": "https://meli.la/1oCZWF1",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 176
+    "ordem": 154
   },
   {
-    "id": 177,
-    "categoria": "Casa",
-    "subcategoria": "Cama, Mesa & Banho",
-    "nome": "Tapete Passadeira Emborrachada 65cm",
-    "descricao": "Passadeira com 65 cm de largura, vendida por metro. Feita em PVC para durabilidade e resistência, conta com funcionalidade antiderrapante para maior segurança. Possui desenho do tecido liso para uma aparência uniforme e é lavável, permitindo fácil manutenção e limpeza.",
-    "imagem": "fotos/64491829-tapete-pas.jpg",
-    "alt": "Tapete Passadeira Emborrachada 65cm",
-    "loja": "Mercado Livre",
-    "preco": "35,49",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "39,00",
-    "desconto": 9,
-    "link": "https://meli.la/2soBghm",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 177
-  },
-  {
-    "id": 178,
+    "id": 155,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Manta Microfibra Casal Soft Estampada",
@@ -3913,10 +3407,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 178
+    "ordem": 155
   },
   {
-    "id": 179,
+    "id": 156,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Kit 04 Toalha De Geladeira Retangular Pvc Jogo Americano",
@@ -3935,10 +3429,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 179
+    "ordem": 156
   },
   {
-    "id": 180,
+    "id": 157,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Toalhas De Mesa Cobre Mancha Jacquard Quadrada 1,40/1,40 Cor Marsala Geométrico",
@@ -3957,10 +3451,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 180
+    "ordem": 157
   },
   {
-    "id": 181,
+    "id": 158,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Mouse Pad Gamer Grande Antiderrapante 70x35 cm Preto",
@@ -3979,10 +3473,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 181
+    "ordem": 158
   },
   {
-    "id": 182,
+    "id": 159,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Mousepad Antiderrapante Extra Grande Oriental Jogos Samurai 01 60x30cm",
@@ -4001,10 +3495,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 182
+    "ordem": 159
   },
   {
-    "id": 183,
+    "id": 160,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Mousepad Antiderrapante Extra Grande Oriental Jogos Jujutsu 60x30cm",
@@ -4023,10 +3517,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 183
+    "ordem": 160
   },
   {
-    "id": 184,
+    "id": 161,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Mousepad Extra Grande Antiderrapante Oriental Hannya",
@@ -4045,10 +3539,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 184
+    "ordem": 161
   },
   {
-    "id": 185,
+    "id": 162,
     "categoria": "Tech, Áudio, Vídeo & Acessórios",
     "subcategoria": "",
     "nome": "Monitor Enterprise 31.5 Pol Led 75hz Curvo Fhd Framless Preto",
@@ -4067,10 +3561,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 185
+    "ordem": 162
   },
   {
-    "id": 186,
+    "id": 163,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Batom Cremoso Natura Faces Cobre Sunset",
@@ -4078,7 +3572,7 @@
     "imagem": "fotos/29570878-batom-mult.jpg",
     "alt": "Batom Cremoso Natura Faces Cobre Sunset",
     "loja": "Mercado Livre",
-    "preco": "29,90",
+    "preco": "26,86",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4089,10 +3583,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 186
+    "ordem": 163
   },
   {
-    "id": 187,
+    "id": 164,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Kit Capilar Karssellé com 4 Produtos",
@@ -4107,36 +3601,14 @@
     "desconto": "",
     "link": "https://meli.la/19Psjky",
     "corBotao": "#FFE600",
-    "ativo": true,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 187
-  },
-  {
-    "id": 188,
-    "categoria": "Beleza",
-    "subcategoria": "Skincare",
-    "nome": "Máscara Removedora de Cravos Lanbena",
-    "descricao": "A máscara facial Lanbena 3.0 Charcoal é indicada para a remoção de cravos e limpeza profunda da pele na região do nariz. Formulada para pele normal, contém carvão de bambu, extratos de purslane e ácido hialurônico. É um produto hipoalergênico com peso líquido de 30 g e volume de 30 mL.",
-    "imagem": "fotos/1717389-lanbena-3.jpg",
-    "alt": "Máscara Removedora de Cravos Lanbena",
-    "loja": "Mercado Livre",
-    "preco": "8,00",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/2bp828m",
-    "corBotao": "#FFE600",
     "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 188
+    "ordem": 164
   },
   {
-    "id": 189,
+    "id": 165,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Kit Beiermei Pele Madura - Retinol Sérum + Creme 30ml Cada",
@@ -4144,21 +3616,21 @@
     "imagem": "fotos/2083317721-kit-beierm.jpg",
     "alt": "Kit Beiermei Pele Madura - Retinol Sérum + Creme 30ml Cada",
     "loja": "Mercado Livre",
-    "preco": "139,86",
-    "precoPromocional": "128,67",
-    "condicaoPreco": "PIX",
-    "precoOriginal": "189,00",
-    "desconto": 31,
+    "preco": "130,13",
+    "precoPromocional": "",
+    "condicaoPreco": "OFERTA",
+    "precoOriginal": "169,00",
+    "desconto": 23,
     "link": "https://meli.la/2DsSZ8x",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 189
+    "ordem": 165
   },
   {
-    "id": 190,
+    "id": 166,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Kit 2 Escovas Definidoras de Cachos",
@@ -4177,32 +3649,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 190
+    "ordem": 166
   },
   {
-    "id": 191,
-    "categoria": "Beleza",
-    "subcategoria": "Cuidados Pessoais",
-    "nome": "Kit Cortador de Unhas de Metal Verde",
-    "descricao": "Kit de cortadores de unhas feito em metal na cor verde. Item prático para os cuidados e higiene das unhas.",
-    "imagem": "fotos/1717389-kit-cortad.jpg",
-    "alt": "Kit Cortador de Unhas de Metal Verde",
-    "loja": "Mercado Livre",
-    "preco": "9,95",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/2NeL4wb",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 191
-  },
-  {
-    "id": 192,
+    "id": 167,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Caneta Delineadora Preta Big Eye",
@@ -4221,10 +3671,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 192
+    "ordem": 167
   },
   {
-    "id": 193,
+    "id": 168,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Nescau Cereal Matinal Tradicional Leve 770G Embalagem Econômica",
@@ -4243,10 +3693,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 193
+    "ordem": 168
   },
   {
-    "id": 194,
+    "id": 169,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Heinz Ketchup Tradicional 1,033KG",
@@ -4254,7 +3704,7 @@
     "imagem": "fotos/2-heinz-ketchup-tradicional-1-033kg.jpg",
     "alt": "Heinz Ketchup Tradicional 1,033KG",
     "loja": "Amazon",
-    "preco": "20,79",
+    "preco": "18,99",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4265,10 +3715,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 194
+    "ordem": 169
   },
   {
-    "id": 195,
+    "id": 170,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Café em Cápsula NESCAFÉ DOLCE GUSTO Mochaccino Canela 10 Cápsulas",
@@ -4276,7 +3726,7 @@
     "imagem": "fotos/3-cafe-em-capsula-nescafe-dolce-gusto-mochaccino-canela-10-capsulas.jpg",
     "alt": "Café em Cápsula NESCAFÉ DOLCE GUSTO Mochaccino Canela 10 Cápsulas",
     "loja": "Amazon",
-    "preco": "17,99",
+    "preco": "16,99",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4287,10 +3737,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 195
+    "ordem": 170
   },
   {
-    "id": 196,
+    "id": 171,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Azeite De Oliva Extra Virgem Andorinha - 500ml",
@@ -4298,7 +3748,7 @@
     "imagem": "fotos/4-azeite-de-oliva-extra-virgem-andorinha-500ml.jpg",
     "alt": "Azeite De Oliva Extra Virgem Andorinha - 500ml",
     "loja": "Amazon",
-    "preco": "31,90",
+    "preco": "30,90",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4309,10 +3759,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 196
+    "ordem": 171
   },
   {
-    "id": 197,
+    "id": 172,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Cesta Básica Média Completa 22 Itens Com 5 Kilos de Arroz Doação Social, Natal e Igrejas",
@@ -4320,7 +3770,7 @@
     "imagem": "fotos/5-cesta-basica-media-completa-22-itens-com-5-kilos-de-arroz-doacao-social-natal-e.jpg",
     "alt": "Cesta Básica Média Completa 22 Itens Com 5 Kilos de Arroz Doação Social, Natal e Igrejas",
     "loja": "Amazon",
-    "preco": "179,49",
+    "preco": "198,89",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4331,10 +3781,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 197
+    "ordem": 172
   },
   {
-    "id": 198,
+    "id": 173,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Pepinos em Conserva Agridoce Hemmer Vidro 440G",
@@ -4342,7 +3792,7 @@
     "imagem": "fotos/6-pepinos-em-conserva-agridoce-hemmer-vidro-440g.jpg",
     "alt": "Pepinos em Conserva Agridoce Hemmer Vidro 440G",
     "loja": "Amazon",
-    "preco": "20,89",
+    "preco": "19,87",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4353,10 +3803,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 198
+    "ordem": 173
   },
   {
-    "id": 199,
+    "id": 174,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Semente de Linhaça Dourada 200g - Leve Croc - Sem Glúten",
@@ -4375,10 +3825,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 199
+    "ordem": 174
   },
   {
-    "id": 200,
+    "id": 175,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Oner Mix De Nuts Damasco E Cranberry 140G",
@@ -4397,10 +3847,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 200
+    "ordem": 175
   },
   {
-    "id": 201,
+    "id": 176,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Semente de Chia Comercial 500g",
@@ -4419,10 +3869,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 201
+    "ordem": 176
   },
   {
-    "id": 202,
+    "id": 177,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Br Spices Sal Marinho Integral Fino Br Spices Pouch 1Kg",
@@ -4430,7 +3880,7 @@
     "imagem": "fotos/10-br-spices-sal-marinho-integral-fino-br-spices-pouch-1kg.jpg",
     "alt": "Br Spices Sal Marinho Integral Fino Br Spices Pouch 1Kg",
     "loja": "Amazon",
-    "preco": "11,19",
+    "preco": "10,00",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4441,10 +3891,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 202
+    "ordem": 177
   },
   {
-    "id": 203,
+    "id": 178,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Heinz Maionese Tradicional 400G",
@@ -4463,10 +3913,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 203
+    "ordem": 178
   },
   {
-    "id": 204,
+    "id": 179,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Heinz Maionese Churrasco 215g",
@@ -4485,10 +3935,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 204
+    "ordem": 179
   },
   {
-    "id": 205,
+    "id": 180,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Hellmann's Maionese Alho 335gr",
@@ -4507,10 +3957,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 205
+    "ordem": 180
   },
   {
-    "id": 206,
+    "id": 181,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Cesta Romântica com Bombons Lacta, Urso e Balão",
@@ -4529,10 +3979,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 206
+    "ordem": 181
   },
   {
-    "id": 207,
+    "id": 182,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Cesta Eu Te Amo com KitKat, Rosa e Pelúcia",
@@ -4551,10 +4001,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 207
+    "ordem": 182
   },
   {
-    "id": 208,
+    "id": 183,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Smart Sal Marinho De Mossoro Fino 1Kg",
@@ -4573,10 +4023,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 208
+    "ordem": 183
   },
   {
-    "id": 209,
+    "id": 184,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "KitKat Creme Crocante de Chocolate – Pasta para Passar, 330 g",
@@ -4595,10 +4045,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 209
+    "ordem": 184
   },
   {
-    "id": 210,
+    "id": 185,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Isotônico Gatorade, Limão, Garrafa 500ml, Pack com 6 unidades",
@@ -4617,10 +4067,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 210
+    "ordem": 185
   },
   {
-    "id": 211,
+    "id": 186,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Isotônico Gatorade Limão, Garrafa 500ml",
@@ -4639,10 +4089,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 211
+    "ordem": 186
   },
   {
-    "id": 212,
+    "id": 187,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Água Tônica Antarctica, Intense, Lata 350ml, Pack com 12 unidades",
@@ -4661,10 +4111,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 212
+    "ordem": 187
   },
   {
-    "id": 213,
+    "id": 188,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Nescau Bebida Láctea 180ml caixa com 27 unidades",
@@ -4683,10 +4133,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 213
+    "ordem": 188
   },
   {
-    "id": 214,
+    "id": 189,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Cesta Básica De Alimentos Completa 12 Itens Super Premium",
@@ -4705,16 +4155,16 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 214
+    "ordem": 189
   },
   {
-    "id": 215,
+    "id": 190,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
-    "nome": "3VS Nutrition Pré Treino Prohibido Fuel Sabor Citrus Pack Com 6 Unidades De 473ml",
+    "nome": "Pré Treino Prohibido Fuel Sabor Citrus Pack Com 6 Unidades De 473ml 3VS Nutrition",
     "descricao": "Portabilidade: Pré Treino Prohibido Fuel é uma bebida em lata de 473ml, perfeita para levar para qualquer lugar. Sabor Intenso: Com seu sabor inconfundível, o Pré Treino que você ama, agora pronto para qualquer ocasião, em qualquer lugar. Ingredientes Selecionados: Formulada com ingredientes cuidadosamente selecionados. Creatina, Beta Alanina, Taurina, Cafeína, Arginina, L-tirosina, Palatinose E L-alanina. Praticidade: A embalagem em lata é resistente e fácil de transportar, ideal para o seu estilo de vida ativo. Energia: Seu corpo é uma máquina, que para funcionar na sua máxima potência precisa dos ingredientes corretos, nas doses certas. É a formulação ideal que Prohibido Fuel traz para o seu corpo",
     "imagem": "fotos/26-3vs-nutrition-pre-treino-prohibido-fuel-sabor-citrus-pack-com-6-unidades-de-473ml.jpg",
-    "alt": "3VS Nutrition Pré Treino Prohibido Fuel Sabor Citrus Pack Com 6 Unidades De 473ml",
+    "alt": "Pré Treino Prohibido Fuel Sabor Citrus Pack Com 6 Unidades De 473ml 3VS Nutrition",
     "loja": "Amazon",
     "preco": "59,90",
     "precoPromocional": "",
@@ -4727,10 +4177,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 215
+    "ordem": 190
   },
   {
-    "id": 216,
+    "id": 191,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Nutra Senior Adulto 50+ Complemento Alimentar 400g - 28 Vitaminas e Minerais (Cappuccino)",
@@ -4749,10 +4199,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 216
+    "ordem": 191
   },
   {
-    "id": 217,
+    "id": 192,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Nutra Senior Adulto 50+ Complemento Alimentar 400g - 28 Vitaminas e Minerais (Chocolate)",
@@ -4771,10 +4221,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 217
+    "ordem": 192
   },
   {
-    "id": 218,
+    "id": 193,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Nutra Senior Adulto 50+ Complemento Alimentar 400g - 28 Vitaminas e Minerais (Natural)",
@@ -4793,10 +4243,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 218
+    "ordem": 193
   },
   {
-    "id": 219,
+    "id": 194,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Nutren Protein, Suplemento Alimentar, Chocolate, 400g",
@@ -4804,7 +4254,7 @@
     "imagem": "fotos/30-nutren-protein-suplemento-alimentar-chocolate-400g.jpg",
     "alt": "Nutren Protein, Suplemento Alimentar, Chocolate, 400g",
     "loja": "Amazon",
-    "preco": "79,72",
+    "preco": "81,89",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4815,10 +4265,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 219
+    "ordem": 194
   },
   {
-    "id": 220,
+    "id": 195,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Nutren senior 740g - baunilha",
@@ -4826,7 +4276,7 @@
     "imagem": "fotos/31-nutren-senior-740g-baunilha.jpg",
     "alt": "Nutren senior 740g - baunilha",
     "loja": "Amazon",
-    "preco": "143,90",
+    "preco": "144,90",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4837,10 +4287,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 220
+    "ordem": 195
   },
   {
-    "id": 221,
+    "id": 196,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Tempero Lemon Pepper Pt Canny 120g",
@@ -4859,10 +4309,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 221
+    "ordem": 196
   },
   {
-    "id": 222,
+    "id": 197,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Paprica Defumada Temperada 130g",
@@ -4881,10 +4331,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 222
+    "ordem": 197
   },
   {
-    "id": 223,
+    "id": 198,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Tempero Completo \"da Casa\" 90g",
@@ -4903,10 +4353,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 223
+    "ordem": 198
   },
   {
-    "id": 224,
+    "id": 199,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Pesto de Cogumelo Shiitake Gourmet com Castanha de Baru do Cerrado Brasileiro – Molho Premium para Massas, Risotos e Bruschettas – Sabor Intenso e Ingredientes Naturais",
@@ -4914,7 +4364,7 @@
     "imagem": "fotos/35-pesto-de-cogumelo-shiitake-gourmet-com-castanha-de-baru-do-cerrado-brasileiro.jpg",
     "alt": "Pesto de Cogumelo Shiitake Gourmet com Castanha de Baru do Cerrado Brasileiro – Molho Premium para Massas, Risotos e Bruschettas – Sabor Intenso e Ingredientes Naturais",
     "loja": "Amazon",
-    "preco": "34,70",
+    "preco": "31,23",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4925,10 +4375,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 224
+    "ordem": 199
   },
   {
-    "id": 225,
+    "id": 200,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "La Pastina Molho Alla Puttanesca 320G",
@@ -4947,10 +4397,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 225
+    "ordem": 200
   },
   {
-    "id": 226,
+    "id": 201,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Biscoito Recheado Oreo Original - Display com 8 unidades de 36g",
@@ -4958,7 +4408,7 @@
     "imagem": "fotos/37-biscoito-recheado-oreo-original-display-com-8-unidades-de-36g.jpg",
     "alt": "Biscoito Recheado Oreo Original - Display com 8 unidades de 36g",
     "loja": "Amazon",
-    "preco": "16,32",
+    "preco": "14,99",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -4969,10 +4419,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 226
+    "ordem": 201
   },
   {
-    "id": 227,
+    "id": 202,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Relógio LED Feminino, Colar e Brincos",
@@ -4987,14 +4437,14 @@
     "desconto": 35,
     "link": "https://meli.la/2uAR919",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 227
+    "ordem": 202
   },
   {
-    "id": 228,
+    "id": 203,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Conjunto Feminino com Relógio Quartzo 38mm em Aço Inoxidável e Pulseira de Couro + 2 Pulseiras Douradas com Pérolas – \"Estilo e Sofisticação no Dia a Dia\"",
@@ -5013,10 +4463,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 228
+    "ordem": 203
   },
   {
-    "id": 229,
+    "id": 204,
     "categoria": "Beleza",
     "subcategoria": "Cabelos e Aparelhos",
     "nome": "Modelador Giratório de Cachos Automático Ondulação Ferro Premium Alta Perfomance (Rosa)",
@@ -5035,10 +4485,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 229
+    "ordem": 204
   },
   {
-    "id": 230,
+    "id": 205,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Garrafa De Água Jarra Suco Geladeira Tampa Higiênica Automática Com Efeito Cascata 1,9L (Azul)",
@@ -5057,10 +4507,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 230
+    "ordem": 205
   },
   {
-    "id": 231,
+    "id": 206,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Kit Relógio Feminino, Colar e Brincos",
@@ -5079,10 +4529,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 231
+    "ordem": 206
   },
   {
-    "id": 232,
+    "id": 207,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Porta-Ovos Deslizante para Geladeira",
@@ -5101,32 +4551,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 232
+    "ordem": 207
   },
   {
-    "id": 233,
-    "categoria": "Cozinha",
-    "subcategoria": "Utensílios & Preparo",
-    "nome": "Kit 6 Tampas de Silicone Universais",
-    "descricao": "Kit com 6 tampas de silicone universais, indicadas para potes e panelas. As tampas são flexíveis e laváveis.",
-    "imagem": "fotos/1717941-kit-6-tamp.jpg",
-    "alt": "Kit 6 Tampas de Silicone Universais",
-    "loja": "Mercado Livre",
-    "preco": "8,63",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "20,90",
-    "desconto": 58,
-    "link": "https://meli.la/212hJuP",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 233
-  },
-  {
-    "id": 234,
+    "id": 208,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Relógio Feminino Bracelete Ultrafino \"Ouro Negro\" – Zircônias Cúbicas, Pulseira Ajustável 22cm, Visor Hardlex 37mm, Elegante e Sofisticado – Luxo Discreto no Pulso + Caixa Premium",
@@ -5145,32 +4573,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 234
+    "ordem": 208
   },
   {
-    "id": 235,
-    "categoria": "Casa",
-    "subcategoria": "Organização",
-    "nome": "Cabide Mágico Dobrável 9 Furos",
-    "descricao": "Organizador de roupas com rotação de 360 graus e 9 furos. Possui estrutura dobrável para auxiliar na organização das peças. Acompanha nota fiscal.",
-    "imagem": "fotos/4071435290-cabide-mag.jpg",
-    "alt": "Cabide Mágico Dobrável 9 Furos",
-    "loja": "Mercado Livre",
-    "preco": "9,50",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/1zpjNvF",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 235
-  },
-  {
-    "id": 236,
+    "id": 209,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Conjunto Feminino 5 Peças \"Nicky\" – Relógio Rosê com Strass, Anel Ajustável, Colar, Pulseira e Brincos – Aço Inoxidável, Sofisticação e Estilo para Todas as Ocasiões – Acompanha Bolsa de Veludo",
@@ -5189,10 +4595,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 236
+    "ordem": 209
   },
   {
-    "id": 237,
+    "id": 210,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Descascador Multifuncional 7 em 1",
@@ -5211,10 +4617,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 237
+    "ordem": 210
   },
   {
-    "id": 238,
+    "id": 211,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Sanduicheira Elétrica Cadence Click - 127V",
@@ -5222,7 +4628,7 @@
     "imagem": "fotos/43-sanduicheira-eletrica-cadence-click-127v.jpg",
     "alt": "Sanduicheira Elétrica Cadence Click - 127V",
     "loja": "Amazon",
-    "preco": "90,16",
+    "preco": "85,64",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -5233,10 +4639,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 238
+    "ordem": 211
   },
   {
-    "id": 239,
+    "id": 212,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Relógio De Parede Grande Led Digital Para Academia Hospital",
@@ -5255,10 +4661,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 239
+    "ordem": 212
   },
   {
-    "id": 240,
+    "id": 213,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Kit Organizador de Viagem Travel 6",
@@ -5277,10 +4683,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 240
+    "ordem": 213
   },
   {
-    "id": 241,
+    "id": 214,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Bolsa Baguete Transversal de Ombro",
@@ -5299,10 +4705,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 241
+    "ordem": 214
   },
   {
-    "id": 242,
+    "id": 215,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Bolsa Necessaire Organizadora Rosa",
@@ -5321,10 +4727,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 242
+    "ordem": 215
   },
   {
-    "id": 243,
+    "id": 216,
     "categoria": "Moda",
     "subcategoria": "Bolsas, Carteiras & Acessórios",
     "nome": "Carteira Feminina Pequena em Couro",
@@ -5343,10 +4749,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 243
+    "ordem": 216
   },
   {
-    "id": 244,
+    "id": 217,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Papete Chinelo Feminino Plataforma Blogueiras Confortável",
@@ -5365,10 +4771,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 244
+    "ordem": 217
   },
   {
-    "id": 245,
+    "id": 218,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Sandália Espadrile Feminina",
@@ -5383,14 +4789,14 @@
     "desconto": 67,
     "link": "https://meli.la/2URN3jJ",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 245
+    "ordem": 218
   },
   {
-    "id": 246,
+    "id": 219,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Sandália Papete Feminina Moratta Shoes",
@@ -5409,10 +4815,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 246
+    "ordem": 219
   },
   {
-    "id": 247,
+    "id": 220,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Sandália Salto Alto Grosso Strass Brilho Confort Blogueira",
@@ -5431,32 +4837,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 247
+    "ordem": 220
   },
   {
-    "id": 248,
-    "categoria": "Moda",
-    "subcategoria": "Calçados",
-    "nome": "Sandália Feminina Salto Baixo",
-    "descricao": "Sandália feminina desenvolvida com salto baixo, bico quadrado e detalhe em três tiras.",
-    "imagem": "fotos/4693936152-sandalia-f.jpg",
-    "alt": "Sandália Feminina Salto Baixo",
-    "loja": "Mercado Livre",
-    "preco": "59,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "89,90",
-    "desconto": 33,
-    "link": "https://meli.la/2kMPyDw",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 248
-  },
-  {
-    "id": 249,
+    "id": 221,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Short Feminino Duna Cintura Alta",
@@ -5475,10 +4859,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 249
+    "ordem": 221
   },
   {
-    "id": 250,
+    "id": 222,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Shorts Feminino Alfaiataria com Cinto",
@@ -5497,32 +4881,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 250
+    "ordem": 222
   },
   {
-    "id": 251,
-    "categoria": "Moda",
-    "subcategoria": "Roupas",
-    "nome": "Short Feminino de Linho Cintura Alta",
-    "descricao": "Short feminino confeccionado em linho. Possui cintura alta, cós com elástico e bolso.",
-    "imagem": "fotos/4426820615-short-femi.jpg",
-    "alt": "Short Feminino de Linho Cintura Alta",
-    "loja": "Mercado Livre",
-    "preco": "29,10",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "49,90",
-    "desconto": 41,
-    "link": "https://meli.la/2a2kFdZ",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 251
-  },
-  {
-    "id": 252,
+    "id": 223,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Cropped Feminina Basico Estiloso Manga Curta Confortavel",
@@ -5541,10 +4903,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 252
+    "ordem": 223
   },
   {
-    "id": 253,
+    "id": 224,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Blusa Regata Feminina Gola Alta Tecido Crepe Moda Evangelica",
@@ -5559,14 +4921,14 @@
     "desconto": "",
     "link": "https://meli.la/2FhS5Cz",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 253
+    "ordem": 224
   },
   {
-    "id": 254,
+    "id": 225,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Potiche De Vidro Pote Cannelle Com Tampa Multiuso Dolce Home",
@@ -5585,10 +4947,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 254
+    "ordem": 225
   },
   {
-    "id": 255,
+    "id": 226,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Kit 2 Bombonieres de Vidro 300ml Pítia",
@@ -5607,10 +4969,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 255
+    "ordem": 226
   },
   {
-    "id": 256,
+    "id": 227,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Potiche C/ Tampa Diamond 300ml 25906 - Vencedor",
@@ -5629,10 +4991,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 256
+    "ordem": 227
   },
   {
-    "id": 257,
+    "id": 228,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Potiche Decorativo de Cristal com Pé e Tampa Butterfly Wolff",
@@ -5651,32 +5013,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 257
+    "ordem": 228
   },
   {
-    "id": 258,
-    "categoria": "Cozinha",
-    "subcategoria": "Organização & Armazenamento",
-    "nome": "Potiche De Vidro",
-    "descricao": "Unidades por kit: 1. | Vidro transparente e brilhante permite visualizar conteúdo e decoração enriquecendo seu espaço. | Tampa inclusa assegura proteção ao armazenar itens pequenos mantendo-os organizados e seguros. | Dimensões de 8,7x10,5cm otimizam espaço em mesas e aparadores com elegância clássica.",
-    "imagem": "fotos/64998266-potiche-de.jpg",
-    "alt": "Potiche De Vidro ",
-    "loja": "Mercado Livre",
-    "preco": "23,61",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/2id3UD4",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 258
-  },
-  {
-    "id": 259,
+    "id": 229,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Tesoura De Cozinha Corta Osso De Frango Peixe Profissional",
@@ -5684,21 +5024,21 @@
     "imagem": "fotos/4893726839-tesoura-de.jpg",
     "alt": "Tesoura De Cozinha Corta Osso De Frango Peixe Profissional",
     "loja": "Mercado Livre",
-    "preco": "13,57",
+    "preco": "18,10",
     "precoPromocional": "",
     "condicaoPreco": "OFERTA",
     "precoOriginal": "19,99",
-    "desconto": 32,
+    "desconto": 9,
     "link": "https://meli.la/1wbGusf",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 259
+    "ordem": 229
   },
   {
-    "id": 260,
+    "id": 230,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Kit 5 Peças De Bambu 4 Utensílios Em Bamboo Colher De Pau",
@@ -5717,32 +5057,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 260
+    "ordem": 230
   },
   {
-    "id": 261,
-    "categoria": "Cozinha",
-    "subcategoria": "Utensílios & Preparo",
-    "nome": "Descascador De Alho Sem Deixar Cheiro Nas Mãos Tira Casca",
-    "descricao": "Peso: 100g.",
-    "imagem": "fotos/4482735127-descascado.jpg",
-    "alt": "Descascador De Alho Sem Deixar Cheiro Nas Mãos Tira Casca",
-    "loja": "Mercado Livre",
-    "preco": "10,90",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/1AHD819",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 261
-  },
-  {
-    "id": 262,
+    "id": 231,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Kit 2 Garrafa Vidro Whisky Licoreira Licor Vinho Relevo",
@@ -5761,10 +5079,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 262
+    "ordem": 231
   },
   {
-    "id": 263,
+    "id": 232,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Caneca Mixer Inox Misturador Automático Recarregável Usb",
@@ -5783,10 +5101,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 263
+    "ordem": 232
   },
   {
-    "id": 264,
+    "id": 233,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Kit Limpeza de Pele Rosa Mosqueta Skin Care Completo 5 Itens",
@@ -5805,32 +5123,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 264
+    "ordem": 233
   },
   {
-    "id": 265,
-    "categoria": "Casa",
-    "subcategoria": "Utilidades",
-    "nome": "Lixeira Inteligente 16L Com Sensor USB",
-    "descricao": "Esta lixeira de 16 litros possui sensor automático que abre a tampa por aproximação, permitindo um descarte higiênico sem contato manual. Seu funcionamento é recarregável via USB. Com formato retangular e bordas arredondadas, adapta-se facilmente a cantos e pequenos espaços em banheiros, cozinhas e escritórios. Produzida em plástico resistente na cor preta, garante durabilidade no uso diário.",
-    "imagem": "fotos/66455397-lixeira-in.jpg",
-    "alt": "Lixeira Inteligente 16L Com Sensor USB",
-    "loja": "Mercado Livre",
-    "preco": "69,99",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/2MTobPy",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 265
-  },
-  {
-    "id": 266,
+    "id": 234,
     "categoria": "Casa",
     "subcategoria": "Utilidades",
     "nome": "Lixeira Inteligente Automática 16L Sensor Infravermelho Recarregável USB-C 3 Modos Tampa Touch Banheiro Cozinha",
@@ -5849,10 +5145,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 266
+    "ordem": 234
   },
   {
-    "id": 267,
+    "id": 235,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Sérum 2% Ácidos Hialurônicos + Vitamina B5 AH-2- Hidratante Antissinais com 30ml",
@@ -5871,10 +5167,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 267
+    "ordem": 235
   },
   {
-    "id": 268,
+    "id": 236,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Sérum Vitamina C 10% + Ácido Ferúlico VC-10 - Antioxidante com 30ml",
@@ -5893,10 +5189,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 268
+    "ordem": 236
   },
   {
-    "id": 269,
+    "id": 237,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Creme Hidratante Facial 5% Manteiga de Karité + 5% Glicerina + 2% Niacinamida CH-01 com 50g",
@@ -5904,7 +5200,7 @@
     "imagem": "fotos/49-creme-hidrat.jpg",
     "alt": "Creme Hidratante Facial 5% Manteiga de Karité + 5% Glicerina + 2% Niacinamida CH-01 com 50g",
     "loja": "Amazon",
-    "preco": "35,44",
+    "preco": "38,22",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -5915,10 +5211,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 269
+    "ordem": 237
   },
   {
-    "id": 270,
+    "id": 238,
     "categoria": "Beleza",
     "subcategoria": "Skincare",
     "nome": "Protetor Solar Facial 16,5% Mix de Filtros UV + 5% Niacinamida FPS 60 PS-01 com 40ml",
@@ -5937,54 +5233,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 270
+    "ordem": 238
   },
   {
-    "id": 271,
-    "categoria": "Casa",
-    "subcategoria": "Decoração",
-    "nome": "Espelho com LED Pílula 44x64 cm",
-    "descricao": "O espelho decorativo modelo Pílula da Casa Domo possui formato orgânico e dimensões de 44x64 cm, sendo ideal para banheiros, salas e ambientes comerciais. Confeccionado com espelho Guardian de 3 mm de espessura e estrutura com E.V.A., conta com iluminação LED integrada (disponível em luz fria ou quente). Possui acabamento em vidro lapidado e inclui suporte para instalação na parede.",
-    "imagem": "fotos/4275759349-espelho-co.jpg",
-    "alt": "Espelho com LED Pílula 44x64 cm",
-    "loja": "Mercado Livre",
-    "preco": "74,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "98,00",
-    "desconto": 23,
-    "link": "https://meli.la/2y2dcZA",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 271
-  },
-  {
-    "id": 272,
-    "categoria": "Casa",
-    "subcategoria": "Decoração",
-    "nome": "Espelho Redondo 40cm com LED Branco",
-    "descricao": "Espelho lapidado redondo de 40 cm de diâmetro e 3 mm de espessura, com iluminação retroiluminada em LED de luz branca fria (6000K). Ideal para maquiagem e decoração de quartos, salas, salões e estúdios. Acompanha fonte bivolt (110/220V) e possui pendurador já fixado na parte traseira. Para uma instalação segura, recomenda-se o uso de parafuso e bucha número 08.",
-    "imagem": "fotos/3623856387-espelho-pe.jpg",
-    "alt": "Espelho Redondo 40cm com LED Branco",
-    "loja": "Mercado Livre",
-    "preco": "71,67",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "249,90",
-    "desconto": 71,
-    "link": "https://meli.la/26QwTX8",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 272
-  },
-  {
-    "id": 273,
+    "id": 239,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Espelho Bari Glass 70x50cm Lapidado",
@@ -5999,14 +5251,14 @@
     "desconto": 12,
     "link": "https://meli.la/1tVKJTj",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 273
+    "ordem": 239
   },
   {
-    "id": 274,
+    "id": 240,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Espelho Florença 90x40cm",
@@ -6025,10 +5277,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 274
+    "ordem": 240
   },
   {
-    "id": 275,
+    "id": 241,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Espelho Mirano Lisboa Lapidado 80x40cm",
@@ -6047,32 +5299,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 275
+    "ordem": 241
   },
   {
-    "id": 276,
-    "categoria": "Casa",
-    "subcategoria": "Decoração",
-    "nome": "Espelho Adnet Vildrex 40cm Branco",
-    "descricao": "Espelho decorativo com moldura de alumínio na cor branca e 40 cm de altura. O modelo Vildrex Adnet não possui iluminação integrada e é indicado para a decoração de diversos ambientes, como banheiro, lavabo, hall de entrada, quarto, sala de estar, escritório e espaços comerciais.",
-    "imagem": "fotos/7052521018-espelho-vi.jpg",
-    "alt": "Espelho Adnet Vildrex 40cm Branco",
-    "loja": "Mercado Livre",
-    "preco": "54,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "99,90",
-    "desconto": 45,
-    "link": "https://meli.la/1A3fjGQ",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 276
-  },
-  {
-    "id": 277,
+    "id": 242,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Espelho com LED Marrocos 44x64 cm",
@@ -6091,32 +5321,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 277
+    "ordem": 242
   },
   {
-    "id": 278,
-    "categoria": "Casa",
-    "subcategoria": "Decoração",
-    "nome": "Espelho Orgânico LED Quente 50x40cm",
-    "descricao": "Espelho de formato orgânico com 1 luz LED quente, adequado para banheiros, quartos, salas de estar, halls de entrada, penteadeiras e camarins. Mede 50 cm de altura por 40 cm de largura e vem com gancho para pendurar na parede. Funciona com alimentação por fonte na voltagem 127/220V. É indicado para decoração, iluminação, ampliação de ambiente e uso pessoal.",
-    "imagem": "fotos/70097751-espelho-de.jpg",
-    "alt": "Espelho Orgânico LED Quente 50x40cm",
-    "loja": "Mercado Livre",
-    "preco": "78,90",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "119,90",
-    "desconto": 34,
-    "link": "https://meli.la/2gJiH6G",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 278
-  },
-  {
-    "id": 279,
+    "id": 243,
     "categoria": "Casa",
     "subcategoria": "Banheiro",
     "nome": "Kit 2 Tapetes de Banheiro 60x40cm",
@@ -6135,32 +5343,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 279
+    "ordem": 243
   },
   {
-    "id": 280,
-    "categoria": "Casa",
-    "subcategoria": "Banheiro",
-    "nome": "Saboneteira Automática de Espuma USB",
-    "descricao": "Dispenser automático com sensor infravermelho que libera espuma em 0,25 segundos a até 7 cm de distância. Conta com quatro níveis de dosagem ajustáveis, capacidade de 400 mL, visor transparente e estrutura em ABS para uso em bancada ou parede. A bateria recarregável via USB-C dura até 60 dias após 2 horas de carga. Possui recipiente com abertura larga que facilita o reabastecimento com sabonete líquido ou detergente.",
-    "imagem": "fotos/75682185-saboneteir.jpg",
-    "alt": "Saboneteira Automática de Espuma USB",
-    "loja": "Mercado Livre",
-    "preco": "59,40",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "99,00",
-    "desconto": 40,
-    "link": "https://meli.la/2FazaRb",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 280
-  },
-  {
-    "id": 281,
+    "id": 244,
     "categoria": "Casa",
     "subcategoria": "Banheiro",
     "nome": "Saboneteira Automática Espuma 420ml",
@@ -6179,10 +5365,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 281
+    "ordem": 244
   },
   {
-    "id": 282,
+    "id": 245,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Escorredor de Louça 2 Andares",
@@ -6191,20 +5377,20 @@
     "alt": "Escorredor de Louça 2 Andares",
     "loja": "Mercado Livre",
     "preco": "76,04",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
+    "precoPromocional": "68,44",
+    "condicaoPreco": "PIX",
     "precoOriginal": "139,99",
-    "desconto": 45,
+    "desconto": 51,
     "link": "https://meli.la/1t7HgP5",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 282
+    "ordem": 245
   },
   {
-    "id": 283,
+    "id": 246,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Escorredor de Louça 2 Andares Preto",
@@ -6219,14 +5405,14 @@
     "desconto": 60,
     "link": "https://meli.la/2aKFooz",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 283
+    "ordem": 246
   },
   {
-    "id": 284,
+    "id": 247,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Bandeja Cantinho Do Café Decorativa Marrom Pp 20x14x5 Mdf",
@@ -6245,10 +5431,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 284
+    "ordem": 247
   },
   {
-    "id": 285,
+    "id": 248,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Bandeja Arabesco Cantinho Do Café 35x25x7 Mdf",
@@ -6267,32 +5453,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 285
+    "ordem": 248
   },
   {
-    "id": 286,
-    "categoria": "Casa",
-    "subcategoria": "Organização",
-    "nome": "Porta Treco Organizador Amadeirado Escritório Caneta Lápis",
-    "descricao": "",
-    "imagem": "fotos/2060590944-porta-trec.jpg",
-    "alt": "Porta Treco Organizador Amadeirado Escritório Caneta Lápis",
-    "loja": "Mercado Livre",
-    "preco": "27,18",
-    "precoPromocional": "",
-    "condicaoPreco": "",
-    "precoOriginal": "",
-    "desconto": "",
-    "link": "https://meli.la/1Lk62F4",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 286
-  },
-  {
-    "id": 287,
+    "id": 249,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Porta Treco Organizador De Mesa Escritório Cabine Telefonica",
@@ -6311,10 +5475,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 287
+    "ordem": 249
   },
   {
-    "id": 288,
+    "id": 250,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Puxa Saco Parede Organização Casa Sacolas Regras Mdf",
@@ -6333,10 +5497,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 288
+    "ordem": 250
   },
   {
-    "id": 289,
+    "id": 251,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Bandeja Espelhada Decorativa P/ Lavabo, Banheiro, Rack, Cafe",
@@ -6355,10 +5519,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 289
+    "ordem": 251
   },
   {
-    "id": 290,
+    "id": 252,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Bandeja Decorativa Espelhada Luxo Orgânica Lavabo Multiuso",
@@ -6377,10 +5541,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 290
+    "ordem": 252
   },
   {
-    "id": 291,
+    "id": 253,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Queijeira Vidro Martelado Tampa Porta Frios Queijo Manteiga",
@@ -6399,10 +5563,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 291
+    "ordem": 253
   },
   {
-    "id": 292,
+    "id": 254,
     "categoria": "Cozinha",
     "subcategoria": "Organização & Armazenamento",
     "nome": "Jogo De Inox 5 Peças Com Tampa Pratica Ideal Para Mistura",
@@ -6417,14 +5581,14 @@
     "desconto": 6,
     "link": "https://meli.la/2BCerUY",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 292
+    "ordem": 254
   },
   {
-    "id": 293,
+    "id": 255,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Panela 16 Antiaderente 6 Camadas Teflon Bege Vanilla Premium",
@@ -6443,32 +5607,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 293
+    "ordem": 255
   },
   {
-    "id": 294,
-    "categoria": "Cozinha",
-    "subcategoria": "Panelas & Eletroportáteis",
-    "nome": "Jogo 3 Frigideiras Ovais Antiaderente Efeito Madeira",
-    "descricao": "Com revestimento antiaderente.",
-    "imagem": "fotos/6526297224-jogo-3-fri.jpg",
-    "alt": "Jogo 3 Frigideiras Ovais Antiaderente Efeito Madeira",
-    "loja": "Mercado Livre",
-    "preco": "62,56",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "71,66",
-    "desconto": 12,
-    "link": "https://meli.la/2uY7UT5",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 294
-  },
-  {
-    "id": 295,
+    "id": 256,
     "categoria": "Casa",
     "subcategoria": "Decoração",
     "nome": "Espelho Orgânico 120x50 e 80x40 Com Moldura EM COURO Corpo Inteiro Moderno Luxo",
@@ -6487,10 +5629,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 295
+    "ordem": 256
   },
   {
-    "id": 296,
+    "id": 257,
     "categoria": "Casa",
     "subcategoria": "Utilidades",
     "nome": "Limpa Tênis Spray Premium Eco Clean Power Limpeza Profunda 500ml",
@@ -6509,10 +5651,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 296
+    "ordem": 257
   },
   {
-    "id": 297,
+    "id": 258,
     "categoria": "Beleza",
     "subcategoria": "Cuidados Pessoais",
     "nome": "Kit 3 Perfumes Malbec Masculinos Alta fixação",
@@ -6531,10 +5673,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 297
+    "ordem": 258
   },
   {
-    "id": 298,
+    "id": 259,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "BB Cream Foundation/Concealer with Mushroom-Shaped Sponge Makeup Whitening Cream Martin Natural HB2006",
@@ -6553,10 +5695,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 298
+    "ordem": 259
   },
   {
-    "id": 299,
+    "id": 260,
     "categoria": "Beleza",
     "subcategoria": "Cuidados Pessoais",
     "nome": "Body Splash Sexy Intense Agapis Beauty 200ml Fragrância Sedutora Alta Fixação",
@@ -6575,10 +5717,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 299
+    "ordem": 260
   },
   {
-    "id": 300,
+    "id": 261,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Lilyeve Grow : Turn Exosome Brush Ampoule (30ml / 100ml / Refill 90ml / Prime 100ml)",
@@ -6597,10 +5739,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 300
+    "ordem": 261
   },
   {
-    "id": 301,
+    "id": 262,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Corretivo Líquido Cobertura Leve Melu by Ruby Rose HB-8104",
@@ -6619,10 +5761,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 301
+    "ordem": 262
   },
   {
-    "id": 302,
+    "id": 263,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Base Líquida Matte Payot 30ml Alta Cobertura Efeito Natural Longa Duração Controle da Oleosidade",
@@ -6641,10 +5783,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 302
+    "ordem": 263
   },
   {
-    "id": 303,
+    "id": 264,
     "categoria": "Beleza",
     "subcategoria": "",
     "nome": "Bolsa cosmética portátil de grande capacidade, lavagem portátil de cosméticos para viagem, armazenamento",
@@ -6663,10 +5805,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 303
+    "ordem": 264
   },
   {
-    "id": 304,
+    "id": 265,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Caneta fio a fio para Sobrancelha e Barba À Prova D 'água Microblanding maquiagem",
@@ -6685,10 +5827,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 304
+    "ordem": 265
   },
   {
-    "id": 305,
+    "id": 266,
     "categoria": "Beleza",
     "subcategoria": "Cuidados Pessoais",
     "nome": "Kit Body Splash Deleite – Rosa, Algodão & Nuvem",
@@ -6707,10 +5849,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 305
+    "ordem": 266
   },
   {
-    "id": 306,
+    "id": 267,
     "categoria": "Beleza",
     "subcategoria": "Cuidados Pessoais",
     "nome": "Lixa Esfoliadora Elétrica de Pés Tira Calos Portátil USB Pedicure Rápido Indolor Para Pés Lisos",
@@ -6729,10 +5871,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 306
+    "ordem": 267
   },
   {
-    "id": 307,
+    "id": 268,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Conjunto Labial Fosco Final De 10 Cores TVLV-Veludo , À Prova De Transferência D'água , Sem Secagem , Escolha De Desgast",
@@ -6751,10 +5893,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 307
+    "ordem": 268
   },
   {
-    "id": 308,
+    "id": 269,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Mascara De Cilios Melu Ruby Rose Rimel Peel Off Alta Fixação",
@@ -6773,10 +5915,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 308
+    "ordem": 269
   },
   {
-    "id": 309,
+    "id": 270,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Boca Rosa Rímel Máscara de Cílios Volume Extremo | À Prova d’Água | Longa Duração | #MeuVolumão",
@@ -6795,10 +5937,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 309
+    "ordem": 270
   },
   {
-    "id": 310,
+    "id": 271,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Conjunto Jogo de Travessas 3 peças Oval em Melanina Bestfer PMG Branca opaline",
@@ -6817,10 +5959,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 310
+    "ordem": 271
   },
   {
-    "id": 311,
+    "id": 272,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Kit 4 Toalhas de Rosto 35x75cm Para Banheiro Treino Salão Macia Absorvente",
@@ -6839,10 +5981,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 311
+    "ordem": 272
   },
   {
-    "id": 312,
+    "id": 273,
     "categoria": "Casa",
     "subcategoria": "Banheiro",
     "nome": "Tapete de Banheiro Antiderrapante Bolinha Macarrão Várias Cores",
@@ -6861,10 +6003,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 312
+    "ordem": 273
   },
   {
-    "id": 313,
+    "id": 274,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Cozedor de Ovos Elétrico 110V – Portátil a Vapor para Cozinha Envio Imediato",
@@ -6883,10 +6025,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 313
+    "ordem": 274
   },
   {
-    "id": 314,
+    "id": 275,
     "categoria": "Cozinha",
     "subcategoria": "Utensílios & Preparo",
     "nome": "Kit Utensílios de Cozinha 19 Peças • Silicone com Cabo de Madeira • Completo e Resistente",
@@ -6905,10 +6047,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 314
+    "ordem": 275
   },
   {
-    "id": 315,
+    "id": 276,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "24 Pcs LouçA De Aço InoxidáVel Colher De Sobremesa Dourada / Luxuoso",
@@ -6927,10 +6069,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 315
+    "ordem": 276
   },
   {
-    "id": 316,
+    "id": 277,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jogo de Xícaras de Café com Pires de Madeira Coração Cantinho do Café Kit Presente Feminino",
@@ -6949,10 +6091,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 316
+    "ordem": 277
   },
   {
-    "id": 317,
+    "id": 278,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Lay's Batata Frita Lisa Clássica 257g",
@@ -6960,7 +6102,7 @@
     "imagem": "fotos/51-lay-s-batata.jpg",
     "alt": "Lay's Batata Frita Lisa Clássica 257g",
     "loja": "Amazon",
-    "preco": "15,90",
+    "preco": "21,90",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -6971,10 +6113,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 317
+    "ordem": 278
   },
   {
-    "id": 318,
+    "id": 279,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Saída de Praia Tricô com Fenda",
@@ -6993,10 +6135,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 318
+    "ordem": 279
   },
   {
-    "id": 319,
+    "id": 280,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Saída de Praia Crochê com Cinto",
@@ -7015,32 +6157,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 319
+    "ordem": 280
   },
   {
-    "id": 320,
-    "categoria": "Moda",
-    "subcategoria": "Praia",
-    "nome": "Saída de Praia Decote Trabalhado",
-    "descricao": "Vestido curto feminino para saída de praia, com decote e acabamento trabalhado. Indicado para usar sobre biquíni ou maiô em praias, piscinas e viagens. A página mostra opções de cores e tamanhos.",
-    "imagem": "fotos/5156972330-saida-prai.jpg",
-    "alt": "Saída de Praia Decote Trabalhado",
-    "loja": "Mercado Livre",
-    "preco": "22,94",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
-    "precoOriginal": "29,90",
-    "desconto": 23,
-    "link": "https://meli.la/2q6Y5M3",
-    "corBotao": "#FFE600",
-    "ativo": false,
-    "destaque": false,
-    "promocaoRelampago": false,
-    "promocaoAte": "",
-    "ordem": 320
-  },
-  {
-    "id": 321,
+    "id": 281,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Saída de Praia Chemise com Renda",
@@ -7059,10 +6179,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 321
+    "ordem": 281
   },
   {
-    "id": 322,
+    "id": 282,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Camisa Feminina Alongada Chemise Vestido Saida De Praia",
@@ -7071,20 +6191,20 @@
     "alt": "Camisa Feminina Alongada Chemise Vestido Saida De Praia",
     "loja": "Mercado Livre",
     "preco": "54,22",
-    "precoPromocional": "",
-    "condicaoPreco": "OFERTA",
+    "precoPromocional": "51,51",
+    "condicaoPreco": "PIX",
     "precoOriginal": "149,90",
-    "desconto": 63,
+    "desconto": 65,
     "link": "https://meli.la/2fxWhgj",
     "corBotao": "#FFE600",
     "ativo": true,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 322
+    "ordem": 282
   },
   {
-    "id": 323,
+    "id": 283,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Maiô Estruturado com Bojo e Detalhe Central – Sofisticação e Estilo para Brilhar à Beira-Mar-x03",
@@ -7103,10 +6223,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 323
+    "ordem": 283
   },
   {
-    "id": 324,
+    "id": 284,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "RWX VEST Maiô Estruturado com Bojo e Detalhe Central – Sofisticação e Estilo para Brilhar à Beira-Mar XX343",
@@ -7125,10 +6245,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 324
+    "ordem": 284
   },
   {
-    "id": 325,
+    "id": 285,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Biquíni Texturizado Canelado com Bojo e Cintura Alta – Moda Praia Verão",
@@ -7147,10 +6267,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 325
+    "ordem": 285
   },
   {
-    "id": 326,
+    "id": 286,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Saida de Praia - kimono /Cardigan Verâo",
@@ -7169,10 +6289,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 326
+    "ordem": 286
   },
   {
-    "id": 327,
+    "id": 287,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Saída de Praia Vestido com Flor em Tricô Leve Elegante e Confortável para Verão",
@@ -7191,10 +6311,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 327
+    "ordem": 287
   },
   {
-    "id": 328,
+    "id": 288,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "SAÍDA DE PRAIA VERÃO PISCINA CURTA TRICOT RENDADO LUXO❤️‍🩹",
@@ -7213,10 +6333,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 328
+    "ordem": 288
   },
   {
-    "id": 329,
+    "id": 289,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Maio Feminino Elegante ABERTO Moda Praia - Verao Biquini Feminino",
@@ -7235,10 +6355,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 329
+    "ordem": 289
   },
   {
-    "id": 330,
+    "id": 290,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Salgadinho Batata Frita Pringles Tripack Especial Festa do Futebol",
@@ -7257,10 +6377,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 330
+    "ordem": 290
   },
   {
-    "id": 331,
+    "id": 291,
     "categoria": "Alimentos & Bebidas",
     "subcategoria": "",
     "nome": "Bis Branco - Kit com 3 unidades de 100,8g",
@@ -7268,7 +6388,7 @@
     "imagem": "fotos/53-bis-branco-k.jpg",
     "alt": "Bis Branco - Kit com 3 unidades de 100,8g",
     "loja": "Amazon",
-    "preco": "23,29",
+    "preco": "15,85",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -7279,10 +6399,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 331
+    "ordem": 291
   },
   {
-    "id": 332,
+    "id": 292,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Sacola Misteriosa Mimo Box Maquiagem Skincare",
@@ -7301,10 +6421,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 332
+    "ordem": 292
   },
   {
-    "id": 333,
+    "id": 293,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Conjunto De Biquíni Feminino De Cintura Alta Com Controle De Barriga Bloco Colorido De Duas Peças Com Cordão",
@@ -7323,10 +6443,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 333
+    "ordem": 293
   },
   {
-    "id": 334,
+    "id": 294,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Chapéu Praia Luxuoso Feminino com Laço — Leve, Charmoso e Dobrável NYLON",
@@ -7345,10 +6465,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 334
+    "ordem": 294
   },
   {
-    "id": 335,
+    "id": 295,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Chapéu Paris Feminino Aba Larga Ajustável com Laço Elegante para Praia Piscina Verão UV",
@@ -7367,10 +6487,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 335
+    "ordem": 295
   },
   {
-    "id": 336,
+    "id": 296,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Chapéu casual ou praia com lindo detalhe em lenço de voil/chapeu liso Chapéu de Praia Para Personalizar",
@@ -7389,10 +6509,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 336
+    "ordem": 296
   },
   {
-    "id": 337,
+    "id": 297,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Chapéu Feminino Casual Elegante com Laço – Aba Larga, Proteção Contra o Sol, Ideal para Praia, Piscina, Passeios 10",
@@ -7411,10 +6531,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 337
+    "ordem": 297
   },
   {
-    "id": 338,
+    "id": 298,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Maiô Biquíni 3 Peças com Capa",
@@ -7429,14 +6549,14 @@
     "desconto": 48,
     "link": "https://meli.la/1A2mmqS",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 338
+    "ordem": 298
   },
   {
-    "id": 339,
+    "id": 299,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Chapéu de Praia Aba Pequena",
@@ -7455,10 +6575,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 339
+    "ordem": 299
   },
   {
-    "id": 340,
+    "id": 300,
     "categoria": "Moda",
     "subcategoria": "Praia",
     "nome": "Chapéu Nude Aba Larga UPF 50+",
@@ -7473,14 +6593,14 @@
     "desconto": 14,
     "link": "https://meli.la/16L93qc",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 340
+    "ordem": 300
   },
   {
-    "id": 341,
+    "id": 301,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jogo De Copos Canelado Versalhes Vidro Resistente Grosso C/6",
@@ -7495,14 +6615,14 @@
     "desconto": 37,
     "link": "https://meli.la/2GVyBB6",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 341
+    "ordem": 301
   },
   {
-    "id": 342,
+    "id": 302,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Jogo de 6 Taças De Vidro Diamond Cristal 330ml 6 Peças Wow World Of Wonders",
@@ -7521,10 +6641,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 342
+    "ordem": 302
   },
   {
-    "id": 343,
+    "id": 303,
     "categoria": "Moda",
     "subcategoria": "Joias & Bijuterias",
     "nome": "Relógio Feminino+ Kit Colar Pingente Brincos Folheado A Ouro",
@@ -7539,14 +6659,14 @@
     "desconto": 49,
     "link": "https://meli.la/2SJRZsN",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": true,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 343
+    "ordem": 303
   },
   {
-    "id": 344,
+    "id": 304,
     "categoria": "Moda",
     "subcategoria": "Calçados",
     "nome": "Sandália Feminina Salto Grosso e Strass",
@@ -7565,10 +6685,10 @@
     "destaque": true,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 344
+    "ordem": 304
   },
   {
-    "id": 345,
+    "id": 305,
     "categoria": "Casa",
     "subcategoria": "Cama, Mesa & Banho",
     "nome": "Toalha Mesa Malha Gel 1,40x1,40 Ideal Para Decorações",
@@ -7583,14 +6703,14 @@
     "desconto": 9,
     "link": "https://meli.la/1Fzigsc",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 345
+    "ordem": 305
   },
   {
-    "id": 346,
+    "id": 306,
     "categoria": "Beleza",
     "subcategoria": "Maquiagem",
     "nome": "Delineador Líquido Preto - Ruby Rose",
@@ -7609,10 +6729,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 346
+    "ordem": 306
   },
   {
-    "id": 347,
+    "id": 307,
     "categoria": "Cozinha",
     "subcategoria": "Mesa & Bebidas",
     "nome": "Kit Tábua De Frios E Queijos Grande Bambu 40cm + Jogo De Facas 4 Peças Petisqueira Para Servir Mesa Posta Gourmet Encontro Familiar Romântico Premium E Ecológica",
@@ -7631,10 +6751,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 347
+    "ordem": 307
   },
   {
-    "id": 348,
+    "id": 308,
     "categoria": "Cozinha",
     "subcategoria": "Panelas & Eletroportáteis",
     "nome": "Kit 3 Frigideiras Gbella Antiaderente Tampa Limpa Fácil 22cm",
@@ -7653,10 +6773,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 348
+    "ordem": 308
   },
   {
-    "id": 349,
+    "id": 309,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Organizador Maquiagem Mdf Preto Com Gavetas Cosméticos",
@@ -7671,14 +6791,14 @@
     "desconto": 27,
     "link": "https://meli.la/2jQWKgL",
     "corBotao": "#FFE600",
-    "ativo": true,
+    "ativo": false,
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 349
+    "ordem": 309
   },
   {
-    "id": 350,
+    "id": 310,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Saco De Lavagem Tenis Sapatos Para Máquina De Lavar",
@@ -7697,10 +6817,10 @@
     "destaque": true,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 350
+    "ordem": 310
   },
   {
-    "id": 351,
+    "id": 311,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Kit 5 Sacos Para Lavar Roupas Delicadas Sutiã Lingerie Zíper",
@@ -7719,10 +6839,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 351
+    "ordem": 311
   },
   {
-    "id": 352,
+    "id": 312,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Kit 12 Sacos para Lavar Roupas Delicadas na Máquina com Zíper Protetor",
@@ -7741,10 +6861,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 352
+    "ordem": 312
   },
   {
-    "id": 353,
+    "id": 313,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Vestido Transpassado  Modelo Envelope",
@@ -7763,10 +6883,10 @@
     "destaque": true,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 353
+    "ordem": 313
   },
   {
-    "id": 354,
+    "id": 314,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Vestido Curto Chemise Com Botões Babado Estilo Social Festa",
@@ -7785,10 +6905,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 354
+    "ordem": 314
   },
   {
-    "id": 355,
+    "id": 315,
     "categoria": "Moda",
     "subcategoria": "Roupas",
     "nome": "Vestido Chemise Social Mullet Manga Longa Botões Camisao",
@@ -7807,10 +6927,10 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 355
+    "ordem": 315
   },
   {
-    "id": 356,
+    "id": 316,
     "categoria": "Casa",
     "subcategoria": "Organização",
     "nome": "Kit 2 Sacos Para Lavar Tênis E Sapatos Em Máquina De Lavar",
@@ -7818,7 +6938,7 @@
     "imagem": "fotos/5041977393-kit-2-saco.jpg",
     "alt": "Kit 2 Sacos Para Lavar Tênis E Sapatos Em Máquina De Lavar",
     "loja": "Mercado Livre",
-    "preco": "25,90",
+    "preco": "27,90",
     "precoPromocional": "",
     "condicaoPreco": "",
     "precoOriginal": "",
@@ -7829,6 +6949,6 @@
     "destaque": false,
     "promocaoRelampago": false,
     "promocaoAte": "",
-    "ordem": 356
+    "ordem": 316
   }
 ]
