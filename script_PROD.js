@@ -454,9 +454,9 @@ function embaralharLista(lista) {
     return copia;
 }
 
-
 // ============================================================
-// OFERTAS DE HOJE
+// NOVIDADES NO MUNDO LUFINAS
+// Mostra os 4 produtos cadastrados mais recentemente
 // ============================================================
 
 async function carregarOfertasHoje() {
@@ -471,6 +471,7 @@ async function carregarOfertasHoje() {
             "secaoOfertasHoje"
         );
 
+
     if (
         !container ||
         !secao
@@ -479,6 +480,7 @@ async function carregarOfertasHoje() {
         return;
     }
 
+
     try {
 
         const produtos =
@@ -486,79 +488,47 @@ async function carregarOfertasHoje() {
 
 
         // ================================================
-        // 1º - OFERTAS RELÂMPAGO
+        // ORDENA DO MAIS NOVO PARA O MAIS ANTIGO
+        // Usa "ordem" e, se não existir, usa o ID
         // ================================================
 
-        const relampago =
-            embaralharLista(
+        const novidades =
+            [...produtos]
+                .sort(
+                    (a, b) => {
 
-                produtos.filter(
-                    produto =>
-                        promocaoRelampagoAtiva(
-                            produto
-                        )
+                        const ordemA =
+                            Number(
+                                a.ordem ||
+                                a.id ||
+                                0
+                            );
+
+                        const ordemB =
+                            Number(
+                                b.ordem ||
+                                b.id ||
+                                0
+                            );
+
+                        return (
+                            ordemB -
+                            ordemA
+                        );
+                    }
                 )
-            );
-
-
-        const idsRelampago =
-            new Set(
-
-                relampago.map(
-                    produto =>
-                        String(
-                            produto.id
-                        )
-                )
-            );
+                .slice(
+                    0,
+                    4
+                );
 
 
         // ================================================
-        // 2º - DEMAIS OFERTAS
-        // ================================================
-
-        const demaisOfertas =
-            embaralharLista(
-
-                produtos.filter(
-                    produto =>
-
-                        produtoTemOferta(
-                            produto
-                        )
-
-                        &&
-
-                        !idsRelampago.has(
-                            String(
-                                produto.id
-                            )
-                        )
-                )
-            );
-
-
-        // ================================================
-        // NO MÁXIMO 4 PRODUTOS
-        // ================================================
-
-        const ofertas = [
-
-            ...relampago,
-            ...demaisOfertas
-
-        ].slice(
-            0,
-            4
-        );
-
-
-        // ================================================
-        // NENHUMA OFERTA
+        // NENHUM PRODUTO
         // ================================================
 
         if (
-            ofertas.length === 0
+            novidades.length === 0
         ) {
 
             secao.style.display =
@@ -576,7 +546,7 @@ async function carregarOfertasHoje() {
 
 
         container.innerHTML =
-            ofertas
+            novidades
                 .map(
                     produto =>
                         montarCardOferta(
@@ -589,7 +559,7 @@ async function carregarOfertasHoje() {
     } catch (erro) {
 
         console.error(
-            "Erro ao carregar Ofertas de hoje:",
+            "Erro ao carregar novidades:",
             erro
         );
 
@@ -654,7 +624,7 @@ function montarCardOferta(produto) {
     // ========================================================
 
     let selo =
-        "OFERTA";
+        "NOVO";
 
 
     if (
