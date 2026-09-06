@@ -454,9 +454,9 @@ function embaralharLista(lista) {
     return copia;
 }
 
-
 // ============================================================
-// OFERTAS DE HOJE
+// NOVIDADES NO MUNDO LUFINAS
+// Mostra os 4 produtos cadastrados mais recentemente
 // ============================================================
 
 async function carregarOfertasHoje() {
@@ -471,6 +471,7 @@ async function carregarOfertasHoje() {
             "secaoOfertasHoje"
         );
 
+
     if (
         !container ||
         !secao
@@ -479,6 +480,7 @@ async function carregarOfertasHoje() {
         return;
     }
 
+
     try {
 
         const produtos =
@@ -486,79 +488,47 @@ async function carregarOfertasHoje() {
 
 
         // ================================================
-        // 1º - OFERTAS RELÂMPAGO
+        // ORDENA DO MAIS NOVO PARA O MAIS ANTIGO
+        // Usa "ordem" e, se não existir, usa o ID
         // ================================================
 
-        const relampago =
-            embaralharLista(
+        const novidades =
+            [...produtos]
+                .sort(
+                    (a, b) => {
 
-                produtos.filter(
-                    produto =>
-                        promocaoRelampagoAtiva(
-                            produto
-                        )
+                        const ordemA =
+                            Number(
+                                a.ordem ||
+                                a.id ||
+                                0
+                            );
+
+                        const ordemB =
+                            Number(
+                                b.ordem ||
+                                b.id ||
+                                0
+                            );
+
+                        return (
+                            ordemB -
+                            ordemA
+                        );
+                    }
                 )
-            );
-
-
-        const idsRelampago =
-            new Set(
-
-                relampago.map(
-                    produto =>
-                        String(
-                            produto.id
-                        )
-                )
-            );
+                .slice(
+                    0,
+                    4
+                );
 
 
         // ================================================
-        // 2º - DEMAIS OFERTAS
-        // ================================================
-
-        const demaisOfertas =
-            embaralharLista(
-
-                produtos.filter(
-                    produto =>
-
-                        produtoTemOferta(
-                            produto
-                        )
-
-                        &&
-
-                        !idsRelampago.has(
-                            String(
-                                produto.id
-                            )
-                        )
-                )
-            );
-
-
-        // ================================================
-        // NO MÁXIMO 4 PRODUTOS
-        // ================================================
-
-        const ofertas = [
-
-            ...relampago,
-            ...demaisOfertas
-
-        ].slice(
-            0,
-            4
-        );
-
-
-        // ================================================
-        // NENHUMA OFERTA
+        // NENHUM PRODUTO
         // ================================================
 
         if (
-            ofertas.length === 0
+            novidades.length === 0
         ) {
 
             secao.style.display =
@@ -576,7 +546,7 @@ async function carregarOfertasHoje() {
 
 
         container.innerHTML =
-            ofertas
+            novidades
                 .map(
                     produto =>
                         montarCardOferta(
@@ -589,7 +559,7 @@ async function carregarOfertasHoje() {
     } catch (erro) {
 
         console.error(
-            "Erro ao carregar Ofertas de hoje:",
+            "Erro ao carregar novidades:",
             erro
         );
 
@@ -633,13 +603,8 @@ function montarCardOferta(produto) {
         precoPromocional &&
 
         (
-            condicao.includes(
-                "PIX"
-            ) ||
-
-            condicao.includes(
-                "MERCADO PAGO"
-            )
+            condicao.includes("PIX") ||
+            condicao.includes("MERCADO PAGO")
         );
 
 
@@ -654,7 +619,7 @@ function montarCardOferta(produto) {
     // ========================================================
 
     let selo =
-        "OFERTA";
+        "NOVO";
 
 
     if (
@@ -676,37 +641,6 @@ function montarCardOferta(produto) {
 
 
     // ========================================================
-    // BADGE DA LOJA
-    // ========================================================
-
-    const classeLoja =
-        produto.loja === "Amazon"
-            ? "badge-amazon"
-            : produto.loja === "Mercado Livre"
-                ? "badge-mercado-livre"
-                : produto.loja === "Shopee"
-                    ? "badge-shopee"
-                    : "";
-
-
-    const badgeLoja =
-        produto.loja
-            ? `
-
-                <span
-                    class="
-                        badge-loja-card
-                        ${classeLoja}
-                    "
-                >
-                    ${produto.loja}
-                </span>
-
-            `
-            : "";
-
-
-    // ========================================================
     // PREÇO ORIGINAL
     // ========================================================
 
@@ -716,22 +650,16 @@ function montarCardOferta(produto) {
 
                 <div>
 
-                    <span
-                        class="card-oferta-original"
-                    >
+                    <span class="card-oferta-original">
                         R$ ${precoOriginal}
                     </span>
 
                     ${
                         desconto
                             ? `
-
-                                <span
-                                    class="card-oferta-desconto"
-                                >
+                                <span class="card-oferta-desconto">
                                     ${desconto}% OFF
                                 </span>
-
                             `
                             : ""
                     }
@@ -750,9 +678,7 @@ function montarCardOferta(produto) {
         ehPix
             ? `
 
-                <span
-                    class="card-oferta-pix"
-                >
+                <span class="card-oferta-pix">
                     no PIX
                 </span>
 
@@ -761,7 +687,7 @@ function montarCardOferta(produto) {
 
 
     // ========================================================
-    // PRAZO DA OFERTA RELÂMPAGO
+    // PRAZO RELÂMPAGO
     // ========================================================
 
     const prazoRelampago =
@@ -786,52 +712,79 @@ function montarCardOferta(produto) {
 
 
     // ========================================================
+    // CLASSE E TEXTO DA LOJA
+    // ========================================================
+
+    const classeBotaoLoja =
+        produto.loja === "Mercado Livre"
+            ? "btn-loja-mercado-livre"
+            : produto.loja === "Amazon"
+                ? "btn-loja-amazon"
+                : produto.loja === "Shopee"
+                    ? "btn-loja-shopee"
+                    : "btn-loja-padrao";
+
+
+    const textoBotaoLoja =
+        produto.loja === "Mercado Livre"
+            ? "Ver oferta no Mercado Livre"
+            : produto.loja === "Amazon"
+                ? "Ver oferta na Amazon"
+                : produto.loja === "Shopee"
+                    ? "Ver oferta na Shopee"
+                    : "Ver oferta";
+
+
+    // ========================================================
     // CARD COMPLETO
     // ========================================================
 
     return `
 
-        <a
-            href="${criarUrlProduto(produto)}"
-            class="card-oferta"
-        >
+        <div class="card-oferta">
 
-            <span
-                class="card-oferta-selo"
-            >
+            <span class="card-oferta-selo ${selo === "NOVO" ? "card-oferta-selo-novo" : ""}">
                 ${selo}
             </span>
 
 
-            ${badgeLoja}
-
-
-            <img
-                src="${produto.imagem}"
-                alt="${produto.alt || produto.nome}"
+            <a
+                href="${produto.link}"
+                target="_blank"
+                rel="sponsored noopener"
+                onclick="registrarCliqueOferta('${produto.loja || ""}', '${produto.id || ""}')"
+                class="card-oferta-imagem-link"
             >
 
+                <img
+                    src="${produto.imagem}"
+                    alt="${produto.alt || produto.nome}"
+                >
 
-            <div
-                class="card-oferta-categoria"
-            >
+            </a>
+
+
+            <div class="card-oferta-categoria">
                 ${produto.categoria || ""}
             </div>
 
 
-            <div
-                class="card-oferta-nome"
+            <a
+                href="${criarUrlProduto(produto)}"
+                class="card-oferta-nome-link"
             >
-                ${produto.nome}
-            </div>
+
+                <div class="card-oferta-nome">
+                    ${produto.nome}
+                </div>
+
+            </a>
 
 
             ${linhaOriginal}
 
 
-            <div
-                class="card-oferta-preco"
-            >
+            <div class="card-oferta-preco">
 
                 R$ ${precoExibir}
 
@@ -845,7 +798,6 @@ function montarCardOferta(produto) {
                 precoNormal
 
                     ? `
-
                         <div
                             style="
                                 margin-top:2px;
@@ -856,7 +808,6 @@ function montarCardOferta(produto) {
                             R$ ${precoNormal}
                             em outras formas
                         </div>
-
                     `
                     : ""
             }
@@ -865,13 +816,28 @@ function montarCardOferta(produto) {
             ${prazoRelampago}
 
 
-            <span
-                class="card-oferta-botao"
+            <a
+                href="${produto.link}"
+                target="_blank"
+                rel="sponsored noopener"
+                class="
+                    btn-loja-direto
+                    ${classeBotaoLoja}
+                "
+                onclick="registrarCliqueOferta('${produto.loja || ""}', '${produto.id || ""}')"
             >
-                Ver oferta
-            </span>
+                ${textoBotaoLoja}
+            </a>
 
-        </a>
+
+            <a
+                href="${criarUrlProduto(produto)}"
+                class="mais-detalhes-card"
+            >
+                Mais detalhes
+            </a>
+
+        </div>
 
     `;
 }
@@ -1439,137 +1405,102 @@ function renderizarPagina() {
 
 <div class="col-6 col-md-6 col-lg-4 col-xl-3 px-1">
 
-    <a
-        href="${criarUrlProduto(produto)}"
+    <div
+        class="rounded position-relative fruite-item"
         style="
-            display: block;
-            text-decoration: none;
-            color: inherit;
             height: 100%;
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+        "
+        onmouseover="
+            this.style.transform='translateY(-3px)';
+            this.style.boxShadow=
+                '0 5px 15px rgba(0,0,0,0.10)';
+        "
+        onmouseout="
+            this.style.transform='translateY(0)';
+            this.style.boxShadow='none';
         "
     >
 
-        <div
-            class="rounded position-relative fruite-item"
-            style="
-                height: 100%;
-                cursor: pointer;
-                transition:
-                    transform 0.2s ease,
-                    box-shadow 0.2s ease;
-            "
-            onmouseover="
-                this.style.transform='translateY(-3px)';
-                this.style.boxShadow=
-                    '0 5px 15px rgba(0,0,0,0.10)';
-            "
-            onmouseout="
-                this.style.transform='translateY(0)';
-                this.style.boxShadow='none';
-            "
-        >
+        <div class="fruite-img position-relative">
 
-            <div
-                class="fruite-img position-relative"
-            >
-
-            <span
-                class="
-                    badge-loja-card
-                    ${
-                        produto.loja === "Amazon"
-                            ? "badge-amazon"
-                            : produto.loja === "Mercado Livre"
-                                ? "badge-mercado-livre"
-                                : produto.loja === "Shopee"
-                                    ? "badge-shopee"
-                                    : ""
-                    }
-                "
-            >
-                ${produto.loja || ""}
-            </span>          
-
-                ${
-                    promocaoRelampagoAtiva(
-                        produto
-                    )
-                        ? `
-
-                    <span
-                        style="
-                            position: absolute;
-                            top: 10px;
-                            left: 10px;
-                            z-index: 5;
-                            background: #fff3cd;
-                            color: #8a5200;
-                            border: 1px solid #ffc107;
-                            border-radius: 12px;
-                            padding: 5px 10px;
-                            font-size: 11px;
-                            font-weight: 800;
-                            line-height: 1.2;
-                            box-shadow:
-                                0 2px 6px
-                                rgba(0,0,0,0.12);
-                        "
-                    >
-
-                        <div>
-                            ⚡ OFERTA RELÂMPAGO
-                        </div>
-
-                        <div
+            ${
+                promocaoRelampagoAtiva(produto)
+                    ? `
+                        <span
                             style="
-                                margin-top: 2px;
-                                font-size: 9px;
-                                font-weight: 600;
+                                position:absolute;
+                                top:10px;
+                                left:10px;
+                                z-index:5;
+                                background:#fff3cd;
+                                color:#8a5200;
+                                border:1px solid #ffc107;
+                                border-radius:12px;
+                                padding:5px 10px;
+                                font-size:11px;
+                                font-weight:800;
+                                line-height:1.2;
+                                box-shadow:0 2px 6px rgba(0,0,0,0.12);
                             "
                         >
-                            ${textoFimPromocao(produto)}
-                        </div>
+                            <div>⚡ OFERTA RELÂMPAGO</div>
 
-                    </span>
+                            <div
+                                style="
+                                    margin-top:2px;
+                                    font-size:9px;
+                                    font-weight:600;
+                                "
+                            >
+                                ${textoFimPromocao(produto)}
+                            </div>
+                        </span>
+                    `
+                    : produto.destaque === true
+                        ? `
+                            <span
+                                style="
+                                    position:absolute;
+                                    top:10px;
+                                    left:10px;
+                                    z-index:5;
+                                    background:#ffffff;
+                                    color:#814e0a;
+                                    border:1px solid #e5c89b;
+                                    border-radius:20px;
+                                    padding:5px 10px;
+                                    font-size:11px;
+                                    font-weight:800;
+                                    box-shadow:0 2px 6px rgba(0,0,0,0.12);
+                                "
+                            >
+                                ⭐ DESTAQUE
+                            </span>
+                        `
+                        : ""
+            }
 
-                `
-                        : produto.destaque === true
-                            ? `
-
-                    <span
-                        style="
-                            position: absolute;
-                            top: 10px;
-                            left: 10px;
-                            z-index: 5;
-                            background: #ffffff;
-                            color: #814e0a;
-                            border: 1px solid #e5c89b;
-                            border-radius: 20px;
-                            padding: 5px 10px;
-                            font-size: 11px;
-                            font-weight: 800;
-                            box-shadow:
-                                0 2px 6px
-                                rgba(0,0,0,0.12);
-                        "
-                    >
-                        ⭐ DESTAQUE
-                    </span>
-
-                `
-                            : ""
-                }
-
-
+            <a
+                href="${produto.link}"
+                target="_blank"
+                rel="sponsored noopener"
+                onclick="registrarCliqueOferta('${produto.loja || ""}', '${produto.id || ""}')"
+                style="
+                    display:block;
+                    text-decoration:none;
+                    color:inherit;
+                "
+            >
                 <img
                     src="${produto.imagem}"
                     class="img-fluid w-100 rounded-top"
                     alt="${produto.nome}"
                     style="
-                        display: block;
-                        transition:
-                            opacity 0.2s ease;
+                        display:block;
+                        transition:opacity 0.2s ease;
                     "
                     onmouseover="
                         this.style.opacity='0.92'
@@ -1578,27 +1509,36 @@ function renderizarPagina() {
                         this.style.opacity='1'
                     "
                 >
+            </a>
 
-            </div>
+        </div>
 
 
-            <div
-                class="
-                    p-4
-                    border
-                    border-secondary
-                    border-top-0
-                    rounded-bottom
+        <div
+            class="
+                p-4
+                border
+                border-secondary
+                border-top-0
+                rounded-bottom
+            "
+        >
+
+            <a
+                href="${criarUrlProduto(produto)}"
+                style="
+                    text-decoration:none;
+                    color:inherit;
                 "
             >
 
                 <p
                     class="mb-1"
                     style="
-                        font-size: 18px;
-                        color: #444444;
-                        font-weight: 800;
-                        line-height: 1.2;
+                        font-size:18px;
+                        color:#444444;
+                        font-weight:800;
+                        line-height:1.2;
                     "
                 >
                     <strong>
@@ -1606,55 +1546,69 @@ function renderizarPagina() {
                     </strong>
                 </p>
 
+            </a>
 
-                <div
-                    class="mb-2"
-                    style="
-                        font-size: 12px;
-                        color: #999;
-                        line-height: 1.2;
-                        min-height: 15px;
-                    "
+
+            <div
+                class="mb-2"
+                style="
+                    font-size:12px;
+                    color:#999;
+                    line-height:1.2;
+                    min-height:15px;
+                "
+            >
+                ${produto.categoria}
+            </div>
+
+
+            ${montarPrecoCard(produto)}
+
+
+            <a
+                href="${produto.link}"
+                target="_blank"
+                rel="sponsored noopener"
+                class="
+                    btn-loja-direto
+                    ${
+                        produto.loja === "Mercado Livre"
+                            ? "btn-loja-mercado-livre"
+                            : produto.loja === "Amazon"
+                                ? "btn-loja-amazon"
+                                : produto.loja === "Shopee"
+                                    ? "btn-loja-shopee"
+                                    : "btn-loja-padrao"
+                    }
+                "
+                onclick="registrarCliqueOferta('${produto.loja || ""}', '${produto.id || ""}')"
+            >
+                ${
+                    produto.loja === "Mercado Livre"
+                        ? "Ver oferta no Mercado Livre"
+                        : produto.loja === "Amazon"
+                            ? "Ver oferta na Amazon"
+                            : produto.loja === "Shopee"
+                                ? "Ver oferta na Shopee"
+                                : "Ver oferta"
+                }
+            </a>
+
+
+            <div class="mt-2">
+
+                <a
+                    href="${criarUrlProduto(produto)}"
+                    class="mais-detalhes-card"
                 >
-                    ${produto.categoria}
-                </div>
-
-
-                ${montarPrecoCard(produto)}
-
-
-                <div
-                    class="mt-2 text-left"
-                >
-
-                    <span
-                        class="
-                            btn
-                            border
-                            border-secondary
-                            rounded-2
-                            px-4
-                            text-rosa-escuro
-                            text-nowrap
-                        "
-                        style="
-                            font-size: 13px;
-                            background-color: #fff8fc;
-                            box-shadow:
-                                0 2px 5px
-                                rgba(0,0,0,0.10);
-                        "
-                    >
-                        Mais detalhes
-                    </span>
-
-                </div>
+                    Mais detalhes
+                </a>
 
             </div>
 
         </div>
 
-    </a>
+    </div>
 
 </div>
 
@@ -1665,6 +1619,29 @@ function renderizarPagina() {
 
 
     criarPaginacao();
+}
+
+
+// ============================================================
+// GOOGLE ANALYTICS - CLIQUE DIRETO PARA A LOJA
+// ============================================================
+
+function registrarCliqueOferta(loja, produtoId) {
+
+    if (
+        typeof gtag === "function"
+    ) {
+
+        gtag(
+            "event",
+            "clique_oferta",
+            {
+                loja: loja,
+                produto_id: produtoId,
+                origem: "catalogo_home"
+            }
+        );
+    }
 }
 
 
@@ -3353,7 +3330,7 @@ if (
 
 
 // ============================================================
-// VER TODAS AS OFERTAS
+// VER TODOS OS PRODUTOS
 // ============================================================
 
 const linkTodasOfertas =
@@ -3377,17 +3354,45 @@ if (linkTodasOfertas) {
                     await obterProdutos();
 
 
-                const ofertas =
-                    produtos.filter(
-                        produto =>
-                            produtoTemOferta(
-                                produto
-                            )
-                    );
+                // =============================================
+                // TODOS OS PRODUTOS
+                // DO MAIS NOVO PARA O MAIS ANTIGO
+                // =============================================
+
+                const todosProdutos =
+                    [...produtos]
+                        .sort(
+                            (a, b) => {
+
+                                const ordemA =
+                                    Number(
+                                        a.ordem ||
+                                        a.id ||
+                                        0
+                                    );
+
+                                const ordemB =
+                                    Number(
+                                        b.ordem ||
+                                        b.id ||
+                                        0
+                                    );
+
+                                return (
+                                    ordemB -
+                                    ordemA
+                                );
+                            }
+                        );
+
+
+                // Base usada também pelo filtro de lojas
+                produtosBaseLoja =
+                    [...todosProdutos];
 
 
                 produtosFiltrados =
-                    ofertas;
+                    [...todosProdutos];
 
 
                 paginaAtual =
@@ -3395,7 +3400,6 @@ if (linkTodasOfertas) {
 
 
                 // Remove seleção visual das categorias
-
                 document
                     .querySelectorAll(
                         ".categoria-tab"
@@ -3410,9 +3414,7 @@ if (linkTodasOfertas) {
 
                 esconderSubcategorias();
 
-
                 limparPesquisa();
-
 
                 resetarOrdenacao();
 
@@ -3432,24 +3434,23 @@ if (linkTodasOfertas) {
                 if (titulo) {
 
                     titulo.innerText =
-                        "Todas as ofertas";
+                        "Todos os produtos";
                 }
 
 
                 if (quantidade) {
 
                     quantidade.innerText =
-                        ofertas.length +
+                        todosProdutos.length +
                         (
-                            ofertas.length === 1
-                                ? " oferta encontrada"
-                                : " ofertas encontradas"
+                            todosProdutos.length === 1
+                                ? " produto encontrado"
+                                : " produtos encontrados"
                         );
                 }
 
 
                 renderizarPagina();
-
 
                 rolarParaCatalogo();
 
@@ -3457,7 +3458,7 @@ if (linkTodasOfertas) {
             } catch (erro) {
 
                 console.error(
-                    "Erro ao exibir todas as ofertas:",
+                    "Erro ao carregar todos os produtos:",
                     erro
                 );
             }

@@ -4117,3 +4117,197 @@ a {
     box-shadow: 0 0 0 0.2rem rgba(182, 63, 115, 0.12);
     outline: none;
 }
+
+/* =========================================================
+   BOTÕES DIRETOS PARA AS LOJAS - CARDS DO CATÁLOGO
+   ========================================================= */
+
+.btn-loja-direto {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px 12px;
+
+    border-radius: 7px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 800;
+
+    transition:
+        transform 0.15s ease,
+        opacity 0.15s ease;
+}
+
+.btn-loja-direto:hover {
+    transform: translateY(-1px);
+    opacity: 0.90;
+}
+
+
+/* MERCADO LIVRE */
+
+.btn-loja-mercado-livre {
+    background: #FFE600;
+    color: #333333;
+}
+
+
+/* AMAZON */
+
+.btn-loja-amazon {
+    background: #FF9900;
+    color: #111111;
+}
+
+
+/* SHOPEE */
+
+.btn-loja-shopee {
+    background: #EE4D2D;
+    color: #ffffff;
+}
+
+
+/* FALLBACK */
+
+.btn-loja-padrao {
+    background: #B63F73;
+    color: #ffffff;
+}
+
+
+/* MAIS DETALHES */
+
+.mais-detalhes-card {
+    display: inline-block;
+
+    padding: 5px 2px;
+
+    color: #B63F73;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.mais-detalhes-card:hover {
+    text-decoration: underline;
+    color: #8f2855;
+}
+
+/* =========================================================
+   AJUSTES FINAIS - CARDS E BOTÕES DAS LOJAS
+   ========================================================= */
+
+/* Faz todos os cards trabalharem em coluna */
+.fruite-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.fruite-item .fruite-img {
+    flex-shrink: 0;
+}
+
+/* Faz a área de informações ocupar o espaço restante */
+.fruite-item > .p-4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mantém os botões alinhados no final dos cards */
+.btn-loja-direto {
+    margin-top: auto;
+}
+
+
+/* =========================================================
+   HOVER DOS BOTÕES
+   ========================================================= */
+
+/* Evita o verde herdado do template */
+.btn-loja-direto:hover,
+.btn-loja-direto:focus,
+.btn-loja-direto:active {
+    color: #333333 !important;
+    text-decoration: none !important;
+}
+
+/* Shopee precisa continuar com texto branco */
+.btn-loja-shopee:hover,
+.btn-loja-shopee:focus,
+.btn-loja-shopee:active {
+    color: #ffffff !important;
+}
+
+
+/* =========================================================
+   MAIS DETALHES CENTRALIZADO
+   ========================================================= */
+
+.mais-detalhes-card {
+    display: block;
+    width: 100%;
+
+    padding: 5px 2px;
+
+    color: #B63F73;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+.mais-detalhes-card:hover,
+.mais-detalhes-card:focus {
+    color: #333333 !important;
+    text-decoration: underline;
+}
+
+/* =========================================================
+   NOVIDADES - LINKS E ALINHAMENTO
+   ========================================================= */
+
+.card-oferta-imagem-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-oferta-nome-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-oferta-nome-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Empurra o botão da loja para a base do card */
+.card-oferta .btn-loja-direto {
+    margin-top: auto;
+}
+
+/* Mais detalhes com espaçamento agradável */
+.card-oferta .mais-detalhes-card {
+    margin-top: 4px;
+}
+/* =========================================================
+   SELO NOVO - MAIS SUAVE
+   ========================================================= */
+
+.card-oferta-selo.card-oferta-selo-novo {
+    background: #fff1f6;
+    color: #b63f73;
+    border: 1px solid #e8a9c2;
+    box-shadow: none;
+}
