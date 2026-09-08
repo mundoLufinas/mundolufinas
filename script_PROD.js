@@ -7,7 +7,7 @@
 let produtosFiltrados = [];
 let paginaAtual = 1;
 let produtosBaseLoja = [];
-const produtosPorPagina = 52;
+const produtosPorPagina = 60;
 let cacheProdutos = null;
 
 // ============================================================
@@ -231,7 +231,7 @@ function textoFimPromocao(produto) {
 
 function embaralharPrimeirosProdutos(
     produtos,
-    quantidade = 20
+    quantidade = 8
 ) {
 
     const primeiros =
