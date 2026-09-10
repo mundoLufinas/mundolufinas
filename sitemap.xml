@@ -112,6 +112,12 @@
     <loc>https://mundolufinas.com.br/produto.html?id=36&amp;produto=fritadeira-eletrica-air-fryer</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=37&amp;produto=liquidificador-philco-1200w-3l</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=38&amp;produto=mixer-de-mao-portatil-200w</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=39&amp;produto=fogao-cooktop-safanelli-4-bocas</loc>
   </url>
   <url>
@@ -145,6 +151,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=49&amp;produto=cooktop-fogao-itatiaia-essencial-5-bocas</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=50&amp;produto=kit-2-sensores-de-presenca</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=51&amp;produto=tenis-asics-macio-couro</loc>
   </url>
   <url>
@@ -169,6 +178,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=58&amp;produto=purificador-de-agua-natural-branco</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=59&amp;produto=purificador-lorenzetti-agua-natural-branco</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=60&amp;produto=kit-3-cintos-femininos-fino</loc>
   </url>
   <url>
@@ -187,6 +199,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=66&amp;produto=teclado-dobravel-bluetooth-e-mouse-sem-fio</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=67&amp;produto=limpador-magnetico-dupla-face-para-vidros-e-janelas-usefull</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=68&amp;produto=kit-movimentador-de-moveis-com-rodinhas-150-kg</loc>
   </url>
   <url>
@@ -203,6 +218,9 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=73&amp;produto=smartwatch-foxbox-com-chamada</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=74&amp;produto=geladeira-consul-frost-free-333l</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=75&amp;produto=geladeira-electrolux-im7-480l</loc>
@@ -850,6 +868,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=292&amp;produto=fatiador-de-legumes-e-frutas-pelasti</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=293&amp;produto=bolsa-feminina-de-ombro-pequena-e-transversal-maite-preta-selten</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=294&amp;produto=bolsa-feminina-meia-lua</loc>
   </url>
   <url>
@@ -925,6 +946,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=318&amp;produto=luminaria-barra-led-50cm-sensor-movimento-recarregavel-usb</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=319&amp;produto=bolsa-mala-de-mao-dobravel-viagem-academia-artigos-tenis</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=320&amp;produto=kit-3-bandejas-de-bambu-retangular-para-cozinha-20x10cm-peti-lyor-hire</loc>
   </url>
   <url>
@@ -935,6 +959,9 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=323&amp;produto=conjunto-feminino-blusa-assimetrica-calca-pantalona-premium</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=324&amp;produto=bandeja-para-braco-de-sofa-ajustavel-suporte-copos-poltrona-bambu</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=325&amp;produto=percarbonato-de-sodio-100-puro-tira-manchas-roupas-brancas-e-coloridas-limpeza-em-geral</loc>
@@ -967,24 +994,30 @@
     <loc>https://mundolufinas.com.br/produto.html?id=334&amp;produto=colar-de-coracao-duplo-moda-feminina-com-strass</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=335&amp;produto=radio-retro-portatil-bluetooth-marrom</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=336&amp;produto=perfume-blue-spirit-paris-elysees-feminino-intense-100ml</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=337&amp;produto=kit-2x-whey-protein-gourmet-907g-refil</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=339&amp;produto=fone-bluetooth-esportivo-kapbom-preto</loc>
+    <loc>https://mundolufinas.com.br/produto.html?id=338&amp;produto=fone-bluetooth-esportivo-kapbom-preto</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=340&amp;produto=caixa-caixinha-de-som-bluetooth-pendrive-fm-sd-portatil-ipx6</loc>
+    <loc>https://mundolufinas.com.br/produto.html?id=339&amp;produto=caixa-caixinha-de-som-bluetooth-pendrive-fm-sd-portatil-ipx6</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=341&amp;produto=lustre-pendente-led-moderno-3-cores-bivolt-sala-quarto</loc>
+    <loc>https://mundolufinas.com.br/produto.html?id=341&amp;produto=4-caixas-organizadora-de-guarda-roupa-cesto-gaveta-dobravel</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=342&amp;produto=4-caixas-organizadora-de-guarda-roupa-cesto-gaveta-dobravel</loc>
+    <loc>https://mundolufinas.com.br/produto.html?id=342&amp;produto=jogo-sobremesa-salada-bowls-7-pecas</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=343&amp;produto=porta-palitos-automatico</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=344&amp;produto=prateleira-organizador-multiuso-mesa-duas-camadas-plastico</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=345&amp;produto=pote-hermetico-de-vidro-700ml-com-tampa-bambu-cozinha-cafe</loc>
   </url>
 </urlset>
