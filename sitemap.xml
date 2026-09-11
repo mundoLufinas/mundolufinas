@@ -4,9 +4,6 @@
     <loc>https://mundolufinas.com.br/</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=1&amp;produto=kit-cobre-leito-casal</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=2&amp;produto=kit-bolsas-feminina</loc>
   </url>
   <url>
@@ -193,6 +190,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=63&amp;produto=bolsa-feminina-tote-meia-lua-de-ombro-e-mao</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=64&amp;produto=marmita-eletrica-1-5l-com-divisorias</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=65&amp;produto=aspirador-de-po-e-agua-inox-turbo</loc>
   </url>
   <url>
@@ -316,9 +316,6 @@
     <loc>https://mundolufinas.com.br/produto.html?id=105&amp;produto=fatiador-multiuso-de-banana-e-legumes</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=106&amp;produto=secador-taiff-style-2000w-preto</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=107&amp;produto=tenis-o2x-feminino-para-academia</loc>
   </url>
   <url>
@@ -410,9 +407,6 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=137&amp;produto=lencol-casal-sem-elastico-400-fios</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=138&amp;produto=kit-4-guardanapos-algodao-bordo-40x40cm</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=139&amp;produto=manta-microfibra-casal-soft-estampada</loc>
@@ -604,9 +598,6 @@
     <loc>https://mundolufinas.com.br/produto.html?id=201&amp;produto=potiche-de-vidro-pote-cannelle-com-tampa-multiuso-dolce-home</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=202&amp;produto=kit-2-bombonieres-de-vidro-300ml-pitia</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=203&amp;produto=potiche-c-tampa-diamond-300ml-25906-vencedor</loc>
   </url>
   <url>
@@ -683,9 +674,6 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=228&amp;produto=bandeja-decorativa-espelhada-luxo-organica-lavabo-multiuso</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=229&amp;produto=queijeira-vidro-martelado-tampa-porta-frios-queijo-manteiga</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=230&amp;produto=jogo-de-inox-5-pecas-com-tampa-pratica-ideal-para-mistura</loc>
@@ -844,7 +832,7 @@
     <loc>https://mundolufinas.com.br/produto.html?id=283&amp;produto=kit-5-sacos-para-lavar-roupas-delicadas-sutia-lingerie-ziper</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=285&amp;produto=vestido-transpassado-modelo-envelope</loc>
+    <loc>https://mundolufinas.com.br/produto.html?id=284&amp;produto=kit-12-sacos-para-lavar-roupas-delicadas-na-maquina-com-ziper-protetor</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=286&amp;produto=vestido-curto-chemise-com-botoes-babado-estilo-social-festa</loc>
@@ -854,9 +842,6 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=288&amp;produto=kit-2-sacos-para-lavar-tenis-e-sapatos-em-maquina-de-lavar</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=289&amp;produto=batom-duo-lip-twice-lt10-ruby-rose</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=290&amp;produto=churrasqueira-eletrica-epsilon</loc>
@@ -953,9 +938,6 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=321&amp;produto=conjunto-feminino-alfaiataria-short-cinto-body-decote-reto</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=322&amp;produto=conjunto-feminino-cropped-manga-bufante-short-saia-amarracao</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=323&amp;produto=conjunto-feminino-blusa-assimetrica-calca-pantalona-premium</loc>
