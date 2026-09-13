@@ -15,7 +15,7 @@
 
 
     <!-- =====================================================
-         GOOGLE ANALYTICS 
+         GOOGLE ANALYTICS
          ===================================================== -->
 
     <!-- Google tag (gtag.js) -->
@@ -325,6 +325,83 @@
         rel="stylesheet"
     >
 
+
+<style>
+    /* ATALHOS MOBILE: DICAS DA LU + SOBRE NÓS */
+    .atalhos-mobile-topo {
+        display: none;
+    }
+
+    @media (max-width: 767px) {
+        .atalhos-mobile-topo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            padding: 9px 14px 10px;
+            background: #ffffff;
+            border-bottom: 1px solid #f1e4ea;
+        }
+
+        .atalhos-mobile-topo a {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            color: var(--rosa-escuro);
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .atalhos-mobile-topo a i {
+            color: var(--rosa-principal);
+            font-size: 14px;
+        }
+    }
+
+    /* CHAMADA GERAL DICAS DA LU NA HOME */
+    .card-dica-lu {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-dica-lu.card-dica-lu-geral::after {
+        display: none;
+    }
+
+    .card-dica-lu-geral .card-dica-lu-conteudo {
+        position: relative;
+        z-index: 2;
+        max-width: 72%;
+    }
+
+    .card-dica-lu-personagem {
+        position: absolute;
+        right: 28px;
+        bottom: 0;
+        height: 92%;
+        width: auto;
+        object-fit: contain;
+        object-position: bottom right;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    @media (max-width: 767px) {
+        .card-dica-lu-geral .card-dica-lu-conteudo {
+            max-width: 68%;
+        }
+
+        .card-dica-lu-personagem {
+            right: -12px;
+            height: 76%;
+            max-width: 42%;
+        }
+    }
+
+</style>
+
 </head>
 
 
@@ -474,11 +551,23 @@
 
                 </div>
 
-
-
-                <!-- SOBRE NÓS -->
+<!-- DICAS DA LU + SOBRE NÓS -->
 
                 <div class="acoes-topo">
+
+                    <a
+                        href="dicas/"
+                        class="link-sobre-nos"
+                    >
+
+                        <i class="far fa-lightbulb"></i>
+
+                        <span>
+                            Dicas da Lu
+                        </span>
+
+                    </a>
+
 
                     <a
                         href="#sobreMundoLufinas"
@@ -512,6 +601,20 @@
      ========================================================= -->
 
 <div class="espaco-cabecalho"></div>
+
+<!-- ATALHOS VISÍVEIS SOMENTE NO CELULAR -->
+<div class="atalhos-mobile-topo">
+    <a href="dicas/">
+        <i class="far fa-lightbulb"></i>
+        <span>Dicas da Lu</span>
+    </a>
+
+    <a href="#sobreMundoLufinas">
+        <i class="far fa-info-circle"></i>
+        <span>Sobre nós</span>
+    </a>
+</div>
+
 <!-- =========================================================
      CATEGORIAS
      ========================================================= -->
@@ -631,25 +734,25 @@
             <div class="cabecalho-secao-ofertas">
 
 
-            <div class="titulo-ofertas-hoje">
+                <div class="titulo-ofertas-hoje">
 
-                <i class="fas fa-star"></i>
+                    <i class="fas fa-fire"></i>
 
-                <h2>
-                    Novidades no Mundo LuFiNas
-                </h2>
+                    <h2>
+                        Ofertas de hoje
+                    </h2>
 
-            </div>
+                </div>
 
 
-            <a
-                href="#todosProdutos"
-                class="ver-todas-ofertas"
-            >
-                Ver todos os produtos
+                <a
+                    href="#todosProdutos"
+                    class="ver-todas-ofertas"
+                >
+                    Ver todas as ofertas
 
-                <i class="fas fa-chevron-right"></i>
-            </a>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
 
 
             </div>
@@ -674,6 +777,68 @@
     </section>
 
 
+    <!-- =====================================================
+         DICAS DA LU
+         ===================================================== -->
+
+    <section class="secao-dicas-lu">
+
+        <div class="container">
+
+            <div class="cabecalho-dicas-lu">
+
+                <div>
+                    <h2>
+                        💕 Dicas da Lu
+                    </h2>
+
+                    <p>
+                        Informação simples e prática para ajudar você
+                        a comprar melhor, economizar e evitar ciladas.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <article class="card-dica-lu card-dica-lu-geral">
+
+                <div class="card-dica-lu-conteudo">
+
+                    <span class="card-dica-lu-etiqueta">
+                        DICAS DA LU
+                    </span>
+
+                    <h3>
+                        Comprar melhor começa com informação.
+                    </h3>
+
+                    <p>
+                        Dicas práticas para economizar, comparar melhor
+                        e evitar ciladas nas compras do dia a dia.
+                    </p>
+
+                    <a
+                        href="dicas/"
+                        class="btn-dica-lu"
+                    >
+                        Ver todas as dicas
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <img
+                    src="img/dica-da-lu-inicial.png"
+                    alt=""
+                    class="card-dica-lu-personagem"
+                >
+
+            </article>
+
+        </div>
+
+    </section>
 
     <!-- =====================================================
          TODOS OS PRODUTOS
@@ -741,10 +906,6 @@
 
                         <option value="Amazon">
                             Amazon
-                        </option>
-
-                        <option value="Shopee">
-                            Shopee
                         </option>
 
                     </select>
@@ -936,7 +1097,7 @@
                 <p>
                     O Mundo LuFiNas participa de programas de afiliados
                     de plataformas parceiras, atualmente com
-                    <strong>Mercado Livre</strong>, <strong>Amazon</strong> e <strong>Shopee</strong>.
+                    <strong>Mercado Livre</strong> e <strong>Amazon</strong> .
                 </p>
 
 

@@ -4311,3 +4311,224 @@ a {
     border: 1px solid #e8a9c2;
     box-shadow: none;
 }
+/* =========================================================
+   DICAS DA LU
+   ========================================================= */
+
+.secao-dicas-lu {
+    padding: 8px 0 22px;
+}
+
+.cabecalho-dicas-lu {
+    margin-bottom: 14px;
+}
+
+.cabecalho-dicas-lu h2 {
+    margin: 0 0 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--rosa-escuro);
+
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.cabecalho-dicas-lu p {
+    margin: 0;
+
+    color: var(--texto-secundario);
+
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+/* CARD PRINCIPAL */
+
+.card-dica-lu {
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 26px 30px;
+
+    border: 1px solid var(--borda);
+    border-radius: 16px;
+
+    background:
+        linear-gradient(
+            110deg,
+            #FFF8FB 0%,
+            #FAEDF3 55%,
+            #F8E3EC 100%
+        );
+
+    box-shadow:
+        0 5px 18px
+        rgba(93, 32, 61, .06);
+}
+
+
+/* detalhe decorativo */
+
+.card-dica-lu::after {
+    content: "♥";
+
+    position: absolute;
+
+    right: 34px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: rgba(182, 63, 115, .10);
+
+    font-size: 110px;
+    line-height: 1;
+
+    pointer-events: none;
+}
+
+
+.card-dica-lu-conteudo {
+    position: relative;
+    z-index: 2;
+
+    max-width: 760px;
+}
+
+
+/* etiqueta */
+
+.card-dica-lu-etiqueta {
+    display: inline-block;
+
+    margin-bottom: 9px;
+
+    padding: 5px 10px;
+
+    border-radius: 999px;
+
+    background: var(--rosa-suave);
+
+    color: var(--rosa-escuro);
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+
+/* título */
+
+.card-dica-lu h3 {
+    margin: 0 0 8px;
+
+    color: var(--texto);
+
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+
+/* descrição */
+
+.card-dica-lu p {
+    margin: 0 0 18px;
+
+    color: var(--texto-secundario);
+
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+
+/* botão */
+
+.btn-dica-lu {
+    display: inline-flex;
+
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 17px;
+
+    border-radius: 999px;
+
+    background: var(--rosa-principal);
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    transition:
+        background .2s ease,
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+.btn-dica-lu:hover {
+    background: var(--rosa-hover);
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 5px 12px
+        rgba(182, 63, 115, .18);
+}
+
+
+/* =========================================================
+   DICAS DA LU - CELULAR
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    .secao-dicas-lu {
+        padding: 6px 0 18px;
+    }
+
+    .cabecalho-dicas-lu h2 {
+        font-size: 21px;
+    }
+
+    .cabecalho-dicas-lu p {
+        font-size: 12px;
+    }
+
+    .card-dica-lu {
+        padding: 22px 20px;
+    }
+
+    .card-dica-lu::after {
+        right: 12px;
+
+        font-size: 82px;
+    }
+
+    .card-dica-lu h3 {
+        font-size: 19px;
+    }
+
+    .card-dica-lu p {
+        font-size: 13px;
+    }
+
+    .btn-dica-lu {
+        padding: 9px 15px;
+
+        font-size: 12px;
+    }
+}
