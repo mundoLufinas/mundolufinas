@@ -82,6 +82,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=25&amp;produto=batom-duo-matte-liquido-e-bala</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=26&amp;produto=jarra-vidro-tampa-inox</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=27&amp;produto=filtro-cafe-permanente-103-aco-inox</loc>
   </url>
   <url>
@@ -163,13 +166,13 @@
     <loc>https://mundolufinas.com.br/produto.html?id=53&amp;produto=suporte-celular-gps-veicular</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=54&amp;produto=fone-ouvido-bandana-faixa-cabeca-bluetooth</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=55&amp;produto=smart-tv-philco-32-polegadas</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=56&amp;produto=roteador-tp-link-wireless</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=57&amp;produto=purificador-ibbl-agua-gelada-bivolt</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=58&amp;produto=purificador-de-agua-natural-branco</loc>
@@ -310,9 +313,6 @@
     <loc>https://mundolufinas.com.br/produto.html?id=105&amp;produto=fatiador-multiuso-de-banana-e-legumes</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=106&amp;produto=secador-taiff-style-2000w-preto</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=107&amp;produto=tenis-o2x-feminino-para-academia</loc>
   </url>
   <url>
@@ -367,16 +367,10 @@
     <loc>https://mundolufinas.com.br/produto.html?id=124&amp;produto=secador-philco-psc3500-4-em-1</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=125&amp;produto=body-splash-arabe-c4un-200ml</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=126&amp;produto=suporte-magnetico-wireless</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=127&amp;produto=kit-2-suportes-magneticos-hmaston</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=128&amp;produto=cordao-ajustavel-para-celular</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=129&amp;produto=aparelho-de-jantar-30-pecas</loc>
@@ -406,12 +400,6 @@
     <loc>https://mundolufinas.com.br/produto.html?id=137&amp;produto=lencol-casal-sem-elastico-400-fios</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=139&amp;produto=manta-microfibra-casal-soft-estampada</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=140&amp;produto=kit-04-toalha-de-geladeira-retangular-pvc-jogo-americano</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=141&amp;produto=toalhas-de-mesa-cobre-mancha-jacquard-quadrada-1-40-1-40-cor-marsala-geometrico</loc>
   </url>
   <url>
@@ -419,9 +407,6 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=143&amp;produto=monitor-enterprise-31-5-pol-led-75hz-curvo-fhd-framless-preto</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=144&amp;produto=batom-cremoso-natura-faces-cobre-sunset</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=145&amp;produto=kit-capilar-karsselle-com-4-produtos</loc>
@@ -589,9 +574,6 @@
     <loc>https://mundolufinas.com.br/produto.html?id=201&amp;produto=potiche-de-vidro-pote-cannelle-com-tampa-multiuso-dolce-home</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=202&amp;produto=kit-2-bombonieres-de-vidro-300ml-pitia</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=203&amp;produto=potiche-c-tampa-diamond-300ml-25906-vencedor</loc>
   </url>
   <url>
@@ -611,6 +593,9 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=209&amp;produto=kit-limpeza-de-pele-rosa-mosqueta-skin-care-completo-5-itens</loc>
+  </url>
+  <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=210&amp;produto=lixeira-inteligente-automatica-16l-sensor-infravermelho-recarregavel-usb-c-3-modos-tampa-touch-banheiro-cozinha</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=211&amp;produto=serum-2-acidos-hialuronicos-vitamina-b5-ah-2-hidratante-antissinais-com-30ml</loc>
@@ -730,6 +715,9 @@
     <loc>https://mundolufinas.com.br/produto.html?id=282&amp;produto=saco-de-lavagem-tenis-sapatos-para-maquina-de-lavar</loc>
   </url>
   <url>
+    <loc>https://mundolufinas.com.br/produto.html?id=283&amp;produto=kit-5-sacos-para-lavar-roupas-delicadas-sutia-lingerie-ziper</loc>
+  </url>
+  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=285&amp;produto=vestido-transpassado-modelo-envelope</loc>
   </url>
   <url>
@@ -799,9 +787,6 @@
     <loc>https://mundolufinas.com.br/produto.html?id=319&amp;produto=bolsa-mala-de-mao-dobravel-viagem-academia-artigos-tenis</loc>
   </url>
   <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=320&amp;produto=kit-3-bandejas-de-bambu-retangular-para-cozinha-20x10cm-peti-lyor-hire</loc>
-  </url>
-  <url>
     <loc>https://mundolufinas.com.br/produto.html?id=321&amp;produto=conjunto-feminino-alfaiataria-short-cinto-body-decote-reto</loc>
   </url>
   <url>
@@ -833,9 +818,6 @@
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=334&amp;produto=colar-de-coracao-duplo-moda-feminina-com-strass</loc>
-  </url>
-  <url>
-    <loc>https://mundolufinas.com.br/produto.html?id=335&amp;produto=radio-retro-portatil-bluetooth-marrom</loc>
   </url>
   <url>
     <loc>https://mundolufinas.com.br/produto.html?id=336&amp;produto=perfume-blue-spirit-paris-elysees-feminino-intense-100ml</loc>
