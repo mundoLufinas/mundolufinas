@@ -1,0 +1,47 @@
+<footer class="portal-footer" id="sobre">
+  <div class="container footer-grid">
+    <div class="footer-brand"><img src="/img/logo-mundo-lufinas.png" alt="Mundo LuFiNas"><small>A gente pesquisa. Você escolhe melhor.</small></div>
+
+    <div class="footer-links">
+      <button type="button" onclick="document.getElementById('modal-sobre').showModal()">Sobre</button>
+      <button type="button" onclick="document.getElementById('modal-editorial').showModal()">Política Editorial</button>
+      <button type="button" onclick="document.getElementById('modal-transparencia').showModal()">Transparência (Afiliados)</button>
+      <button type="button" onclick="document.getElementById('modal-privacidade').showModal()">Privacidade</button>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/mundolufinas/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/mundolufinas" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://whatsapp.com/channel/0029VbDdKvbHwXbBRDge1U0E" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+  <div class="container copyright">© 2026 Mundo LuFiNas. Todos os direitos reservados.</div>
+</footer>
+
+<dialog class="footer-modal" id="modal-sobre" onclick="if(event.target===this)this.close()">
+  <button class="footer-modal-close" type="button" aria-label="Fechar" onclick="this.closest('dialog').close()">×</button>
+  <h2>Sobre o Mundo LuFiNas</h2>
+  <p>O Mundo LuFiNas é um portal de vida prática, consumo inteligente e escolhas mais conscientes. Nosso objetivo é pesquisar, organizar e explicar informações úteis de forma simples para ajudar você a decidir melhor no dia a dia.</p>
+  <div class="footer-modal-highlight"><strong>A gente pesquisa. Você escolhe melhor.</strong></div>
+</dialog>
+
+<dialog class="footer-modal" id="modal-editorial" onclick="if(event.target===this)this.close()">
+  <button class="footer-modal-close" type="button" aria-label="Fechar" onclick="this.closest('dialog').close()">×</button>
+  <h2>Política Editorial</h2>
+  <p>Os conteúdos do Mundo LuFiNas são preparados com foco em utilidade, clareza e transparência. Sempre que o tema exigir, consultamos fontes oficiais e referências confiáveis. Informações podem ser atualizadas quando normas, serviços ou orientações mudarem.</p>
+  <div class="footer-modal-highlight"><strong>Conteúdo útil vem antes da indicação de produtos.</strong></div>
+</dialog>
+
+<dialog class="footer-modal" id="modal-transparencia" onclick="if(event.target===this)this.close()">
+  <button class="footer-modal-close" type="button" aria-label="Fechar" onclick="this.closest('dialog').close()">×</button>
+  <h2>Transparência e links de afiliado</h2>
+  <p>Algumas páginas do Mundo LuFiNas podem conter links de afiliado. Quando uma compra elegível é realizada por esses links, o portal pode receber uma comissão, sem custo adicional para quem compra. A presença de um link de afiliado não substitui nossa análise nem transforma todo conteúdo em publicidade.</p>
+  <div class="footer-modal-highlight"><strong>Links comerciais são identificados quando aparecem no conteúdo.</strong></div>
+</dialog>
+
+<dialog class="footer-modal" id="modal-privacidade" onclick="if(event.target===this)this.close()">
+  <button class="footer-modal-close" type="button" aria-label="Fechar" onclick="this.closest('dialog').close()">×</button>
+  <h2>Privacidade</h2>
+  <p>O Mundo LuFiNas utiliza ferramentas de medição de audiência para entender, de forma agregada, como o site é utilizado e melhorar a experiência. Serviços de terceiros podem empregar cookies ou tecnologias semelhantes conforme suas próprias políticas. Não solicitamos senhas, códigos bancários ou dados financeiros por meio das matérias do portal.</p>
+  <div class="footer-modal-highlight"><strong>Para acompanhar o Mundo LuFiNas, utilize nossos canais oficiais nas redes sociais.</strong></div>
+</dialog>

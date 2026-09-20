@@ -1,0 +1,474 @@
+.pagina-dica {
+            background: #fff;
+        }
+
+
+        /* TOPO DA MATÉRIA */
+
+        .topo-dica-lu {
+            padding: 22px 0 12px;
+            border-bottom: 1px solid #f1e4ea;
+            background: #fff;
+        }
+
+        .topo-dica-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 25px;
+        }
+
+        .topo-dica-logo img {
+            width: auto;
+            height: 60px;
+            display: block;
+        }
+
+        .topo-dica-links {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+        }
+
+        .topo-dica-links a {
+            color: #49343f;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .topo-dica-links a:hover {
+            color: var(--rosa-principal);
+        }
+
+
+        /* BREADCRUMB */
+
+        .breadcrumb-dica {
+            padding: 20px 0 0;
+            font-size: 12px;
+            color: var(--texto-secundario);
+        }
+
+        .breadcrumb-dica a {
+            color: var(--rosa-principal);
+            text-decoration: none;
+        }
+
+
+        /* ARTIGO */
+
+        .artigo-dica {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 28px 0 60px;
+        }
+
+        .etiqueta-artigo {
+            display: inline-block;
+            margin-bottom: 12px;
+            padding: 6px 11px;
+            border-radius: 999px;
+            background: var(--rosa-suave);
+            color: var(--rosa-escuro);
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: .5px;
+        }
+
+        .artigo-dica h1 {
+            margin: 0 0 14px;
+            color: var(--rosa-escuro);
+            font-size: 38px;
+            font-weight: 800;
+            line-height: 1.15;
+        }
+
+        .subtitulo-artigo {
+            margin-bottom: 18px;
+            color: var(--texto-secundario);
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .data-artigo {
+            margin-bottom: 32px;
+            color: var(--texto-claro);
+            font-size: 12px;
+        }
+
+        .artigo-dica p {
+            margin: 0 0 20px;
+            color: var(--texto);
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .artigo-dica h2 {
+            margin: 42px 0 14px;
+            color: var(--rosa-escuro);
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 1.3;
+        }
+
+        .exemplo-dica {
+            margin: 24px 0;
+            padding: 14px 18px;
+            border-left: 3px solid var(--rosa-principal);
+            border-radius: 9px;
+            background: linear-gradient(
+                110deg,
+                #fff8fb 0%,
+                #fdf7fa 48%,
+                #eef8fb 100%
+            );
+        }
+
+        .exemplo-dica p:last-child {
+            margin-bottom: 0;
+        }
+
+
+
+        /* IMAGENS EDITORIAIS DA MATÉRIA */
+
+        .hero-materia {
+            margin: 8px 0 38px;
+            text-align: center;
+        }
+
+        .hero-materia img {
+            display: block;
+            width: min(100%, 1050px);
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .bloco-ilustrado {
+            display: flow-root;
+        }
+
+        .figura-informativa {
+            width: 320px;
+            max-width: 34%;
+            height: auto;
+            margin-top: 4px;
+            margin-bottom: 18px;
+        }
+
+        .figura-informativa.direita {
+            float: right;
+            margin-left: 34px;
+        }
+
+        .figura-informativa.esquerda {
+            float: left;
+            margin-right: 34px;
+        }
+
+
+        /* TESTE RÁPIDO */
+
+        .teste-rapido {
+            margin: 40px 0;
+            padding: 26px;
+            border: 1px solid var(--borda);
+            border-radius: 16px;
+            background:
+                linear-gradient(
+                    110deg,
+                    #fff8fb,
+                    #faedf3
+                );
+        }
+
+        .teste-rapido h2 {
+            margin-top: 0;
+        }
+
+        .passos-compra {
+            margin: 20px 0 0;
+            color: var(--rosa-escuro);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.8;
+        }
+
+
+        /* DICA DA LU */
+
+        .box-dica-lu-artigo {
+            margin: 42px 0;
+            padding: 28px;
+            border-radius: 18px;
+            background:
+                linear-gradient(
+                    120deg,
+                    #faedf3,
+                    #fff8fb
+                );
+            border: 1px solid var(--borda);
+        }
+
+        .box-dica-lu-artigo h2 {
+            margin: 0 0 14px;
+            color: var(--rosa-principal);
+        }
+
+        .box-dica-lu-artigo p:last-child {
+            margin-bottom: 0;
+        }
+
+
+        /* FONTES */
+
+        .fontes-artigo {
+            margin-top: 46px;
+            padding-top: 25px;
+            border-top: 1px solid #eadce3;
+        }
+
+        .fontes-artigo h3 {
+            margin-bottom: 14px;
+            color: var(--texto);
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .fontes-artigo p {
+            margin-bottom: 9px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--texto-secundario);
+        }
+
+        .fontes-artigo a {
+            color: #c12f6b;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color .2s ease;
+        }
+
+        .fontes-artigo a:hover {
+            color: #941f4f;
+            text-decoration: underline;
+        }
+
+
+        /* VOLTAR */
+
+        .voltar-achadinhos {
+            margin-top: 36px;
+            text-align: center;
+        }
+
+        .voltar-achadinhos a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 11px 20px;
+            border-radius: 999px;
+            background: var(--pink);
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .voltar-achadinhos a:hover {
+            background: var(--pink-dark);
+            color: #fff;
+        }
+
+
+        /* RODAPÉ SIMPLES */
+
+        .rodape-dica {
+            padding: 30px 20px;
+            border-top: 1px solid #f0e4ea;
+            background: #fff8fb;
+            text-align: center;
+        }
+
+        .rodape-dica img {
+            height: 48px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+
+        .rodape-dica p {
+            margin: 0;
+            color: var(--texto-secundario);
+            font-size: 12px;
+        }
+
+
+        /* CHECKLIST FINAL */
+
+        .checklist-lu {
+            margin: 36px 0;
+            padding: 24px 26px;
+            border: 1px solid var(--borda);
+            border-radius: 16px;
+            background: linear-gradient(
+                110deg,
+                #fff8fb 0%,
+                #fdf7fa 48%,
+                #eef8fb 100%
+            );
+        }
+
+        .checklist-lu h2 { margin-top: 0; }
+        .checklist-lu p { margin-bottom: 10px; font-weight: 600; }
+
+        .aviso-med {
+            margin: 26px 0;
+            padding: 15px 18px;
+            border-left: 3px solid #6fa8b8;
+            border-radius: 9px;
+            background: #f5fafc;
+        }
+
+        .aviso-med p {
+            margin-bottom: 8px;
+        }
+
+        .aviso-med p:last-child {
+            margin-bottom: 0;
+        }
+
+
+
+        /* ESCOLHAS DA LU — COMPONENTE REUTILIZÁVEL */
+
+        .escolhas-lu-visual .escolhas-lu-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px;
+            margin: 22px 0 18px;
+        }
+
+        .escolhas-lu-visual .escolha-lu-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+            padding: 18px 14px;
+            border: 1px solid rgba(255,255,255,.82);
+            border-radius: 16px;
+            background: rgba(255,255,255,.48);
+            text-align: center;
+            text-decoration: none;
+            color: var(--text);
+            transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+        }
+
+        .escolhas-lu-visual .escolha-lu-card:hover,
+        .escolhas-lu-visual .escolha-lu-card:focus-visible {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 22px rgba(90,55,72,.10);
+            background: rgba(255,255,255,.72);
+            text-decoration: none;
+        }
+
+        .escolhas-lu-visual .escolha-lu-card img {
+            width: 100%;
+            max-width: 230px;
+            height: 165px;
+            object-fit: contain;
+            display: block;
+        }
+
+        .escolhas-lu-visual .escolha-lu-card strong {
+            display: block;
+            font-family: 'Raleway', sans-serif;
+            font-size: 17px;
+            line-height: 1.25;
+        }
+
+        .escolhas-lu-visual .escolha-lu-card span {
+            display: inline-block;
+            margin-top: auto;
+            padding: 9px 18px;
+            border-radius: 999px;
+            background: var(--pink);
+            color: #fff;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .escolhas-lu-visual .aviso-afiliado-escolhas {
+            margin: 4px 0 0;
+        }
+
+        @media (max-width: 700px) {
+            .escolhas-lu-visual .escolhas-lu-grid {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+
+            .escolhas-lu-visual .escolha-lu-card img {
+                max-width: 260px;
+                height: 170px;
+            }
+        }
+
+
+        /* CELULAR */
+
+        @media (max-width: 767px) {
+
+            .topo-dica-inner {
+                flex-direction: column;
+                gap: 13px;
+            }
+
+            .topo-dica-logo img {
+                height: 54px;
+            }
+
+            .topo-dica-links {
+                gap: 16px;
+            }
+
+            .artigo-dica {
+                padding: 22px 18px 60px;
+            }
+
+            .artigo-dica h1 {
+                font-size: 29px;
+            }
+
+            .subtitulo-artigo {
+                font-size: 15px;
+            }
+
+            .artigo-dica p {
+                font-size: 15px;
+            }
+
+            .artigo-dica h2 {
+                font-size: 21px;
+            }
+
+            .hero-materia {
+                margin: 4px -18px 34px;
+            }
+
+            .hero-materia img {
+                width: 100%;
+            }
+
+            .figura-informativa,
+            .figura-informativa.direita,
+            .figura-informativa.esquerda {
+                float: none;
+                display: block;
+                width: min(82%, 300px);
+                max-width: 100%;
+                margin: 18px auto 24px;
+            }
+
+        }

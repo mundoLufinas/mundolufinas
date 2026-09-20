@@ -20,39 +20,6 @@
 
     <!-- Google tag (gtag.js) -->
 
-    <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-LYHT31VRSN"
-    ></script>
-
-    <script>
-
-        window.dataLayer =
-            window.dataLayer || [];
-
-
-        function gtag() {
-
-            dataLayer.push(
-                arguments
-            );
-
-        }
-
-
-        gtag(
-            'js',
-            new Date()
-        );
-
-
-        gtag(
-            'config',
-            'G-LYHT31VRSN'
-        );
-
-    </script>
-
 
     <!-- =====================================================
          MICROSOFT CLARITY
@@ -119,13 +86,13 @@
          ===================================================== -->
 
     <title>
-        Mundo LuFiNas | Achadinhos, Ofertas e Produtos
+        Mundo LuFiNas | Informação útil para a vida real
     </title>
 
 
     <meta
         name="description"
-        content="Descubra achadinhos, ofertas e produtos selecionados pelo Mundo LuFiNas pensando em preço, utilidade, qualidade e custo-benefício."
+        content="Casa, bem-estar, consumo e segurança explicados de um jeito simples para facilitar o seu dia a dia."
     >
 
 
@@ -166,13 +133,13 @@
 
     <meta
         property="og:title"
-        content="Mundo LuFiNas | Achadinhos e Ofertas"
+        content="Mundo LuFiNas | Informação útil para a vida real"
     >
 
 
     <meta
         property="og:description"
-        content="Achadinhos, ofertas e produtos selecionados pensando em preço, utilidade, qualidade e custo-benefício."
+        content="Informação útil para a vida real: casa, bem-estar, consumo e segurança."
     >
 
 
@@ -190,7 +157,7 @@
 
     <meta
         property="og:image:alt"
-        content="Mundo LuFiNas - Achadinhos e Ofertas"
+        content="Mundo LuFiNas - Informação útil para a vida real"
     >
 
 
@@ -206,13 +173,13 @@
 
     <meta
         name="twitter:title"
-        content="Mundo LuFiNas | Achadinhos e Ofertas"
+        content="Mundo LuFiNas | Informação útil para a vida real"
     >
 
 
     <meta
         name="twitter:description"
-        content="Achadinhos, ofertas e produtos selecionados pensando em preço, utilidade, qualidade e custo-benefício."
+        content="Informação útil para a vida real: casa, bem-estar, consumo e segurança."
     >
 
 
@@ -234,7 +201,7 @@
             "@type": "WebSite",
             "name": "Mundo LuFiNas",
             "url": "https://mundolufinas.com.br/",
-            "description": "Achadinhos, ofertas e produtos selecionados pensando em preço, utilidade, qualidade e custo-benefício.",
+            "description": "Informação útil para a vida real: casa, bem-estar, consumo e segurança.",
             "inLanguage": "pt-BR"
         }
 
@@ -315,1027 +282,163 @@
         rel="stylesheet"
     >
 
+    <link href="css/style.css" rel="stylesheet">
+
 
     <!-- =====================================================
          CSS MUNDO LUFINAS
          ===================================================== -->
 
-    <link
-        href="css/style.css"
-        rel="stylesheet"
-    >
 
 
-<style>
-    /* ATALHOS MOBILE: DICAS DA LU + SOBRE NÓS */
-    .atalhos-mobile-topo {
-        display: none;
-    }
 
-    @media (max-width: 767px) {
-        .atalhos-mobile-topo {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 24px;
-            padding: 9px 14px 10px;
-            background: #ffffff;
-            border-bottom: 1px solid #f1e4ea;
-        }
-
-        .atalhos-mobile-topo a {
-            display: inline-flex;
-            align-items: center;
-            gap: 7px;
-            color: var(--rosa-escuro);
-            text-decoration: none;
-            font-size: 12px;
-            font-weight: 700;
-            white-space: nowrap;
-        }
-
-        .atalhos-mobile-topo a i {
-            color: var(--rosa-principal);
-            font-size: 14px;
-        }
-    }
-
-    /* CHAMADA GERAL DICAS DA LU NA HOME */
-    .card-dica-lu {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .card-dica-lu.card-dica-lu-geral::after {
-        display: none;
-    }
-
-    .card-dica-lu-geral .card-dica-lu-conteudo {
-        position: relative;
-        z-index: 2;
-        max-width: 72%;
-    }
-
-    .card-dica-lu-personagem {
-        position: absolute;
-        right: 28px;
-        bottom: 0;
-        height: 92%;
-        width: auto;
-        object-fit: contain;
-        object-position: bottom right;
-        z-index: 1;
-        pointer-events: none;
-    }
-
-    @media (max-width: 767px) {
-        .card-dica-lu-geral .card-dica-lu-conteudo {
-            max-width: 68%;
-        }
-
-        .card-dica-lu-personagem {
-            right: -12px;
-            height: 76%;
-            max-width: 42%;
-        }
-    }
-
-</style>
 
 </head>
 
-
-
-<body>
-
-
-<!-- =========================================================
-     SPINNER
-     ========================================================= -->
-
-<div
-    id="spinner"
-    class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
->
-
-    <div
-        class="spinner-grow text-rosa-escuro"
-        role="status"
-    ></div>
-
-
-    <span class="ms-2">
-        Carregando...
-    </span>
-
-</div>
-
-
-
-<!-- =========================================================
-     CABEÇALHO COMPLETO
-     ========================================================= -->
-
-<header class="container-fluid fixed-top topo-site-lufinas">
-
-
-    <!-- =====================================================
-         FAIXA SUPERIOR
-         ===================================================== -->
-
-    <div class="barra-beneficios-topo">
-
-        <div class="container">
-
-            <div class="beneficios-topo-inner">
-
-
-                <div class="beneficio-topo">
-
-                    <i class="fas fa-heart"></i>
-
-                    <span>
-                        A gente pesquisa. Você economiza.
-                    </span>
-
-                </div>
-
-
-                <div class="beneficio-topo beneficio-topo-centro">
-
-                    <i class="fas fa-fire"></i>
-
-                    <span>
-                        Ofertas atualizadas todos os dias
-                    </span>
-
-                </div>
-
-
-                <div class="beneficio-topo beneficio-topo-direita">
-
-                    <i class="fas fa-shield-alt"></i>
-
-                    <span>
-                        Compra 100% segura
-                    </span>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- =====================================================
-         LOGO + BUSCA
-         ===================================================== -->
-
-    <div class="navbar-lufinas">
-
-        <div class="container px-0">
-
-            <nav class="navbar navbar-lufinas">
-
-
-                <!-- LOGO -->
-
-                <a
-                    href="index.html"
-                    class="navbar-brand-lufinas"
-                    aria-label="Página inicial Mundo LuFiNas"
-                >
-
-                    <img
-                        src="img/logo-mundo-lufinas.png"
-                        alt="Mundo LuFiNas"
-                        class="logo-site"
-                    >
-
-                </a>
-
-
-
-                <!-- BUSCA -->
-
-                <div class="pesquisa-lufinas">
-
-                    <div class="caixa-pesquisa">
-
-                        <i class="fas fa-search icone-pesquisa-novo"></i>
-
-                        <input
-                            type="text"
-                            id="campoPesquisa"
-                            placeholder="O que você procura?"
-                            autocomplete="off"
-                            aria-label="Pesquisar produtos"
-                        >
-
-                        <button
-                            type="button"
-                            class="botao-pesquisa-lufinas"
-                            aria-label="Pesquisar"
-                            tabindex="-1"
-                        >
-
-                            <i class="fas fa-search"></i>
-
-                        </button>
-
-                    </div>
-
-                </div>
-
-<!-- DICAS DA LU + SOBRE NÓS -->
-
-                <div class="acoes-topo">
-
-                    <a
-                        href="dicas/"
-                        class="link-sobre-nos"
-                    >
-
-                        <i class="far fa-lightbulb"></i>
-
-                        <span>
-                            Dicas da Lu
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="#sobreMundoLufinas"
-                        class="link-sobre-nos"
-                    >
-
-                        <i class="far fa-info-circle"></i>
-
-                        <span>
-                            Sobre nós
-                        </span>
-
-                    </a>
-
-                </div>
-
-
-            </nav>
-
-        </div>
-
-    </div>
-
-
-</header>
-
-
-
-<!-- =========================================================
-     ESPAÇO DO CABEÇALHO FIXO
-     ========================================================= -->
-
-<div class="espaco-cabecalho"></div>
-
-<!-- ATALHOS VISÍVEIS SOMENTE NO CELULAR -->
-<div class="atalhos-mobile-topo">
-    <a href="dicas/">
-        <i class="far fa-lightbulb"></i>
-        <span>Dicas da Lu</span>
-    </a>
-
-    <a href="#sobreMundoLufinas">
-        <i class="far fa-info-circle"></i>
-        <span>Sobre nós</span>
-    </a>
-</div>
-
-<!-- =========================================================
-     CATEGORIAS
-     ========================================================= -->
-
-<section class="area-categorias-principais">
-
-    <div class="container">
-
-        <div
-            class="categorias-scroll"
-            id="categoriasScroll"
-        >
-
-            <!--
-                O JavaScript cria as categorias reais
-                da planilha / produtos.json.
-            -->
-
-            <button
-                class="categoria-tab ativa"
-                data-categoria="Todos"
-            >
-                Todos
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     SUBCATEGORIAS
-     ========================================================= -->
-
-<section class="area-subcategorias">
-
-    <div class="container">
-
-        <div
-            class="subcategorias-scroll"
-            id="subcategoriasScroll"
-        ></div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     CONTEÚDO PRINCIPAL
-     ========================================================= -->
+<body class="portal-home">
+<div id="site-header"></div>
 
 <main>
-
-
-    <!-- =====================================================
-         BANNER ACHADINHOS
-         ===================================================== -->
-
-    <section class="secao-achadinhos">
-
-        <div class="container">
-
-            <div class="banner-achadinhos">
-
-
-                <div class="banner-achadinhos-texto">
-
-                    <h1>
-                        Achadinhos escolhidos para você 💕
-                    </h1>
-
-                    <p>
-                        Produtos selecionados pensando em preço,
-                        utilidade e custo-benefício.
-                    </p>
-
-                </div>
-
-
-                <div class="banner-achadinhos-decoracao">
-
-                    <img
-                        src="img/lufinas-bonequinha.png"
-                        alt=""
-                        class="icone-achadinhos-lufinas"
-                    >
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         OFERTAS DE HOJE
-         O JavaScript novo preencherá esta área
-         ===================================================== -->
-
-    <section
-        class="secao-ofertas-hoje"
-        id="secaoOfertasHoje"
-    >
-
-        <div class="container">
-
-
-            <div class="cabecalho-secao-ofertas">
-
-
-                <div class="titulo-ofertas-hoje">
-
-                    <i class="fas fa-fire"></i>
-
-                    <h2>
-                        Ofertas de hoje
-                    </h2>
-
-                </div>
-
-
-                <a
-                    href="#todosProdutos"
-                    class="ver-todas-ofertas"
-                >
-                    Ver todas as ofertas
-
-                    <i class="fas fa-chevron-right"></i>
-                </a>
-
-
-            </div>
-
-
-
-            <div
-                class="ofertas-scroll"
-                id="ofertasHoje"
-            >
-
-                <!--
-                    Os cards das ofertas serão
-                    inseridos aqui pelo JavaScript.
-                -->
-
-            </div>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
-         DICAS DA LU
-         ===================================================== -->
-
-    <section class="secao-dicas-lu">
-
-        <div class="container">
-
-            <div class="cabecalho-dicas-lu">
-
-                <div>
-                    <h2>
-                        💕 Dicas da Lu
-                    </h2>
-
-                    <p>
-                        Informação simples e prática para ajudar você
-                        a comprar melhor, economizar e evitar ciladas.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <article class="card-dica-lu card-dica-lu-geral">
-
-                <div class="card-dica-lu-conteudo">
-
-                    <span class="card-dica-lu-etiqueta">
-                        DICAS DA LU
-                    </span>
-
-                    <h3>
-                        Comprar melhor começa com informação.
-                    </h3>
-
-                    <p>
-                        Dicas práticas para economizar, comparar melhor
-                        e evitar ciladas nas compras do dia a dia.
-                    </p>
-
-                    <a
-                        href="dicas/"
-                        class="btn-dica-lu"
-                    >
-                        Ver todas as dicas
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-
-                </div>
-
-                <img
-                    src="img/dica-da-lu-inicial.png"
-                    alt=""
-                    class="card-dica-lu-personagem"
-                >
-
-            </article>
-
-        </div>
-
-    </section>
-
-    <!-- =====================================================
-         TODOS OS PRODUTOS
-         ===================================================== -->
-
-    <section
-        class="secao-todos-produtos"
-        id="todosProdutos"
-    >
-
-        <div class="container">
-
-
-            <!-- =================================================
-                 CABEÇALHO DO CATÁLOGO
-                 ================================================= -->
-
-            <div class="cabecalho-catalogo">
-
-
-                <div class="cabecalho-catalogo-esquerda">
-
-                    <div class="titulo-catalogo-linha">
-
-                        <i class="fas fa-shopping-bag"></i>
-
-                        <h2 id="tituloCategoria">
-                            Todos os produtos
-                        </h2>
-
-                    </div>
-
-
-                    <p id="quantidadeProdutos">
-                        0 produtos encontrados
-                    </p>
-
-                </div>
-
-
-
-                <div class="cabecalho-catalogo-direita">
-
-                    <!-- FILTRO POR LOJA -->
-
-                    <label
-                        for="filtroLoja"
-                        class="label-ordenacao"
-                    >
-                        Loja:
-                    </label>
-
-                    <select
-                        id="filtroLoja"
-                        class="form-select"
-                    >
-
-                        <option value="todas">
-                            Todas as lojas
-                        </option>
-
-                        <option value="Mercado Livre">
-                            Mercado Livre
-                        </option>
-
-                        <option value="Amazon">
-                            Amazon
-                        </option>
-
-                    </select>
-
-
-                    <!-- ORDENAÇÃO -->
-
-                    <label
-                        for="ordenacao"
-                        class="label-ordenacao"
-                    >
-                        Ordenar por:
-                    </label>
-
-                    <select
-                        id="ordenacao"
-                        class="form-select"
-                    >
-
-                        <option value="relevancia">
-                            Mais relevantes
-                        </option>
-
-                        <option value="menor-preco">
-                            Menor preço
-                        </option>
-
-                        <option value="maior-preco">
-                            Maior preço
-                        </option>
-
-                        <option value="az">
-                            Nome (A–Z)
-                        </option>
-
-                        <option value="za">
-                            Nome (Z–A)
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-            </div>
-
-
-
-            <!-- =================================================
-                 CATÁLOGO
-                 ================================================= -->
-
-            <div
-                id="catalogo"
-                class="row g-3"
-            >
-
-                <!--
-                    Os produtos continuam sendo
-                    inseridos pelo script_PROD.js
-                -->
-
-            </div>
-
-
-
-            <!-- =================================================
-                 PAGINAÇÃO
-                 ================================================= -->
-
-            <div class="area-paginacao">
-
-                <div
-                    class="pagination d-flex justify-content-center mt-5"
-                >
-
-                    <!--
-                        A paginação real é criada
-                        pelo script_PROD.js.
-                    -->
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         FAIXA DE BENEFÍCIOS
-         ===================================================== -->
-
+<section class="portal-hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="hero-kicker">MUNDO LUFINAS</span>
+      <h1>Informação útil<br>para a vida real.</h1>
+      <p>Casa, bem-estar, consumo e segurança explicados de um jeito simples, para facilitar o seu dia a dia.</p>
+      <a class="portal-btn" href="#destaques">Explorar conteúdos <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="hero-photo">
+      <img src="img/foto-capa.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="portal-section container" id="destaques">
+  <div class="section-heading"><h2>Em destaque</h2><a href="#ultimas">Ver mais destaques →</a></div>
+  <div class="featured-grid">
+    <article class="featured-main">
+      <img src="img/img-index-1.png" alt="Pagamento por Pix no celular" role="link" tabindex="0" style="cursor:pointer" onclick="window.location.href='/consumo-seguranca/golpe-pix/como-evitar-golpe-do-pix-antes-de-pagar.html'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.location.href='/consumo-seguranca/golpe-pix/como-evitar-golpe-do-pix-antes-de-pagar.html';}">
+      <div class="featured-copy">
+        <span>CONSUMO &amp; SEGURANÇA</span>
+        <h3 data-title-link="true" role="link" tabindex="0" style="cursor:pointer" onclick="window.location.href='/consumo-seguranca/golpe-pix/como-evitar-golpe-do-pix-antes-de-pagar.html'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.location.href='/consumo-seguranca/golpe-pix/como-evitar-golpe-do-pix-antes-de-pagar.html';}">Golpe do Pix: o que conferir antes de pagar?</h3>
+        <p>Veja cuidados simples para confirmar os dados e reduzir o risco antes de concluir um pagamento.</p>
+        <a class="portal-btn small" href="/consumo-seguranca/golpe-pix/como-evitar-golpe-do-pix-antes-de-pagar.html">Ler matéria →</a>
+      </div>
+    </article>
+    <div class="featured-side">
+      <article>
+        <a href="/casa/cozinha-organizada/" aria-label="Abrir matéria"><img src="img/img-index-2.png" alt="Cozinha organizada"></a>
+        <div><span>CASA &amp; VIDA PRÁTICA</span><h4 data-title-link="true" role="link" tabindex="0" style="cursor:pointer" onclick="window.location.href='/casa/cozinha-organizada/'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.location.href='/casa/cozinha-organizada/';}">Como organizar uma cozinha pequena</h4><p>Soluções simples para aproveitar melhor o espaço.</p></div>
+        <b>›</b>
+      </article>
+      <article>
+        <a href="/bem-estar/sono/" aria-label="Abrir matéria"><img src="img/img-index-3.png" alt="Quarto preparado para dormir"></a>
+        <div><span>BEM-ESTAR &amp; AUTOCUIDADO</span><h4 data-title-link="true" role="link" tabindex="0" style="cursor:pointer" onclick="window.location.href='/bem-estar/sono/'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.location.href='/bem-estar/sono/';}">Pequenas mudanças para organizar a rotina do sono</h4><p>Hábitos e ambiente para preparar melhor a noite.</p></div>
+        <b>›</b>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="portal-section container">
+  <div class="section-heading"><h2>Explore o Mundo LuFiNas</h2></div>
+  <div class="category-grid">
+    <a class="category-card pink" id="casa" href="/casa.html"><i class="fas fa-home"></i><div><h3>Casa &amp; Vida Prática</h3><p>Organização, soluções e ideias para facilitar sua rotina.</p><b>Explorar →</b></div></a>
+    <a class="category-card blue" id="bem" href="/bem-estar.html"><i class="fas fa-leaf"></i><div><h3>Bem-estar &amp; Autocuidado</h3><p>Hábitos e informações para cuidar melhor de você.</p><b>Explorar →</b></div></a>
+    <a class="category-card pink" id="consumo" href="/consumo-seguranca.html"><i class="fas fa-shield-alt"></i><div><h3>Consumo &amp; Segurança</h3><p>Economia, compras, golpes e escolhas mais conscientes.</p><b>Explorar →</b></div></a>
+  </div>
+</section>
+
+<section class="tip-wrap container" id="dica">
+  <div class="tip-lu"><img src="img/img-index-dica.png" alt="Lu, do Mundo LuFiNas"></div>
+  <div class="tip-copy">
+    <span>Dica da Lu</span>
+    <p>“Antes de decidir, pesquise. Preço baixo ou muita gente recomendando não substituem informação.”</p>
+  </div>
+  <div class="tip-note">✓ Compare<br>✓ Pesquise<br>✓ Confira<br>✓ Escolha melhor</div>
+</section>
+
+<section class="portal-section container choices" id="escolhas-lu">
+  <div class="section-heading choices-heading">
+    <div><h2>Vitrine LuFiNas</h2><p>Achados que pesquisamos para você escolher melhor.</p></div>
+    <a href="vitrine.html">Ver toda a vitrine →</a>
+  </div>
+  <div class="choice-grid" id="escolhas-produtos" aria-live="polite">
+    <div class="choice-loading">Carregando os produtos mais recentes...</div>
+  </div>
+</section>
+
+<section class="portal-section container" id="ultimas">
+  <div class="section-heading"><h2>Últimas do Mundo LuFiNas</h2><a href="/consumo-seguranca.html">Ver todas as matérias →</a></div>
+  <div class="latest-grid">
+    <article><a href="/consumo-seguranca/promocao-vale-a-pena/como-saber-se-promocao-vale-a-pena.html" aria-label="Abrir matéria"><img src="img/img-index-4.png" alt="Compras e promoções"></a><div><span>CONSUMO &amp; SEGURANÇA</span><h3 data-title-link="true" role="link" tabindex="0" style="cursor:pointer" onclick="window.location.href='/consumo-seguranca/promocao-vale-a-pena/como-saber-se-promocao-vale-a-pena.html'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.location.href='/consumo-seguranca/promocao-vale-a-pena/como-saber-se-promocao-vale-a-pena.html';}">Como saber se uma promoção é realmente boa?</h3><p>Aprenda a comparar antes de decidir.</p><a href="/consumo-seguranca/promocao-vale-a-pena/como-saber-se-promocao-vale-a-pena.html">Ler matéria →</a></div></article>
+    <article><a href="/consumo-seguranca/site-confiavel/como-saber-se-um-site-e-confiavel.html" aria-label="Abrir matéria"><img src="img/img-index-5.png" alt="Compra online segura"></a><div><span>CONSUMO &amp; SEGURANÇA</span><h3 data-title-link="true" role="link" tabindex="0" style="cursor:pointer" onclick="window.location.href='/consumo-seguranca/site-confiavel/como-saber-se-um-site-e-confiavel.html'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.location.href='/consumo-seguranca/site-confiavel/como-saber-se-um-site-e-confiavel.html';}">Como saber se um site é confiável antes de comprar?</h3><p>Veja o que observar antes de informar seus dados.</p><a href="/consumo-seguranca/site-confiavel/como-saber-se-um-site-e-confiavel.html">Ler matéria →</a></div></article>
+    <article><a href="/casa/rotina-casa-organizada/" aria-label="Abrir matéria"><img src="img/img-index-6.png" alt="Organização e limpeza da casa"></a><div><span>CASA &amp; VIDA PRÁTICA</span><h3 data-title-link="true" role="link" tabindex="0" style="cursor:pointer" onclick="window.location.href='/casa/rotina-casa-organizada/'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.location.href='/casa/rotina-casa-organizada/';}">Casa organizada sem passar o dia limpando</h3><p>Uma rotina simples para cuidar da casa sem viver para ela.</p><a href="/casa/rotina-casa-organizada/">Ler matéria →</a></div></article>
+  </div>
+</section>
 
 
 
 </main>
-<!-- =========================================================
-     RODAPÉ
-     ========================================================= -->
 
-<footer
-    class="footer-lufinas"
-    id="sobreMundoLufinas"
->
+<div id="site-footer"></div>
 
 
-    <div class="container py-5">
+<script>
+(function () {
+  const alvo = document.getElementById('escolhas-produtos');
+  if (!alvo) return;
 
+  const escapar = (valor) => String(valor ?? '')
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
 
-        <!-- =================================================
-             MARCA
-             ================================================= -->
+  const moeda = (valor) => {
+    const n = Number(String(valor ?? '').replace(/\./g, '').replace(',', '.'));
+    return Number.isFinite(n)
+      ? n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+      : '';
+  };
 
-            <div class="footer-marca text-center mb-5">
+  fetch('../produtos.json', { cache: 'no-store' })
+    .then(r => {
+      if (!r.ok) throw new Error('Não foi possível abrir produtos.json');
+      return r.json();
+    })
+    .then(produtos => {
+      const recentes = produtos
+        .filter(p => p && p.ativo === true)
+        .sort((a,b) => Number(b.ordem || b.id || 0) - Number(a.ordem || a.id || 0))
+        .slice(0,4);
 
-                <img
-                    src="img/bonequinha-sacolas.png"
-                    alt="Mundo LuFiNas"
-                    class="footer-bonequinha"
-                >
+      if (!recentes.length) throw new Error('Nenhum produto ativo encontrado');
 
-                <div>
-                    <h2 class="footer-logo">
-                        Mundo LuFiNas
-                    </h2>
-
-                    <p class="footer-subtitle">
-                        Seu espaço para descobrir produtos que realmente valem a pena.
-                    </p>
-                </div>
-
+      alvo.innerHTML = recentes.map(p => {
+        const img = '../' + String(p.imagem || '').replace(/^\.\//, '');
+        const preco = p.precoPromocional || p.preco;
+        return `
+          <article class="choice-product">
+            <a class="choice-product-image-link" href="${escapar(p.link)}" target="_blank" rel="sponsored noopener" aria-label="Ver ${escapar(p.nome)}">
+              <img class="choice-product-img" src="${escapar(img)}" alt="${escapar(p.alt || p.nome)}" loading="lazy">
+            </a>
+            <div class="choice-product-body">
+              <span class="choice-product-store">${escapar(p.loja || 'Mercado Livre')}</span>
+              <h4>${escapar(p.nome)}</h4>
+              <div class="choice-price">${escapar(moeda(preco))}</div>
+              <a href="${escapar(p.link)}" target="_blank" rel="sponsored noopener">Ver produto →</a>
             </div>
-
-
-
-        <div class="row g-5">
-
-
-            <!-- =================================================
-                 COMO FUNCIONA
-                 ================================================= -->
-
-            <div class="col-lg-7">
-
-                <h4 class="footer-title">
-                    Como funciona o Mundo LuFiNas
-                </h4>
-
-
-                <p>
-                    O <strong>Mundo LuFiNas</strong> é um portal de
-                    recomendações criado para facilitar a sua busca
-                    por produtos que realmente valem a pena.
-                </p>
-
-
-                <p>
-                    Eu pesquiso, comparo e seleciono produtos disponíveis
-                    em plataformas oficiais e lojas parceiras, priorizando
-                    qualidade, custo-benefício, utilidade e boas avaliações.
-                </p>
-
-
-                <p>
-                    O objetivo é economizar o seu tempo, reunindo sugestões
-                    organizadas por categorias para que você encontre boas
-                    oportunidades de forma rápida e segura.
-                </p>
-
-            </div>
-
-
-
-            <!-- =================================================
-                 TRANSPARÊNCIA
-                 ================================================= -->
-
-            <div class="col-lg-5">
-
-                <h4 class="footer-title">
-                    Transparência
-                </h4>
-
-
-                <p>
-                    O Mundo LuFiNas participa de programas de afiliados
-                    de plataformas parceiras, atualmente com
-                    <strong>Mercado Livre</strong> e <strong>Amazon</strong> .
-                </p>
-
-
-                <p>
-                    Isso significa que posso receber uma pequena comissão
-                    pelas compras realizadas através dos links do site,
-                    <strong>sem qualquer custo adicional para você</strong>.
-                </p>
-
-
-                <p class="mt-3">
-                    <strong>
-                        Novas plataformas parceiras poderão ser adicionadas futuramente.
-                    </strong>
-                </p>
-
-
-                <p class="footer-disclaimer">
-                    O Mundo LuFiNas participa de programas de afiliados destas
-                    plataformas, mas não as representa oficialmente.
-                </p>
-
-            </div>
-
-
-        </div>
-
-
-
-        <hr class="footer-divider">
-
-
-
-        <!-- =================================================
-             AVISO DE PREÇOS
-             ================================================= -->
-
-        <div class="footer-alert">
-
-            <h4 class="footer-title">
-                Informações sobre preços e promoções
-            </h4>
-
-
-            <p>
-                Todos os <strong>preços, promoções, descontos,
-                condições de pagamento, disponibilidade, frete,
-                prazos de entrega e descrições dos produtos</strong>
-                apresentados no Mundo LuFiNas são fornecidos pelas
-                respectivas plataformas parceiras.
-            </p>
-
-
-            <p>
-                Essas informações podem ser alteradas, atualizadas
-                ou encerradas a qualquer momento pelos próprios sites,
-                sem aviso prévio.
-            </p>
-
-
-            <p>
-                Antes de finalizar qualquer compra, recomendamos sempre
-                verificar as informações diretamente na página oficial
-                do produto na plataforma correspondente.
-            </p>
-
-        </div>
-
-
-
-        <hr class="footer-divider">
-
-
-
-        <!-- =================================================
-             CONTATO
-             ================================================= -->
-
-        <div class="row align-items-center footer-contact">
-
-
-            <div class="col-md-6 mb-3 mb-md-0">
-
-                <h5 class="footer-title mb-2">
-                    Contato e redes sociais
-                </h5>
-
-                <p class="mb-3">
-
-                    <i class="fa fa-envelope me-2"></i>
-
-                    <a href="mailto:lucianafinas@gmail.com">
-                        lucianafinas@gmail.com
-                    </a>
-
-                </p>
-
-
-                <div class="footer-redes">
-
-                    <a
-                        href="https://www.instagram.com/mundolufinas/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="footer-rede"
-                        aria-label="Instagram do Mundo LuFiNas"
-                    >
-                        <i class="fab fa-instagram"></i>
-                        <span>Instagram</span>
-                    </a>
-
-
-                    <a
-                        href="https://www.facebook.com/mundolufinas"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="footer-rede"
-                        aria-label="Facebook do Mundo LuFiNas"
-                    >
-                        <i class="fab fa-facebook-f"></i>
-                        <span>Facebook</span>
-                    </a>
-
-
-                    <a
-                        href="https://whatsapp.com/channel/0029VbDdKvbHwXbBRDge1U0E"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="footer-rede"
-                        aria-label="Canal do WhatsApp do Mundo LuFiNas"
-                    >
-                        <i class="fab fa-whatsapp"></i>
-                        <span>Canal do WhatsApp</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-md-6 text-md-end">
-
-                <p class="mb-0">
-                    Recomendações organizadas com carinho e transparência.
-                </p>
-
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-
-
-    <!-- =====================================================
-         COPYRIGHT
-         ===================================================== -->
-
-    <div class="footer-bottom">
-
-        <div
-            class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
-        >
-
-            <p class="mb-2 mb-md-0">
-
-                © 2026
-
-                <strong>
-                    Mundo LuFiNas
-                </strong>.
-
-                Todos os direitos reservados.
-
-            </p>
-
-
-            <p class="mb-0">
-
-                Desenvolvido por
-
-                <strong>
-                    Luciana Fiori do Nascimento
-                </strong>
-
-            </p>
-
-        </div>
-
-    </div>
-
-
-</footer>
-
-
-
-<!-- =========================================================
-     VOLTAR AO TOPO
-     ========================================================= -->
-
-<a
-    href="#"
-    class="btn btn-categorias rounded-circle back-to-top"
-    aria-label="Voltar ao topo"
->
-
-    <i class="fa fa-arrow-up"></i>
-
-</a>
-
-
-
-<!-- =========================================================
-     JAVASCRIPT
-     ========================================================= -->
-
-<script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-></script>
-
-
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-></script>
-
-
-<!-- JavaScript base -->
-
-<script src="js/main.js"></script>
-
-
-<!-- Produtos -->
-
-<script src="script_PROD.js"></script>
-
-
+          </article>`;
+      }).join('') + '<div class="affiliate-note">Publicidade | Links de afiliado</div>';
+    })
+    .catch(err => {
+      console.error(err);
+      alvo.innerHTML = '<div class="choice-loading">A Vitrine LuFiNas estará disponível em breve.</div>';
+    });
+})();
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/includes.js"></script>
 </body>
-
 </html>
