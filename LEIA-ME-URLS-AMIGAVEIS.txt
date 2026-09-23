@@ -1,0 +1,13 @@
+MUNDO LUFINAS — URLs AMIGÁVEIS
+
+Alterações realizadas:
+- casa.html -> /casa/
+- bem-estar.html -> /bem-estar/
+- consumo-seguranca.html -> /consumo-seguranca/
+- vitrine.html -> /vitrine/
+- três matérias antigas passaram a usar /pasta/ em vez do nome longo .html
+- links internos, canonical e referências do menu foram atualizados
+- os arquivos .html antigos foram mantidos como redirecionamentos para não quebrar links já divulgados
+
+IMPORTANTE:
+Envie o conteúdo deste pacote preservando as pastas. A pasta grande de fotos/produtos que não veio no ZIP original deve permanecer no servidor como está. Este pacote não a apaga por si só; ao publicar, não exclua arquivos/pastas remotos que não estejam neste ZIP.

@@ -153,15 +153,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     const ativo =
 
       (
-        href === "/index.html" &&
+        href === "/" &&
         (
           caminho === "/" ||
 
           (
-            caminho.endsWith("/index.html") &&
+            caminho.endsWith("/") &&
             !caminho.includes("/casa/") &&
             !caminho.includes("/bem-estar/") &&
-            !caminho.includes("/consumo-seguranca/")
+            !caminho.includes("/consumo-seguranca/") &&
+            !caminho.includes("/vitrine/")
           )
         )
       )
@@ -169,9 +170,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       ||
 
       (
-        href === "/casa.html" &&
+        href === "/casa/" &&
         (
-          caminho.endsWith("/casa.html") ||
+          caminho.endsWith("/casa/") ||
           caminho.includes("/casa/")
         )
       )
@@ -179,9 +180,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       ||
 
       (
-        href === "/bem-estar.html" &&
+        href === "/bem-estar/" &&
         (
-          caminho.endsWith("/bem-estar.html") ||
+          caminho.endsWith("/bem-estar/") ||
           caminho.includes("/bem-estar/")
         )
       )
@@ -189,10 +190,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       ||
 
       (
-        href === "/consumo-seguranca.html" &&
+        href === "/consumo-seguranca/" &&
         (
           caminho.endsWith(
-            "/consumo-seguranca.html"
+            "/consumo-seguranca/"
           ) ||
           caminho.includes("/consumo-seguranca/")
         )
@@ -201,8 +202,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       ||
 
       (
-        href === "/vitrine.html" &&
-        caminho.endsWith("/vitrine.html")
+        href === "/vitrine/" &&
+        caminho.endsWith("/vitrine/")
       );
 
 
@@ -436,7 +437,7 @@ const MundoLufinasPaginas = [
     categoria:
       "Consumo & Segurança",
     url:
-      "/consumo-seguranca/golpe-pix/como-evitar-golpe-do-pix-antes-de-pagar.html"
+      "/consumo-seguranca/golpe-pix/"
   },
 
   {
@@ -458,7 +459,7 @@ const MundoLufinasPaginas = [
     categoria:
       "Consumo & Segurança",
     url:
-      "/consumo-seguranca/promocao-vale-a-pena/como-saber-se-promocao-vale-a-pena.html"
+      "/consumo-seguranca/promocao-vale-a-pena/"
   },
 
   {
@@ -469,7 +470,7 @@ const MundoLufinasPaginas = [
     categoria:
       "Consumo & Segurança",
     url:
-      "/consumo-seguranca/site-confiavel/como-saber-se-um-site-e-confiavel.html"
+      "/consumo-seguranca/site-confiavel/"
   },
 
   {
