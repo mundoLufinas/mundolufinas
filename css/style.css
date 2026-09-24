@@ -672,3 +672,8 @@ img{max-width:100%}
   .portal-nav .container{justify-content:flex-start;gap:28px}
   .portal-nav-spacer{height:50px}
 }
+
+/* Espaço entre os grupos da página Consumo & Segurança */
+.grupo-conteudo {
+    margin-top: 55px;
+}
